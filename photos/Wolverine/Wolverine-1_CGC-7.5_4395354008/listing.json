@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4395354008",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Wolverine",
+  "issue": "1",
+  "grader": "CGC",
+  "grade": "7.5",
+  "cert": "4395354008"
+ },
+ "listing": {
+  "title": "Wolverine #1 CGC 7.5 White Pages 1st Wolverine as Patch 1988 Marvel Claremont"
+ },
+ "photos": [
+  "CGC-4395354008-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

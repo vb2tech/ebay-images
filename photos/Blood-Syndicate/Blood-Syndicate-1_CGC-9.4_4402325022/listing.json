@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4402325022",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Blood Syndicate",
+  "issue": "1",
+  "grader": "CGC",
+  "grade": "9.4",
+  "cert": "4402325022"
+ },
+ "listing": {
+  "title": "Blood Syndicate #1 CGC 9.4 White Pages 1st Issue Milestone DC 1993 McDuffie"
+ },
+ "photos": [
+  "CGC-4402325022-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

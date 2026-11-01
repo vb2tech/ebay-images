@@ -22,3 +22,7 @@ The photos are served to eBay from `https://raw.githubusercontent.com/vb2tech/eb
 - eBay's template has an invalid font setting: read it with `python-calamine`, write it by editing sheet XML (the builder does). Don't open/save it with openpyxl.
 - Raise the project bar by moving fields to `"tier": "standard"` in the group's `field_rules.json` (log it in `threshold_history`).
 - Run scripts with `python3 -I` from the repo root. Before pushing: `git fetch origin main && git rebase origin/main`.
+
+## Ecosystem page (keep it current)
+`docs/ecosystem.html` is published as the artifact https://claude.ai/artifact/XVkxtQwWWadWuUqVAtfYNN ("eBay Listing Ecosystem").
+Whenever a skill, rule tier, listing group, default, open item or item-status count changes: edit `docs/ecosystem.html` (stats, status counts, skill chips, open items, add a changelog line, bump the version and date), commit it, and republish with the Artifact tool passing that `url` (read it first with `action: "read"`), so the link never changes.

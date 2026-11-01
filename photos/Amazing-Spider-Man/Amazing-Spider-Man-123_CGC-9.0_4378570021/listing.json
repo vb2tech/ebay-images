@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4378570021",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "The Amazing Spider-Man",
+  "issue": "123",
+  "grader": "CGC",
+  "grade": "9.0",
+  "cert": "4378570021"
+ },
+ "listing": {
+  "title": "Amazing Spider-Man #123 CGC 9.0 OW-W Luke Cage Gwen Stacy Funeral Romita 1973"
+ },
+ "photos": [
+  "CGC-4378570021-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

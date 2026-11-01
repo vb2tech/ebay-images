@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4001139006",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Jungle Action",
+  "issue": "5",
+  "grader": "CGC",
+  "grade": "6.5",
+  "cert": "4001139006"
+ },
+ "listing": {
+  "title": "Jungle Action #5 CGC 6.5 OW-W 1st Black Panther in Title Man-Ape Romita 1973"
+ },
+ "photos": [
+  "CGC-4001139006-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

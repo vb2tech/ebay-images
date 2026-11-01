@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4351192001",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Falcon",
+  "issue": "1",
+  "grader": "CGC",
+  "grade": "9.8",
+  "cert": "4351192001"
+ },
+ "listing": {
+  "title": "Falcon Limited Series #1 CGC 9.8 White Pages Marvel 1983 Paul Smith Cover"
+ },
+ "photos": [
+  "CGC-4351192001-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

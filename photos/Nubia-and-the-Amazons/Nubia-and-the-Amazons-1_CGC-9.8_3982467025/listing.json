@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-3982467025",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Nubia & the Amazons",
+  "issue": "1",
+  "grader": "CGC",
+  "grade": "9.8",
+  "cert": "3982467025"
+ },
+ "listing": {
+  "title": "Nubia & the Amazons #1 CGC 9.8 White Pages Alitha Martinez Cover DC 2021"
+ },
+ "photos": [
+  "CGC-3982467025-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

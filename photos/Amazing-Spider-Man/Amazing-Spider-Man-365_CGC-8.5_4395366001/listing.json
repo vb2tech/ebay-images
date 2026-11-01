@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4395366001",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "The Amazing Spider-Man",
+  "issue": "365",
+  "grader": "CGC",
+  "grade": "8.5",
+  "cert": "4395366001"
+ },
+ "listing": {
+  "title": "Amazing Spider-Man #365 CGC 8.5 White Pages 1st Spider-Man 2099 Hologram 1992"
+ },
+ "photos": [
+  "CGC-4395366001-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

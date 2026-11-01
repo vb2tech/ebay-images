@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4402565008",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Spider-Man",
+  "issue": "13",
+  "grader": "CGC",
+  "grade": "8.5",
+  "cert": "4402565008"
+ },
+ "listing": {
+  "title": "Spider-Man #13 CGC 8.5 White Pages Black Costume McFarlane Cover Homage 1991"
+ },
+ "photos": [
+  "CGC-4402565008-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4402565009",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Spider-Man",
+  "issue": "1",
+  "grader": "CGC",
+  "grade": "8.0",
+  "cert": "4402565009"
+ },
+ "listing": {
+  "title": "Spider-Man #1 CGC 8.0 Newsstand Poly-Bagged Edition McFarlane Lizard 1990"
+ },
+ "photos": [
+  "CGC-4402565009-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

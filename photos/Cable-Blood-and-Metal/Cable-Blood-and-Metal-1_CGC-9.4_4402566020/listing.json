@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4402566020",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Cable: Blood and Metal",
+  "issue": "1",
+  "grader": "CGC",
+  "grade": "9.4",
+  "cert": "4402566020"
+ },
+ "listing": {
+  "title": "Cable: Blood and Metal #1 CGC 9.4 White Pages Cable vs Stryfe Romita Jr 1992"
+ },
+ "photos": [
+  "CGC-4402566020-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

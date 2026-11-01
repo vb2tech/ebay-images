@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4402565022",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "The Uncanny X-Men",
+  "issue": "304",
+  "grader": "CGC",
+  "grade": "9.6",
+  "cert": "4402565022"
+ },
+ "listing": {
+  "title": "Uncanny X-Men #304 CGC 9.6 White Pages Magneto Hologram Fatal Attractions 1993"
+ },
+ "photos": [
+  "CGC-4402565022-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

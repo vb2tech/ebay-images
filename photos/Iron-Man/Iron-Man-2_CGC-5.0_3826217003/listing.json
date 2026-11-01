@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-3826217003",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Iron Man",
+  "issue": "2",
+  "grader": "CGC",
+  "grade": "5.0",
+  "cert": "3826217003"
+ },
+ "listing": {
+  "title": "Iron Man #2 CGC 5.0 OW Pages 1st Demolisher Johnny Craig Cover Marvel 1968"
+ },
+ "photos": [
+  "CGC-3826217003-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

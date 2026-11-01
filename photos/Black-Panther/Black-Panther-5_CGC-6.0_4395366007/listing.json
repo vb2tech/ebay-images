@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4395366007",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Black Panther",
+  "issue": "5",
+  "grader": "CGC",
+  "grade": "6.0",
+  "cert": "4395366007"
+ },
+ "listing": {
+  "title": "Black Panther #5 CGC 6.0 White Pages Jack Kirby Story Art & Cover Marvel 1977"
+ },
+ "photos": [
+  "CGC-4395366007-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

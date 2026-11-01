@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-0308911006",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Power Man",
+  "issue": "19",
+  "grader": "CGC",
+  "grade": "9.2",
+  "cert": "0308911006"
+ },
+ "listing": {
+  "title": "Power Man #19 CGC 9.2 OW-W 1st Appearance Cottonmouth Luke Cage Marvel 1974"
+ },
+ "photos": [
+  "CGC-0308911006-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "sku": "CGC-0781539014",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Power Man and Iron Fist",
+  "issue": "66",
+  "grader": "CGC",
+  "grade": "8.5",
+  "cert": "0781539014"
+ },
+ "listing": {
+  "title": "Power Man and Iron Fist #66 CGC 8.5 White Pages 2nd Sabretooth Frank Miller 1980"
+ },
+ "photos": [
+  "CGC-0781539014-1.jpg",
+  "CGC-0781539014-2.jpg",
+  "CGC-0781539014-3.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

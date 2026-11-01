@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4402326007",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Hardware",
+  "issue": "1",
+  "grader": "CGC",
+  "grade": "9.8",
+  "cert": "4402326007"
+ },
+ "listing": {
+  "title": "Hardware #1 CGC 9.8 Collector's Edition 1st App Curtis Metcalf Milestone 1993"
+ },
+ "photos": [
+  "CGC-4402326007-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

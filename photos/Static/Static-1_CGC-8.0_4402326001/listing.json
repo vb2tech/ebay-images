@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4402326001",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Static",
+  "issue": "1",
+  "grader": "CGC",
+  "grade": "8.0",
+  "cert": "4402326001"
+ },
+ "listing": {
+  "title": "Static #1 CGC 8.0 White Pages 1st Appearance Static Virgil Hawkins Milestone 93"
+ },
+ "photos": [
+  "CGC-4402326001-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

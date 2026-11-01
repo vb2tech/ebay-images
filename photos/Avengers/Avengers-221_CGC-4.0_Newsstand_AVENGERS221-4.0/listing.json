@@ -1,0 +1,31 @@
+{
+ "sku": "CGC-AVENGERS221-4.0",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Avengers",
+  "issue": "221",
+  "grader": "CGC",
+  "grade": "4.0",
+  "cert": ""
+ },
+ "listing": {
+  "title": "Avengers #221 CGC 4.0 Newsstand She-Hulk Joins Avengers Wolverine Spider-Man 82"
+ },
+ "photos": [
+  "CGC-AVENGERS221-4.0-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "cert: unreadable on label",
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

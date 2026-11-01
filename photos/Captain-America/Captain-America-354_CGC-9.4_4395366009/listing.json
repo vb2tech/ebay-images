@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4395366009",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Captain America",
+  "issue": "354",
+  "grader": "CGC",
+  "grade": "9.4",
+  "cert": "4395366009"
+ },
+ "listing": {
+  "title": "Captain America #354 CGC 9.4 White Pages 1st John Walker as U.S. Agent 1989"
+ },
+ "photos": [
+  "CGC-4395366009-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

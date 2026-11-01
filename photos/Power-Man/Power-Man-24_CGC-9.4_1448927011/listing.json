@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-1448927011",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Power Man",
+  "issue": "24",
+  "grader": "CGC",
+  "grade": "9.4",
+  "cert": "1448927011"
+ },
+ "listing": {
+  "title": "Power Man #24 CGC 9.4 White Pages 1st Black Goliath Bill Foster Marvel 1975"
+ },
+ "photos": [
+  "CGC-1448927011-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

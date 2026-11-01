@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4402566006",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Shadowhawk II",
+  "issue": "2",
+  "grader": "CGC",
+  "grade": "8.0",
+  "cert": "4402566006"
+ },
+ "listing": {
+  "title": "Shadowhawk II #2 CGC 8.0 White Pages Identity Revealed Silver Foil Image 1993"
+ },
+ "photos": [
+  "CGC-4402566006-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "sku": "CBCS-20-4052170-007",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Spawn",
+  "issue": "311",
+  "grader": "CBCS",
+  "grade": "9.8",
+  "cert": "20-4052170-007"
+ },
+ "listing": {
+  "title": "Spawn #311 CBCS 9.8 B&W McFarlane Retailer Incentive Chadwick Boseman Tribute"
+ },
+ "photos": [
+  "CBCS-20-4052170-007-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

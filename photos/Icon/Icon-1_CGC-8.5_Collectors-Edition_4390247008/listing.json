@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4390247008",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Icon",
+  "issue": "1",
+  "grader": "CGC",
+  "grade": "8.5",
+  "cert": "4390247008"
+ },
+ "listing": {
+  "title": "Icon #1 CGC 8.5 Collector's Edition 1st Icon & Rocket Milestone DC 1993"
+ },
+ "photos": [
+  "CGC-4390247008-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

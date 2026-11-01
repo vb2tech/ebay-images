@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4402566012",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Action Comics",
+  "issue": "684",
+  "grader": "CGC",
+  "grade": "8.5",
+  "cert": "4402566012"
+ },
+ "listing": {
+  "title": "Action Comics #684 CGC 8.5 White Pages Doomsday Death of Superman DC 1992"
+ },
+ "photos": [
+  "CGC-4402566012-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

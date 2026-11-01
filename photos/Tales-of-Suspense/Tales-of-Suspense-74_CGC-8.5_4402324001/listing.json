@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4402324001",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Tales of Suspense",
+  "issue": "74",
+  "grader": "CGC",
+  "grade": "8.5",
+  "cert": "4402324001"
+ },
+ "listing": {
+  "title": "Tales of Suspense #74 CGC 8.5 OW-W Captain America Iron Man Kirby Cover 1966"
+ },
+ "photos": [
+  "CGC-4402324001-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

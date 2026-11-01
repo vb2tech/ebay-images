@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-2027208005",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Naomi",
+  "issue": "1",
+  "grader": "CGC",
+  "grade": "9.8",
+  "cert": "2027208005"
+ },
+ "listing": {
+  "title": "Naomi #1 CGC 9.8 White Pages 1st Appearance Naomi Bendis Jamal Campbell DC 2019"
+ },
+ "photos": [
+  "CGC-2027208005-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

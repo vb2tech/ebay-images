@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4110979006",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Avengers",
+  "issue": "62",
+  "grader": "CGC",
+  "grade": "5.5",
+  "cert": "4110979006"
+ },
+ "listing": {
+  "title": "Avengers #62 CGC 5.5 1st Appearance Man-Ape M'Baku Black Panther 1969 Key"
+ },
+ "photos": [
+  "CGC-4110979006-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4402326004",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Static",
+  "issue": "1",
+  "grader": "CGC",
+  "grade": "9.4",
+  "cert": "4402326004"
+ },
+ "listing": {
+  "title": "Static #1 CGC 9.4 Collector's Edition 1st Appearance Static Milestone DC 1993"
+ },
+ "photos": [
+  "CGC-4402326004-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

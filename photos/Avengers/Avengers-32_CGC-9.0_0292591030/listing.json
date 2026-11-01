@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-0292591030",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Avengers",
+  "issue": "32",
+  "grader": "CGC",
+  "grade": "9.0",
+  "cert": "0292591030"
+ },
+ "listing": {
+  "title": "Avengers #32 CGC 9.0 OW-W Pages 1st Appearance Bill Foster Black Goliath 1966"
+ },
+ "photos": [
+  "CGC-0292591030-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

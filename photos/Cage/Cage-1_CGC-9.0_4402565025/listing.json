@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4402565025",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Cage",
+  "issue": "1",
+  "grader": "CGC",
+  "grade": "9.0",
+  "cert": "4402565025"
+ },
+ "listing": {
+  "title": "Cage #1 CGC 9.0 White Pages Luke Cage Returns Marvel 1992 Dwayne Turner"
+ },
+ "photos": [
+  "CGC-4402565025-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

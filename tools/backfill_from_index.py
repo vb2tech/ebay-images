@@ -37,7 +37,7 @@ for r in csv.DictReader(open(os.path.join(L.ROOT, "index.csv"), encoding="utf-8"
     d = {"sku": r["sku"], "template": "comics-259104", "status": a.status, "lot": "pre-2026-11 backfill", "item": item,
          "listing": {"title": r["ebay_title"]}, "photos": files,
          "pricing": ({"final": float(b["price"]), "basis": b.get("comp", "")} if b.get("price") else {}),
-         "needs_review": [] if item["cert"] else ["cert: unreadable on label"], "_path": p}
+         "needs_review": ([] if item["cert"] else ["cert: unreadable on label"]) + ([] if b else ["details: migrate from project listings/books.json (characters, creators, era, price)"]), "_path": p}
     L.log(d, "backfilled", status=a.status)
     L.save_item(d); n += 1
 L.rebuild_index()

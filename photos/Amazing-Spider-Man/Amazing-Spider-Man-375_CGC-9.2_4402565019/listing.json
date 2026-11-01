@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4402565019",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "The Amazing Spider-Man",
+  "issue": "375",
+  "grader": "CGC",
+  "grade": "9.2",
+  "cert": "4402565019"
+ },
+ "listing": {
+  "title": "Amazing Spider-Man #375 CGC 9.2 1st Anne Weying She-Venom Gold Foil Cover 1993"
+ },
+ "photos": [
+  "CGC-4402565019-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

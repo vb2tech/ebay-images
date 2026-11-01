@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4240909007",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Power Man",
+  "issue": "18",
+  "grader": "CGC",
+  "grade": "9.0",
+  "cert": "4240909007"
+ },
+ "listing": {
+  "title": "Power Man #18 CGC 9.0 OW-W 1st Appearance Steeplejack Luke Cage Marvel 1974"
+ },
+ "photos": [
+  "CGC-4240909007-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

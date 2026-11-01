@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4395366015",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Alpha Flight",
+  "issue": "11",
+  "grader": "CGC",
+  "grade": "8.5",
+  "cert": "4395366015"
+ },
+ "listing": {
+  "title": "Alpha Flight #11 CGC 8.5 White Pages Origin of Sasquatch John Byrne Marvel 1984"
+ },
+ "photos": [
+  "CGC-4395366015-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4392011016",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Ultimate Black Panther",
+  "issue": "1",
+  "grader": "CGC",
+  "grade": "9.8",
+  "cert": "4392011016"
+ },
+ "listing": {
+  "title": "Ultimate Black Panther #1 CGC 9.8 Caselli 1:10 Design Variant Marvel 2024"
+ },
+ "photos": [
+  "CGC-4392011016-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

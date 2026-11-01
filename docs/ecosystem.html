@@ -1,0 +1,260 @@
+<title>eBay Listing Ecosystem</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a seller's work desk — one column of labeled panels, like slab labels: a colored grade band, then the details. */
+:root{
+  --bg:#f3f5f7; --panel:#ffffff; --ink:#18212b; --mute:#5b6876; --line:#d8dee5;
+  --accent:#1f5fae; --accent-soft:#e3edf9; --band:#13304f;
+  --ok:#1d7a46; --ok-soft:#e1f2e8; --warn:#a15c00; --warn-soft:#fbefdc; --idle:#6a7685; --idle-soft:#eceff3;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0f141a; --panel:#171e26; --ink:#e6ebf1; --mute:#9aa7b5; --line:#2a3542;
+  --accent:#6ea8ef; --accent-soft:#18283b; --band:#0b2440;
+  --ok:#5fcf8d; --ok-soft:#12291c; --warn:#f0b35c; --warn-soft:#2d2212; --idle:#9aa7b5; --idle-soft:#212a34; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f141a; --panel:#171e26; --ink:#e6ebf1; --mute:#9aa7b5; --line:#2a3542;
+  --accent:#6ea8ef; --accent-soft:#18283b; --band:#0b2440;
+  --ok:#5fcf8d; --ok-soft:#12291c; --warn:#f0b35c; --warn-soft:#2d2212; --idle:#9aa7b5; --idle-soft:#212a34; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--body)}
+.wrap{max-width:1040px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 56px;display:grid;gap:28px}
+h1,h2,h3{font-family:var(--display);letter-spacing:.01em;text-wrap:balance;margin:0;line-height:1.1}
+h1{font-size:clamp(34px,6vw,48px)} h2{font-size:26px} h3{font-size:20px}
+p{margin:0} .mute{color:var(--mute)} code,.mono{font-family:var(--mono);font-size:.88em}
+code{background:var(--idle-soft);padding:1px 5px;border-radius:4px;overflow-wrap:anywhere}
+.eyebrow{font:600 12px/1 var(--body);text-transform:uppercase;letter-spacing:.09em;color:var(--mute)}
+a{color:var(--accent)}
+header{display:grid;gap:10px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;color:var(--mute);font-size:13px}
+.lede{max-width:66ch;font-size:16px}
+
+/* slab-label panels */
+.slab{background:var(--panel);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.slab>.band{background:var(--band);color:#fff;display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:10px 16px;flex-wrap:wrap}
+.slab>.band h2{color:#fff;font-size:22px}
+.slab>.band .tag{font:500 12px/1 var(--mono);color:#b9cce3}
+.slab>.body{padding:16px;display:grid;gap:14px}
+
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.stat{background:var(--panel);padding:14px 16px;display:grid;gap:2px}
+.stat b{font:700 32px/1 var(--display);font-variant-numeric:tabular-nums}
+.stat span{font-size:13px;color:var(--mute)}
+@media (max-width:640px){.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* pipeline */
+.flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;align-items:stretch}
+.step{border:1px solid var(--line);border-radius:6px;padding:12px;display:grid;gap:6px;align-content:start;background:var(--panel);position:relative}
+.step .n{font:700 13px/1 var(--mono);color:var(--accent)}
+.step h3{font-size:19px}
+.step p{font-size:13px;color:var(--mute)}
+.step.ext{background:var(--idle-soft);border-style:dashed}
+.arrow{font:600 12px/1.3 var(--mono);color:var(--accent)}
+@media (max-width:860px){.flow{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:460px){.flow{grid-template-columns:1fr}}
+.loop{font-size:13px;color:var(--mute);border-top:1px dashed var(--line);padding-top:10px}
+
+/* skills */
+.skills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:760px){.skills{grid-template-columns:1fr}}
+.skill{border:1px solid var(--line);border-radius:6px;padding:14px;display:grid;gap:10px;align-content:start;min-width:0}
+.skill .top{display:flex;justify-content:space-between;gap:8px;align-items:baseline;flex-wrap:wrap}
+.skill .name{font:500 14px/1.2 var(--mono);color:var(--accent)}
+dl{margin:0;display:grid;grid-template-columns:7.5em minmax(0,1fr);gap:6px 10px;font-size:14px}
+dt{color:var(--mute);font-size:12px;text-transform:uppercase;letter-spacing:.06em;padding-top:2px}
+dd{margin:0;min-width:0}
+.say{display:flex;flex-wrap:wrap;gap:6px}
+.say span{background:var(--accent-soft);color:var(--ink);border-radius:999px;padding:2px 10px;font-size:13px}
+
+/* chips */
+.chip{display:inline-flex;align-items:center;gap:6px;font:600 12px/1 var(--body);border-radius:999px;padding:4px 9px;white-space:nowrap}
+.chip::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.ok{color:var(--ok);background:var(--ok-soft)} .warn{color:var(--warn);background:var(--warn-soft)} .idle{color:var(--idle);background:var(--idle-soft)}
+
+/* table */
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:6px}
+table{border-collapse:collapse;width:100%;min-width:620px;font-size:14px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font:600 12px/1.2 var(--body);text-transform:uppercase;letter-spacing:.06em;color:var(--mute);background:var(--idle-soft)}
+tr:last-child td{border-bottom:0}
+td.c{white-space:nowrap}
+
+/* status track */
+.track{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.state{border:1px solid var(--line);border-radius:6px;padding:8px 12px;display:grid;gap:2px;min-width:120px}
+.state b{font:500 14px/1.2 var(--mono)} .state span{font-size:12px;color:var(--mute)}
+.state .count{font:700 22px/1 var(--display);font-variant-numeric:tabular-nums}
+.state.cur{border-color:var(--accent);background:var(--accent-soft)}
+.sep{color:var(--mute);font-family:var(--mono)}
+
+.list{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.list li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px;align-items:start}
+.cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+@media (max-width:760px){.cols{grid-template-columns:1fr}}
+.log{display:grid;gap:8px;font-size:14px}
+.log div{display:grid;grid-template-columns:7.5em minmax(0,1fr);gap:10px}
+.log time{font-family:var(--mono);font-size:13px;color:var(--mute)}
+footer{font-size:13px;color:var(--mute)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Ebay Listing creation · project map</div>
+  <h1>eBay Listing Ecosystem</h1>
+  <p class="lede">Photos of graded comics go in; a validated eBay bulk upload file comes out. This page lists every skill, what each new chat can reach, where item data lives, and what's still open. It's updated whenever the pipeline changes.</p>
+  <div class="meta"><span>Version <span class="mono">0.2</span></span><span>Updated <span class="mono">2026-11-01</span></span><span>Repo <span class="mono">vb2tech/ebay-images</span></span></div>
+</header>
+
+<div class="stats" aria-label="Current numbers">
+  <div class="stat"><b>4</b><span>skills in the pipeline</span></div>
+  <div class="stat"><b>102</b><span>books in the repo</span></div>
+  <div class="stat"><b>0</b><span>uploaded to eBay</span></div>
+  <div class="stat"><b>1</b><span>listing group (comics)</span></div>
+</div>
+
+<section class="slab" aria-labelledby="flow-h">
+  <div class="band"><h2 id="flow-h">How a lot moves</h2><span class="tag">photos → eBay</span></div>
+  <div class="body">
+    <div class="flow">
+      <div class="step ext"><span class="n">IN</span><h3>Photos in chat</h3><p>Drop slab photos, front and back, in any chat in this project.</p></div>
+      <div class="step"><span class="n">1</span><h3>Upload lot photos</h3><p>One folder per slab in the repo with a <code>listing.json</code>.</p><span class="arrow">status → new</span></div>
+      <div class="step"><span class="n">2</span><h3>Pricing proposal</h3><p>Sold comps, a numbered review page, your approval in chat.</p><span class="arrow">new → priced</span></div>
+      <div class="step"><span class="n">3</span><h3>Create bulk upload</h3><p>Fills eBay's template with every priced item and runs the validator.</p><span class="arrow">priced → exported</span></div>
+      <div class="step ext"><span class="n">OUT</span><h3>Seller Hub</h3><p>You upload the .xlsx, then say it went up or share eBay's results file.</p><span class="arrow">exported → uploaded</span></div>
+    </div>
+    <p class="loop">The <b>bulk upload validator</b> runs inside step 3 and on its own for any file. Rows eBay rejects go back to <code>priced</code> and are retried in the next batch.</p>
+  </div>
+</section>
+
+<section class="slab" aria-labelledby="skills-h">
+  <div class="band"><h2 id="skills-h">Skills</h2><span class="tag">4 built · 3 saved to your account</span></div>
+  <div class="body skills">
+    <article class="skill">
+      <div class="top"><h3>Upload lot photos</h3><span class="chip ok">Ready</span></div>
+      <div class="name">upload-lot-photos</div>
+      <dl>
+        <dt>Does</dt><dd>Groups photos by slab, reads the label (grader, grade, cert), researches creators, characters and era, writes the title.</dd>
+        <dt>Produces</dt><dd><code>photos/&lt;Series&gt;/&lt;book&gt;/</code> with <code>&lt;SKU&gt;-1.jpg…</code> and <code>listing.json</code>; pushed to <code>main</code>.</dd>
+        <dt>Say</dt><dd class="say"><span>here's a new lot</span><span>add these to the repo</span></dd>
+      </dl>
+    </article>
+    <article class="skill">
+      <div class="top"><h3>Pricing proposal</h3><span class="chip ok">Ready</span></div>
+      <div class="name">pricing-proposal</div>
+      <dl>
+        <dt>Does</dt><dd>Finds recent same-grade sold comps, proposes a .99 price with a range and confidence, shows a numbered review page.</dd>
+        <dt>Produces</dt><dd><code>pricing/review.html</code>, a number→SKU map, and approved prices in each <code>listing.json</code>.</dd>
+        <dt>Say</dt><dd class="say"><span>price the new items</span><span>approve all</span><span>#3 = 45</span><span>hold #5</span></dd>
+      </dl>
+    </article>
+    <article class="skill">
+      <div class="top"><h3>Create bulk upload</h3><span class="chip warn">Card not saved yet</span></div>
+      <div class="name">create-bulk-upload</div>
+      <dl>
+        <dt>Does</dt><dd>Builds the eBay .xlsx for every priced item not yet uploaded, validates it strictly, marks items exported; later marks them uploaded.</dd>
+        <dt>Produces</dt><dd><code>uploads/&lt;batch&gt;/</code>: the file, <code>validation.md</code>, <code>manifest.json</code>.</dd>
+        <dt>Say</dt><dd class="say"><span>make the upload file</span><span>batch went up</span><span>here are eBay's results</span></dd>
+      </dl>
+    </article>
+    <article class="skill">
+      <div class="top"><h3>Bulk upload validator</h3><span class="chip ok">Ready</span></div>
+      <div class="name">bulk-upload-validator</div>
+      <dl>
+        <dt>Does</dt><dd>Checks any filled .xlsx or .csv against eBay's rules and the project standard. Verdict: PASS, PASS WITH WARNINGS or FAIL, with a fix per problem.</dd>
+        <dt>Produces</dt><dd>A report with errors, warnings and field coverage, plus fields ready to promote to the standard.</dd>
+        <dt>Say</dt><dd class="say"><span>check this upload file</span><span>validate before I upload</span></dd>
+      </dl>
+    </article>
+  </div>
+</section>
+
+<section class="slab" aria-labelledby="access-h">
+  <div class="band"><h2 id="access-h">What a new chat can reach</h2><span class="tag">per session type</span></div>
+  <div class="body">
+    <div class="tbl"><table>
+      <thead><tr><th>What</th><th>New chat in this project</th><th>Chat with the repo attached</th><th>Where it lives</th></tr></thead>
+      <tbody>
+        <tr><td>Upload lot photos, Pricing proposal, Validator</td><td class="c"><span class="chip ok">Yes</span></td><td class="c"><span class="chip ok">Yes</span></td><td>Your account skills (from the card); full versions in the repo</td></tr>
+        <tr><td>Create bulk upload</td><td class="c"><span class="chip warn">Ask by name</span></td><td class="c"><span class="chip ok">Yes</span></td><td>Repo only until its card is saved</td></tr>
+        <tr><td>Pipeline overview and field guide</td><td class="c"><span class="chip ok">Yes</span></td><td class="c"><span class="chip ok">Yes</span></td><td>Project docs <code>listings/context/</code></td></tr>
+        <tr><td>eBay comics template (.xlsx)</td><td class="c"><span class="chip ok">Yes</span></td><td class="c"><span class="chip ok">Yes</span></td><td>Project file and <code>templates/comics-259104/</code></td></tr>
+        <tr><td>Item data, photos, prices, upload status</td><td class="c"><span class="chip idle">After attaching</span></td><td class="c"><span class="chip ok">Yes</span></td><td>Repo; each skill attaches and clones it for you</td></tr>
+        <tr><td>Rules: required vs optional fields, defaults</td><td class="c"><span class="chip idle">After attaching</span></td><td class="c"><span class="chip ok">Yes</span></td><td><code>templates/&lt;group&gt;/field_rules.json</code>, <code>listing_defaults.json</code></td></tr>
+        <tr><td>Old pipeline (books.json, scripts)</td><td class="c"><span class="chip idle">Reference only</span></td><td class="c"><span class="chip idle">Reference only</span></td><td>Project docs <code>listings/</code>; replaced by the repo</td></tr>
+      </tbody>
+    </table></div>
+    <p class="mute">Every account skill is a short loader: it attaches <code>vb2tech/ebay-images</code>, pulls the latest, and follows the repo's copy of the skill. Changing a rule in the repo changes it everywhere.</p>
+  </div>
+</section>
+
+<section class="slab" aria-labelledby="status-h">
+  <div class="band"><h2 id="status-h">Item status</h2><span class="tag">listing.json → status</span></div>
+  <div class="body">
+    <div class="track">
+      <div class="state cur"><b>new</b><span class="count">102</span><span>in repo, no approved price</span></div><span class="sep">→</span>
+      <div class="state"><b>priced</b><span class="count">0</span><span>price approved</span></div><span class="sep">→</span>
+      <div class="state"><b>exported</b><span class="count">0</span><span>in an upload file</span></div><span class="sep">→</span>
+      <div class="state"><b>uploaded</b><span class="count">0</span><span>confirmed on eBay</span></div>
+      <div class="state"><b>hold · sold</b><span class="count">0</span><span>set aside or gone</span></div>
+    </div>
+    <p class="mute">The 102 existing books were moved to <code>new</code> on 2026-11-01. Their older details and prices are still in the project's <code>books.json</code> and need migrating before they can be priced and exported.</p>
+  </div>
+</section>
+
+<div class="cols">
+<section class="slab" aria-labelledby="groups-h">
+  <div class="band"><h2 id="groups-h">Listing groups</h2><span class="tag">templates/registry.json</span></div>
+  <div class="body">
+    <ul class="list">
+      <li><span class="chip ok">Active</span><div><b>Graded comics</b> · category 259104<br><span class="mute">Template downloaded 2026-10-28. No item specific is eBay-required here; 14 are required by our standard.</span></div></li>
+      <li><span class="chip idle">Planned</span><div><b>Graded trading cards</b><br><span class="mute">Needs its own template: cards use Graded/Ungraded conditions with grader, grade and cert descriptors.</span></div></li>
+      <li><span class="chip idle">Idea</span><div><b>One combined template</b><br><span class="mute">eBay can put several categories in one download. Try it once a second group exists.</span></div></li>
+    </ul>
+  </div>
+</section>
+
+<section class="slab" aria-labelledby="open-h">
+  <div class="band"><h2 id="open-h">Open items</h2><span class="tag">before the first upload</span></div>
+  <div class="body">
+    <ul class="list">
+      <li><span class="chip warn">You</span><div>Create a <b>$17.99 shipping policy</b> on eBay and download a fresh template. Without it the file mixes old-style shipping columns with your policies.</div></li>
+      <li><span class="chip warn">You</span><div>Give an <b>item location</b> (City, ST). Drafts don't need it; live listings do.</div></li>
+      <li><span class="chip warn">You</span><div>Save the <b>Create bulk upload</b> skill card.</div></li>
+      <li><span class="chip idle">Claude</span><div>Migrate details and prices for the 102 books from <code>books.json</code>.</div></li>
+      <li><span class="chip idle">Check</span><div>First upload: confirm eBay accepts <code>Draft</code> in this template (its dropdown only lists <code>Add</code>).</div></li>
+    </ul>
+  </div>
+</section>
+</div>
+
+<section class="slab" aria-labelledby="bar-h">
+  <div class="band"><h2 id="bar-h">The required-field bar</h2><span class="tag">field_rules.json tiers</span></div>
+  <div class="body">
+    <div class="tbl"><table>
+      <thead><tr><th>Tier</th><th>Meaning</th><th>Comics today</th></tr></thead>
+      <tbody>
+        <tr><td><b>eBay required</b></td><td>Upload fails without it</td><td>Action, Category, Title ≤ 80, Start price, Quantity, Photos, Condition, Description, Format, Duration, Location, shipping / returns / payment</td></tr>
+        <tr><td><b>Project standard</b></td><td>Required for files we build</td><td>SKU, Best Offer, Series, Character, Genre, Artist/Writer, Publisher, Year, Format, Era, Type, Grade, Tradition, Grader, Cert number</td></tr>
+        <tr><td><b>Recommended</b></td><td>Fill when it applies</td><td>Superhero Team</td></tr>
+        <tr><td><b>Next to promote</b></td><td>Extra item specifics, off for now</td><td>Issue Number, Features, Cover Artist, Language, Signed, Variant Type, Universe…</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<section class="slab" aria-labelledby="log-h">
+  <div class="band"><h2 id="log-h">Changelog</h2><span class="tag">newest first</span></div>
+  <div class="body log">
+    <div><time>2026-11-01</time><span>Marked the 102 existing books as not uploaded (<code>new</code>). Published this page.</span></div>
+    <div><time>2026-11-01</time><span>Built the four skills, the template registry (comics first), the field guide and rules, and per-item <code>listing.json</code> status tracking.</span></div>
+    <div><time>2026-10-28</time><span>Downloaded the comics category template from Seller Hub.</span></div>
+  </div>
+</section>
+
+<footer>Source: <code>docs/ecosystem.html</code> in <code>vb2tech/ebay-images</code>. Claude updates and republishes this page whenever a skill, rule, group or status changes.</footer>
+</div>

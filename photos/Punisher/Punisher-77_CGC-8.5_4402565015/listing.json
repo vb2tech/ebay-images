@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4402565015",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "The Punisher",
+  "issue": "77",
+  "grader": "CGC",
+  "grade": "8.5",
+  "cert": "4402565015"
+ },
+ "listing": {
+  "title": "Punisher #77 CGC 8.5 White Pages Survival Part 1 Val Mayerik Marvel 1993"
+ },
+ "photos": [
+  "CGC-4402565015-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

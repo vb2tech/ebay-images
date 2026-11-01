@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-3898541001",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Captain America",
+  "issue": "117",
+  "grader": "CGC",
+  "grade": "5.5",
+  "cert": "3898541001"
+ },
+ "listing": {
+  "title": "Captain America #117 CGC 5.5 Origin & 1st Appearance Falcon Sam Wilson 1969 Key"
+ },
+ "photos": [
+  "CGC-3898541001-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

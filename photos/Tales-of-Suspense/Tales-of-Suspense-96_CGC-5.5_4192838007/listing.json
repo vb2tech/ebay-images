@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4192838007",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Tales of Suspense",
+  "issue": "96",
+  "grader": "CGC",
+  "grade": "5.5",
+  "cert": "4192838007"
+ },
+ "listing": {
+  "title": "Tales of Suspense #96 CGC 5.5 OW-W Captain America Nick Fury Kirby Cover 1967"
+ },
+ "photos": [
+  "CGC-4192838007-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

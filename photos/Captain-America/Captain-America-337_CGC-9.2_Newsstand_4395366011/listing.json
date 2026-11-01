@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4395366011",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Captain America",
+  "issue": "337",
+  "grader": "CGC",
+  "grade": "9.2",
+  "cert": "4395366011"
+ },
+ "listing": {
+  "title": "Captain America #337 CGC 9.2 Newsstand 1st Steve Rogers as The Captain 1988"
+ },
+ "photos": [
+  "CGC-4395366011-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

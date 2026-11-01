@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4402326014",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Venom: Funeral Pyre",
+  "issue": "1",
+  "grader": "CGC",
+  "grade": "9.4",
+  "cert": "4402326014"
+ },
+ "listing": {
+  "title": "Venom: Funeral Pyre #1 CGC 9.4 White Pages Holo-Grafx Cover Punisher 1993"
+ },
+ "photos": [
+  "CGC-4402326014-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4402565017",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Spider-Man 2099",
+  "issue": "1",
+  "grader": "CGC",
+  "grade": "9.2",
+  "cert": "4402565017"
+ },
+ "listing": {
+  "title": "Spider-Man 2099 #1 CGC 9.2 White Pages Origin Miguel O'Hara Red Foil 1992"
+ },
+ "photos": [
+  "CGC-4402565017-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

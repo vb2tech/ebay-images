@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4395366013",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Captain America",
+  "issue": "333",
+  "grader": "CGC",
+  "grade": "9.6",
+  "cert": "4395366013"
+ },
+ "listing": {
+  "title": "Captain America #333 CGC 9.6 WP John Walker Becomes Captain America 1987 Key"
+ },
+ "photos": [
+  "CGC-4395366013-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

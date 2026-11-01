@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-4240909008",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Hero For Hire",
+  "issue": "2",
+  "grader": "CGC",
+  "grade": "9.0",
+  "cert": "4240909008"
+ },
+ "listing": {
+  "title": "Hero For Hire #2 CGC 9.0 OW-W 1st Appearance Claire Temple Luke Cage 1972 Key"
+ },
+ "photos": [
+  "CGC-4240909008-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}

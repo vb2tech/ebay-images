@@ -1,0 +1,30 @@
+{
+ "sku": "CGC-3803292017",
+ "template": "comics-259104",
+ "status": "new",
+ "lot": "pre-2026-11 backfill",
+ "item": {
+  "series": "Jungle Action",
+  "issue": "16",
+  "grader": "CGC",
+  "grade": "9.2",
+  "cert": "3803292017"
+ },
+ "listing": {
+  "title": "Jungle Action & Black Panther #16 CGC 9.2 White Pages Venomm Gil Kane Cover 1975"
+ },
+ "photos": [
+  "CGC-3803292017-1.jpg"
+ ],
+ "pricing": {},
+ "needs_review": [
+  "details: migrate from project listings/books.json (characters, creators, era, price)"
+ ],
+ "history": [
+  {
+   "date": "2026-11-01",
+   "event": "backfilled",
+   "status": "new"
+  }
+ ]
+}
