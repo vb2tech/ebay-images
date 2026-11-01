@@ -25,4 +25,4 @@ The photos are served to eBay from `https://raw.githubusercontent.com/vb2tech/eb
 
 ## Ecosystem page (keep it current)
 `docs/ecosystem.html` is published as the artifact https://claude.ai/artifact/XVkxtQwWWadWuUqVAtfYNN ("eBay Listing Ecosystem").
-Whenever a skill, rule tier, listing group, default, open item or item-status count changes: edit `docs/ecosystem.html` (stats, status counts, skill chips, open items, add a changelog line, bump the version and date), commit it, and republish with the Artifact tool passing that `url` (read it first with `action: "read"`), so the link never changes.
+Whenever a skill, rule tier, listing group, default, open item or item-status count changes: edit `docs/ecosystem.html` (stats, status counts, skill chips, open items, add a changelog line, bump the version and date), commit it, and republish with the Artifact tool passing that `url` (read it first with `action: "read"`), so the link never changes. Also bump the "Last updated" line in the claude.ai project doc `claude/00-START-HERE.md`, which links to this page.
