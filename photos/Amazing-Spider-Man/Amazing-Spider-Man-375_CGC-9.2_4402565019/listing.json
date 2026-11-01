@@ -1,14 +1,36 @@
 {
  "sku": "CGC-4402565019",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "The Amazing Spider-Man",
   "issue": "375",
   "grader": "CGC",
   "grade": "9.2",
-  "cert": "4402565019"
+  "cert": "4402565019",
+  "publisher": "Marvel",
+  "year": "1993",
+  "cover_date": "3/93",
+  "pages": "Off-White to White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "David Michelinie",
+  "artist": "Mark Bagley & Pat Olliffe",
+  "cover_artist": "Mark Bagley & Randy Emberlin",
+  "credits": "David Michelinie story; Mark Bagley & Pat Olliffe art; Mark Bagley & Randy Emberlin cover",
+  "key_notes": [
+   "1st appearance of Anne Weying",
+   "Holo-grafx cover"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Spider-Man",
+   "Venom"
+  ],
+  "features": [
+   "First Appearance",
+   "Foil Cover"
+  ]
  },
  "listing": {
   "title": "Amazing Spider-Man #375 CGC 9.2 1st Anne Weying She-Venom Gold Foil Cover 1993"
@@ -16,15 +38,22 @@
  "photos": [
   "CGC-4402565019-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 42.99,
+  "basis": "9.2 sold $29–70, mostly $30–45"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

@@ -1,14 +1,33 @@
 {
  "sku": "CGC-4402325022",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Blood Syndicate",
   "issue": "1",
   "grader": "CGC",
   "grade": "9.4",
-  "cert": "4402325022"
+  "cert": "4402325022",
+  "publisher": "DC / Milestone",
+  "year": "1993",
+  "cover_date": "4/93",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Dwayne McDuffie & Ivan Velez",
+  "artist": "Trevor Von Eeden & Andrew Pepoy",
+  "cover_artist": "Denys Cowan & Jimmy Palmiotti",
+  "credits": "Dwayne McDuffie & Ivan Velez story; Trevor Von Eeden & Andrew Pepoy art; Denys Cowan & Jimmy Palmiotti cover",
+  "key_notes": [
+   "First issue of Milestone's Blood Syndicate"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Blood Syndicate"
+  ],
+  "features": [
+   "1st Edition"
+  ]
  },
  "listing": {
   "title": "Blood Syndicate #1 CGC 9.4 White Pages 1st Issue Milestone DC 1993 McDuffie"
@@ -16,15 +35,22 @@
  "photos": [
   "CGC-4402325022-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 29.99,
+  "basis": "9.4 about $25–50. CHECK CERT #: label was blurry (looks like 4402325022)"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

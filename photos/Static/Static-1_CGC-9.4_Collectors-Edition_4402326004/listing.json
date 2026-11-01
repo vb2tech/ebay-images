@@ -1,14 +1,37 @@
 {
  "sku": "CGC-4402326004",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Static",
   "issue": "1",
   "grader": "CGC",
   "grade": "9.4",
-  "cert": "4402326004"
+  "cert": "4402326004",
+  "publisher": "DC / Milestone",
+  "year": "1993",
+  "cover_date": "6/93",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Dwayne McDuffie & Robert L. Washington III",
+  "artist": "John Paul Leon & Steve Mitchell",
+  "cover_artist": "Denys Cowan & Jimmy Palmiotti",
+  "credits": "Dwayne McDuffie & Robert L. Washington III story; John Paul Leon & Steve Mitchell art; Denys Cowan & Jimmy Palmiotti cover",
+  "key_notes": [
+   "Collector's Edition",
+   "1st appearance of Static (Virgil Hawkins)",
+   "Poly-bag removed (per CGC label)"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Static"
+  ],
+  "features": [
+   "Collector's Edition",
+   "First Appearance",
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Static #1 CGC 9.4 Collector's Edition 1st Appearance Static Milestone DC 1993"
@@ -16,15 +39,22 @@
  "photos": [
   "CGC-4402326004-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 64.99,
+  "basis": "Collector's Ed. 9.2 about $50; 9.8 about $110"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

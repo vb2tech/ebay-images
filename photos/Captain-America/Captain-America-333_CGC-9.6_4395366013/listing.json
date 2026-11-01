@@ -1,14 +1,34 @@
 {
  "sku": "CGC-4395366013",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Captain America",
   "issue": "333",
   "grader": "CGC",
   "grade": "9.6",
-  "cert": "4395366013"
+  "cert": "4395366013",
+  "publisher": "Marvel",
+  "year": "1987",
+  "cover_date": "9/87",
+  "pages": "White",
+  "era": "Copper Age (1984-1991)",
+  "writer": "Mark Gruenwald",
+  "artist": "Tom Morgan & Dave Hunt",
+  "cover_artist": "Mike Zeck & Bob McLeod",
+  "credits": "Mark Gruenwald story; Tom Morgan & Dave Hunt art; Mike Zeck & Bob McLeod cover",
+  "key_notes": [
+   "Super-Patriot (Johnny Walker) becomes the new Captain America"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Captain America",
+   "U.S. Agent"
+  ],
+  "features": [
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Captain America #333 CGC 9.6 WP John Walker Becomes Captain America 1987 Key"
@@ -16,15 +36,22 @@
  "photos": [
   "CGC-4395366013-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 94.99,
+  "basis": "9.2 about $83; 9.8 about $100. 9.6 estimated between"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

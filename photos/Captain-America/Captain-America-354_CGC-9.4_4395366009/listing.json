@@ -1,14 +1,34 @@
 {
  "sku": "CGC-4395366009",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Captain America",
   "issue": "354",
   "grader": "CGC",
   "grade": "9.4",
-  "cert": "4395366009"
+  "cert": "4395366009",
+  "publisher": "Marvel",
+  "year": "1989",
+  "cover_date": "6/89",
+  "pages": "White",
+  "era": "Copper Age (1984-1991)",
+  "writer": "Mark Gruenwald",
+  "artist": "Kieron Dwyer & Al Milgrom",
+  "cover_artist": "Kieron Dwyer & Al Milgrom",
+  "credits": "Mark Gruenwald story; Kieron Dwyer & Al Milgrom cover & art",
+  "key_notes": [
+   "John Walker becomes U.S. Agent",
+   "\"I'm Baaack!\" cover"
+  ],
+  "characters": [
+   "U.S. Agent",
+   "Captain America"
+  ],
+  "features": [
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Captain America #354 CGC 9.4 White Pages 1st John Walker as U.S. Agent 1989"
@@ -16,15 +36,22 @@
  "photos": [
   "CGC-4395366009-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 64.99,
+  "basis": "9.2 about $47; 9.8 about $200–225. No recent 9.4 sales; estimate"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

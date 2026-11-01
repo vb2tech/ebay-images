@@ -1,14 +1,32 @@
 {
  "sku": "CGC-4402566012",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Action Comics",
   "issue": "684",
   "grader": "CGC",
   "grade": "8.5",
-  "cert": "4402566012"
+  "cert": "4402566012",
+  "publisher": "DC",
+  "year": "1992",
+  "cover_date": "12/92",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Roger Stern",
+  "artist": "Jackson Guice & Denis Rodier",
+  "cover_artist": "Art Thibert",
+  "credits": "Roger Stern story; Jackson Guice & Denis Rodier art; Art Thibert cover",
+  "key_notes": [
+   "Doomsday appearance",
+   "Doomsday! storyline"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Superman",
+   "Doomsday"
+  ]
  },
  "listing": {
   "title": "Action Comics #684 CGC 8.5 White Pages Doomsday Death of Superman DC 1992"
@@ -16,15 +34,22 @@
  "photos": [
   "CGC-4402566012-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 16.99,
+  "basis": "8.0 about $15; 9.2 about $19"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

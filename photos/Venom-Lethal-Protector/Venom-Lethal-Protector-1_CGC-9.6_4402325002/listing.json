@@ -1,14 +1,38 @@
 {
  "sku": "CGC-4402325002",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Venom: Lethal Protector",
   "issue": "1",
   "grader": "CGC",
   "grade": "9.6",
-  "cert": "4402325002"
+  "cert": "4402325002",
+  "publisher": "Marvel",
+  "year": "1993",
+  "cover_date": "2/93",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "David Michelinie",
+  "artist": "Mark Bagley, Sam de la Rosa & Al Milgrom",
+  "cover_artist": "Mark Bagley & Sam de la Rosa",
+  "credits": "David Michelinie story; Mark Bagley, Sam de la Rosa & Al Milgrom art; Mark Bagley & Sam de la Rosa cover",
+  "key_notes": [
+   "1st Venom in his own title",
+   "Red holo-grafx foil cover",
+   "Spider-Man appearance"
+  ],
+  "format": "Limited Series",
+  "characters": [
+   "Venom",
+   "Spider-Man"
+  ],
+  "features": [
+   "Foil Cover",
+   "1st Edition",
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Venom: Lethal Protector #1 CGC 9.6 White Pages Red Holo-Grafx Foil 1st Solo 1993"
@@ -17,15 +41,22 @@
   "CGC-4402325002-1.jpg",
   "CGC-4402325002-2.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 69.99,
+  "basis": "9.2 about $50; 9.8 about $130 (1 sale/day)"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

@@ -1,14 +1,36 @@
 {
  "sku": "CGC-0292591030",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Avengers",
   "issue": "32",
   "grader": "CGC",
   "grade": "9.0",
-  "cert": "0292591030"
+  "cert": "0292591030",
+  "publisher": "Marvel",
+  "year": "1966",
+  "cover_date": "9/66",
+  "pages": "Off-White to White",
+  "era": "Silver Age (1956-69)",
+  "writer": "Stan Lee",
+  "artist": "Don Heck",
+  "cover_artist": "Don Heck",
+  "credits": "Stan Lee story; Don Heck art; Don Heck cover",
+  "key_notes": [
+   "1st appearance of Bill Foster (Black Goliath)",
+   "1st Sons of the Serpent"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Avengers",
+   "Bill Foster"
+  ],
+  "features": [
+   "First Appearance",
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Avengers #32 CGC 9.0 OW-W Pages 1st Appearance Bill Foster Black Goliath 1966"
@@ -16,15 +38,22 @@
  "photos": [
   "CGC-0292591030-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 114.99,
+  "basis": "8.0 about $97; 9.2 about $134 (sold $122–250)"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

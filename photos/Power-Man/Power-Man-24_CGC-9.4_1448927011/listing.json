@@ -1,14 +1,35 @@
 {
  "sku": "CGC-1448927011",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Power Man",
   "issue": "24",
   "grader": "CGC",
   "grade": "9.4",
-  "cert": "1448927011"
+  "cert": "1448927011",
+  "publisher": "Marvel",
+  "year": "1975",
+  "cover_date": "4/75",
+  "pages": "White",
+  "era": "Bronze Age (1970-83)",
+  "writer": "Tony Isabella",
+  "artist": "George Tuska & Dave Hunt",
+  "cover_artist": "Gil Kane & Dan Adkins",
+  "credits": "Tony Isabella story; George Tuska & Dave Hunt art; Gil Kane & Dan Adkins cover",
+  "key_notes": [
+   "Dr. Bill Foster becomes Black Goliath",
+   "Ringmaster & Circus of Crime appearance"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Luke Cage",
+   "Black Goliath"
+  ],
+  "features": [
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Power Man #24 CGC 9.4 White Pages 1st Black Goliath Bill Foster Marvel 1975"
@@ -16,15 +37,22 @@
  "photos": [
   "CGC-1448927011-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 174.99,
+  "basis": "9.2 about $156; 8.0–9.2 sold $90–160"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

@@ -1,14 +1,35 @@
 {
  "sku": "CGC-4402566019",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Pitt",
   "issue": "1",
   "grader": "CGC",
   "grade": "9.6",
-  "cert": "4402566019"
+  "cert": "4402566019",
+  "publisher": "Image",
+  "year": "1993",
+  "cover_date": "1/93",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Brian Hotton",
+  "artist": "Dale Keown",
+  "cover_artist": "Dale Keown",
+  "credits": "Brian Hotton story; Dale Keown art; Dale Keown cover",
+  "key_notes": [
+   "1st appearance of Pitt",
+   "Pitt pin-ups by Sam Kieth & Jim Somerville"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Pitt"
+  ],
+  "features": [
+   "First Appearance",
+   "1st Edition"
+  ]
  },
  "listing": {
   "title": "Pitt #1 CGC 9.6 White Pages 1st Appearance of Pitt Dale Keown Image 1993"
@@ -16,15 +37,22 @@
  "photos": [
   "CGC-4402566019-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 39.99,
+  "basis": "9.6 sold $24–50"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

@@ -1,14 +1,36 @@
 {
  "sku": "CGC-4402565003",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Excalibur",
   "issue": "71",
   "grader": "CGC",
   "grade": "9.6",
-  "cert": "4402565003"
+  "cert": "4402565003",
+  "publisher": "Marvel",
+  "year": "1993",
+  "cover_date": "11/93",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Scott Lobdell",
+  "artist": "Darick Robertson & Ken Lashley",
+  "cover_artist": "Joe Madureira",
+  "credits": "Scott Lobdell story; Darick Robertson & Ken Lashley art; Joe Madureira cover",
+  "key_notes": [
+   "Wraparound cover with Nightcrawler hologram",
+   "Distorted hologram on cover (per CGC label)",
+   "Fatal Attractions finale"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Nightcrawler",
+   "Phoenix"
+  ],
+  "features": [
+   "Hologram"
+  ]
  },
  "listing": {
   "title": "Excalibur #71 CGC 9.6 White Pages Nightcrawler Hologram Cover Fatal Attractions"
@@ -16,15 +38,22 @@
  "photos": [
   "CGC-4402565003-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 59.99,
+  "basis": "9.6 sold $25–100, most $45–60"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

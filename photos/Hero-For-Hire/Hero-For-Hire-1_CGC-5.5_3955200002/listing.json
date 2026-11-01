@@ -1,14 +1,36 @@
 {
  "sku": "CGC-3955200002",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Hero For Hire",
   "issue": "1",
   "grader": "CGC",
   "grade": "5.5",
-  "cert": "3955200002"
+  "cert": "3955200002",
+  "publisher": "Marvel",
+  "year": "1972",
+  "cover_date": "6/72",
+  "pages": "Off-White to White",
+  "era": "Bronze Age (1970-83)",
+  "writer": "Archie Goodwin",
+  "artist": "George Tuska & Billy Graham",
+  "cover_artist": "John Romita & George Tuska",
+  "credits": "Archie Goodwin story; George Tuska & Billy Graham art; John Romita & George Tuska cover",
+  "key_notes": [
+   "Origin and 1st appearance of Luke Cage",
+   "1st appearance of Diamondback (Willis Stryker)"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Luke Cage",
+   "Diamondback"
+  ],
+  "features": [
+   "First Appearance",
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Hero For Hire #1 CGC 5.5 Origin & 1st Appearance Luke Cage Diamondback 1972 Key"
@@ -16,15 +38,22 @@
  "photos": [
   "CGC-3955200002-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 229.99,
+  "basis": "4.0–4.5 sold $135–225; 6.0–6.5 sold $207–375"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

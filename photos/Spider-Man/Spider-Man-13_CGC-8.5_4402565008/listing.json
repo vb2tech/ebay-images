@@ -1,14 +1,36 @@
 {
  "sku": "CGC-4402565008",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Spider-Man",
   "issue": "13",
   "grader": "CGC",
   "grade": "8.5",
-  "cert": "4402565008"
+  "cert": "4402565008",
+  "publisher": "Marvel",
+  "year": "1991",
+  "cover_date": "8/91",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Todd McFarlane",
+  "artist": "Todd McFarlane",
+  "cover_artist": "Todd McFarlane",
+  "credits": "Todd McFarlane story; Todd McFarlane art; Todd McFarlane cover",
+  "key_notes": [
+   "Morbius appearance",
+   "Spider-Man #1 (8/90) cover homage",
+   "Todd McFarlane story, cover & art"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Spider-Man",
+   "Morbius"
+  ],
+  "features": [
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Spider-Man #13 CGC 8.5 White Pages Black Costume McFarlane Cover Homage 1991"
@@ -16,15 +38,22 @@
  "photos": [
   "CGC-4402565008-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 44.99,
+  "basis": "8.5 sold $28–50 (2025–26)"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

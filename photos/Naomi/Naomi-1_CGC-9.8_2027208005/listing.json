@@ -1,14 +1,34 @@
 {
  "sku": "CGC-2027208005",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Naomi",
   "issue": "1",
   "grader": "CGC",
   "grade": "9.8",
-  "cert": "2027208005"
+  "cert": "2027208005",
+  "publisher": "DC",
+  "year": "2019",
+  "cover_date": "3/19",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Brian Michael Bendis & David F. Walker",
+  "artist": "Jamal Campbell",
+  "cover_artist": "Jamal Campbell",
+  "credits": "Brian Michael Bendis & David F. Walker story; Jamal Campbell art; Jamal Campbell cover",
+  "key_notes": [
+   "1st appearance of Naomi McDuffie"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Naomi"
+  ],
+  "features": [
+   "First Appearance",
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Naomi #1 CGC 9.8 White Pages 1st Appearance Naomi Bendis Jamal Campbell DC 2019"
@@ -16,15 +36,22 @@
  "photos": [
   "CGC-2027208005-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 39.99,
+  "basis": "9.8 about $40, mostly $20–50"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

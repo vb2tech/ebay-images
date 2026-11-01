@@ -1,14 +1,36 @@
 {
  "sku": "CGC-4381818023",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Megaton",
   "issue": "1",
   "grader": "CGC",
   "grade": "8.5",
-  "cert": "4381818023"
+  "cert": "4381818023",
+  "publisher": "Megaton",
+  "year": "1983",
+  "cover_date": "11/83",
+  "pages": "White",
+  "era": "Bronze Age (1970-83)",
+  "writer": "Gary Carlson",
+  "artist": "Erik Larsen & Butch Guice",
+  "cover_artist": "Butch Guice",
+  "credits": "Gary Carlson story; Erik Larsen & Butch Guice art; Butch Guice cover",
+  "key_notes": [
+   "Erik Larsen's 1st professional work",
+   "1st appearance of Vanguard & Megaton"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Vanguard",
+   "Megaton"
+  ],
+  "features": [
+   "First Appearance",
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Megaton #1 CGC 8.5 White Pages Erik Larsen 1st Pro Work 1st Vanguard 1983"
@@ -16,15 +38,22 @@
  "photos": [
   "CGC-4381818023-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 124.99,
+  "basis": "8.0 about $121; 9.2 about $136"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

@@ -1,14 +1,36 @@
 {
  "sku": "CGC-4395366011",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Captain America",
   "issue": "337",
   "grader": "CGC",
   "grade": "9.2",
-  "cert": "4395366011"
+  "cert": "4395366011",
+  "publisher": "Marvel",
+  "year": "1988",
+  "cover_date": "1/88",
+  "pages": "White",
+  "era": "Copper Age (1984-1991)",
+  "writer": "Mark Gruenwald",
+  "artist": "Tom Morgan & Dave Hunt",
+  "cover_artist": "Mike Zeck & Bob McLeod",
+  "credits": "Tom Morgan & Dave Hunt art; Mike Zeck & Bob McLeod cover",
+  "key_notes": [
+   "Newsstand Edition",
+   "Steve Rogers fights again as The Captain",
+   "Falcon, Nomad, D-Man appearances",
+   "Avengers #4 cover homage"
+  ],
+  "characters": [
+   "Captain America"
+  ],
+  "features": [
+   "Key Issue",
+   "Newsstand"
+  ]
  },
  "listing": {
   "title": "Captain America #337 CGC 9.2 Newsstand 1st Steve Rogers as The Captain 1988"
@@ -16,15 +38,22 @@
  "photos": [
   "CGC-4395366011-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 39.99,
+  "basis": "9.2 about $35; 9.4 sold $41 (5/2025)"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

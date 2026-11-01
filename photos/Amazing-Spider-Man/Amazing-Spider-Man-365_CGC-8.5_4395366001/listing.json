@@ -1,14 +1,37 @@
 {
  "sku": "CGC-4395366001",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "The Amazing Spider-Man",
   "issue": "365",
   "grader": "CGC",
   "grade": "8.5",
-  "cert": "4395366001"
+  "cert": "4395366001",
+  "publisher": "Marvel",
+  "year": "1992",
+  "cover_date": "8/92",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "David Michelinie & Tom DeFalco",
+  "artist": "Mark Bagley, John Romita, Aaron Lopresti & Rick Leonardi",
+  "cover_artist": "Mark Bagley",
+  "credits": "David Michelinie & Tom DeFalco story; Mark Bagley, John Romita, Aaron Lopresti & Rick Leonardi art; Mark Bagley cover",
+  "key_notes": [
+   "1st appearance of Spider-Man 2099",
+   "Hologram cover",
+   "Gatefold Venom/Carnage poster"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Spider-Man",
+   "Spider-Man 2099"
+  ],
+  "features": [
+   "First Appearance",
+   "Hologram"
+  ]
  },
  "listing": {
   "title": "Amazing Spider-Man #365 CGC 8.5 White Pages 1st Spider-Man 2099 Hologram 1992"
@@ -16,15 +39,22 @@
  "photos": [
   "CGC-4395366001-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 32.99,
+  "basis": "8.5 sold $20–70, mostly $24–36"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

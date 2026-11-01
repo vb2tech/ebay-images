@@ -1,14 +1,31 @@
 {
  "sku": "CGC-4402326010",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Spider-Man: Carnage",
   "issue": "nn",
   "grader": "CGC",
   "grade": "9.2",
-  "cert": "4402326010"
+  "cert": "4402326010",
+  "publisher": "Marvel",
+  "year": "1993",
+  "cover_date": "6/93",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "David Michelinie",
+  "artist": "Mark Bagley & Randy Emberlin",
+  "cover_artist": "Mark Bagley & Randy Emberlin",
+  "credits": "David Michelinie story; Mark Bagley & Randy Emberlin art; Mark Bagley & Randy Emberlin cover",
+  "key_notes": [
+   "Collects Amazing Spider-Man #361-363 (1st Carnage)"
+  ],
+  "format": "Trade Paperback",
+  "characters": [
+   "Carnage",
+   "Spider-Man"
+  ]
  },
  "listing": {
   "title": "Spider-Man: Carnage Trade Paperback CGC 9.2 Collects ASM 361-363 1st Carnage 93"
@@ -16,15 +33,22 @@
  "photos": [
   "CGC-4402326010-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 49.99,
+  "basis": "ESTIMATE: no graded sales found; check eBay solds"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

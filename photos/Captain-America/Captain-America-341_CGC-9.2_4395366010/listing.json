@@ -1,14 +1,35 @@
 {
  "sku": "CGC-4395366010",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Captain America",
   "issue": "341",
   "grader": "CGC",
   "grade": "9.2",
-  "cert": "4395366010"
+  "cert": "4395366010",
+  "publisher": "Marvel",
+  "year": "1988",
+  "cover_date": "5/88",
+  "pages": "White",
+  "era": "Copper Age (1984-1991)",
+  "writer": "Mark Gruenwald",
+  "artist": "Kieron Dwyer & Al Milgrom",
+  "cover_artist": "Ron Frenz & Al Milgrom",
+  "credits": "Mark Gruenwald story; Kieron Dwyer & Al Milgrom art; Ron Frenz & Al Milgrom cover",
+  "key_notes": [
+   "The Captain vs. Iron Man",
+   "1st appearance of Left-Winger & Right-Winger",
+   "Daredevil #43 cover homage"
+  ],
+  "characters": [
+   "Captain America",
+   "Iron Man"
+  ],
+  "features": [
+   "First Appearance"
+  ]
  },
  "listing": {
   "title": "Captain America #341 CGC 9.2 Cap vs Iron Man 1st Left-Winger Right-Winger 1988"
@@ -16,15 +37,22 @@
  "photos": [
   "CGC-4395366010-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 29.99,
+  "basis": "9.2 sold $22–35 (2025–26)"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

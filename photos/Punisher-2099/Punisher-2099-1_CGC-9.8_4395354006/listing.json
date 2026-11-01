@@ -1,14 +1,34 @@
 {
  "sku": "CGC-4395354006",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Punisher 2099",
   "issue": "1",
   "grader": "CGC",
   "grade": "9.8",
-  "cert": "4395354006"
+  "cert": "4395354006",
+  "publisher": "Marvel",
+  "year": "1993",
+  "cover_date": "2/93",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Pat Mills & Tony Skinner",
+  "artist": "Tom Morgan & Jimmy Palmiotti",
+  "cover_artist": "Tom Morgan",
+  "credits": "Pat Mills & Tony Skinner story; Tom Morgan & Jimmy Palmiotti art; Tom Morgan cover",
+  "key_notes": [
+   "Blue foil cover"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Punisher 2099"
+  ],
+  "features": [
+   "Foil Cover",
+   "1st Edition"
+  ]
  },
  "listing": {
   "title": "Punisher 2099 #1 CGC 9.8 White Pages Blue Foil Cover Marvel 1993 Pat Mills"
@@ -16,15 +36,22 @@
  "photos": [
   "CGC-4395354006-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 59.99,
+  "basis": "9.8 sold $27–81; $55 (6/2026)"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

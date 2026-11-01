@@ -1,14 +1,39 @@
 {
  "sku": "CGC-4402565009",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Spider-Man",
   "issue": "1",
   "grader": "CGC",
   "grade": "8.0",
-  "cert": "4402565009"
+  "cert": "4402565009",
+  "publisher": "Marvel",
+  "year": "1990",
+  "cover_date": "8/90",
+  "pages": "White",
+  "era": "Copper Age (1984-1991)",
+  "writer": "Todd McFarlane",
+  "artist": "Todd McFarlane",
+  "cover_artist": "Todd McFarlane",
+  "credits": "Todd McFarlane story; Todd McFarlane art; Todd McFarlane cover",
+  "key_notes": [
+   "Poly-Bagged / Newsstand Edition",
+   "Lizard appearance",
+   "Poly-bag removed (per CGC label)",
+   "Todd McFarlane story, cover & art"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Spider-Man",
+   "Lizard"
+  ],
+  "features": [
+   "Newsstand",
+   "Key Issue",
+   "1st Edition"
+  ]
  },
  "listing": {
   "title": "Spider-Man #1 CGC 8.0 Newsstand Poly-Bagged Edition McFarlane Lizard 1990"
@@ -16,15 +41,22 @@
  "photos": [
   "CGC-4402565009-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 54.99,
+  "basis": "8.0 about $49; 8.0–8.5 sold $20–75"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

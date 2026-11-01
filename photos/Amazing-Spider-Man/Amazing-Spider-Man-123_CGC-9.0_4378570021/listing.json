@@ -1,14 +1,35 @@
 {
  "sku": "CGC-4378570021",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "The Amazing Spider-Man",
   "issue": "123",
   "grader": "CGC",
   "grade": "9.0",
-  "cert": "4378570021"
+  "cert": "4378570021",
+  "publisher": "Marvel",
+  "year": "1973",
+  "cover_date": "8/73",
+  "pages": "Off-White to White",
+  "era": "Bronze Age (1970-83)",
+  "writer": "Gerry Conway",
+  "artist": "John Romita, Gil Kane & Tony Mortellaro",
+  "cover_artist": "John Romita",
+  "credits": "Gerry Conway story; John Romita, Gil Kane & Tony Mortellaro art; John Romita cover",
+  "key_notes": [
+   "Luke Cage appearance",
+   "Gwen Stacy's funeral"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Spider-Man",
+   "Luke Cage"
+  ],
+  "features": [
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Amazing Spider-Man #123 CGC 9.0 OW-W Luke Cage Gwen Stacy Funeral Romita 1973"
@@ -16,15 +37,22 @@
  "photos": [
   "CGC-4378570021-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 219.99,
+  "basis": "8.0 about $165; 9.2 about $250"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

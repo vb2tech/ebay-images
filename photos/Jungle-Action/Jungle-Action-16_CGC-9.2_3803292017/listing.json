@@ -1,14 +1,31 @@
 {
  "sku": "CGC-3803292017",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Jungle Action",
   "issue": "16",
   "grader": "CGC",
   "grade": "9.2",
-  "cert": "3803292017"
+  "cert": "3803292017",
+  "publisher": "Marvel",
+  "year": "1975",
+  "cover_date": "7/75",
+  "pages": "White",
+  "era": "Bronze Age (1970-83)",
+  "writer": "Don McGregor",
+  "artist": "Billy Graham",
+  "cover_artist": "Gil Kane",
+  "credits": "Don McGregor story; Billy Graham art; Gil Kane cover",
+  "key_notes": [
+   "Panther's Rage storyline",
+   "Venomm appearance"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Black Panther"
+  ]
  },
  "listing": {
   "title": "Jungle Action & Black Panther #16 CGC 9.2 White Pages Venomm Gil Kane Cover 1975"
@@ -16,15 +33,22 @@
  "photos": [
   "CGC-3803292017-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 59.99,
+  "basis": "ESTIMATE: no graded sales found; check eBay solds"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

@@ -1,14 +1,36 @@
 {
  "sku": "CGC-0781539014",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Power Man and Iron Fist",
   "issue": "66",
   "grader": "CGC",
   "grade": "8.5",
-  "cert": "0781539014"
+  "cert": "0781539014",
+  "publisher": "Marvel",
+  "year": "1980",
+  "cover_date": "12/80",
+  "pages": "White",
+  "era": "Bronze Age (1970-83)",
+  "writer": "Mary Jo Duffy",
+  "artist": "Kerry Gammill & Ricardo Villamonte",
+  "cover_artist": "Frank Miller",
+  "credits": "Mary Jo Duffy story; Kerry Gammill & Ricardo Villamonte art; Frank Miller cover",
+  "key_notes": [
+   "2nd appearance of Sabretooth",
+   "Frank Miller cover"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Power Man",
+   "Iron Fist",
+   "Sabretooth"
+  ],
+  "features": [
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Power Man and Iron Fist #66 CGC 8.5 White Pages 2nd Sabretooth Frank Miller 1980"
@@ -18,15 +40,22 @@
   "CGC-0781539014-2.jpg",
   "CGC-0781539014-3.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 119.99,
+  "basis": "8.0 about $116; 9.2 about $151"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

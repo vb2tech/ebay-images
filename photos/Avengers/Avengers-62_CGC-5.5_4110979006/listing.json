@@ -1,14 +1,36 @@
 {
  "sku": "CGC-4110979006",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Avengers",
   "issue": "62",
   "grader": "CGC",
   "grade": "5.5",
-  "cert": "4110979006"
+  "cert": "4110979006",
+  "publisher": "Marvel",
+  "year": "1969",
+  "cover_date": "3/69",
+  "pages": "Off-White to White",
+  "era": "Silver Age (1956-69)",
+  "writer": "Roy Thomas",
+  "artist": "John Buscema & George Klein",
+  "cover_artist": "John Buscema & George Klein",
+  "credits": "Roy Thomas story; John Buscema & George Klein art; John Buscema & George Klein cover",
+  "key_notes": [
+   "1st appearance of the Man-Ape (M'Baku)",
+   "Black Knight appearance"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Man-Ape",
+   "Black Panther"
+  ],
+  "features": [
+   "First Appearance",
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Avengers #62 CGC 5.5 1st Appearance Man-Ape M'Baku Black Panther 1969 Key"
@@ -16,15 +38,22 @@
  "photos": [
   "CGC-4110979006-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 64.99,
+  "basis": "6.0 about $63; 6.0–6.5 sold $51–80"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

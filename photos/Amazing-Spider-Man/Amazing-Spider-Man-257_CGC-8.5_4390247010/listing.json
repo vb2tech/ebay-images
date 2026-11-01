@@ -1,14 +1,36 @@
 {
  "sku": "CGC-4390247010",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "The Amazing Spider-Man",
   "issue": "257",
   "grader": "CGC",
   "grade": "8.5",
-  "cert": "4390247010"
+  "cert": "4390247010",
+  "publisher": "Marvel",
+  "year": "1984",
+  "cover_date": "10/84",
+  "pages": "White",
+  "era": "Copper Age (1984-1991)",
+  "writer": "Tom DeFalco",
+  "artist": "Ron Frenz & Joe Rubinstein",
+  "cover_artist": "Ron Frenz & Joe Rubinstein",
+  "credits": "Tom DeFalco story; Ron Frenz & Joe Rubinstein art; Ron Frenz & Joe Rubinstein cover",
+  "key_notes": [
+   "2nd appearance of Puma",
+   "Black Cat, Hobgoblin, Rose & Kingpin appearance"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Spider-Man",
+   "Hobgoblin",
+   "Puma"
+  ],
+  "features": [
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Amazing Spider-Man #257 CGC 8.5 White Pages 2nd Puma Black Suit Hobgoblin 1984"
@@ -16,15 +38,22 @@
  "photos": [
   "CGC-4390247010-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 36.99,
+  "basis": "8.5 sold $20–44"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

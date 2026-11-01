@@ -1,0 +1,2890 @@
+{
+ "verdict": "PASS WITH WARNINGS",
+ "errors": 0,
+ "warnings": 124,
+ "notes": 206,
+ "findings": [
+  {
+   "severity": "INFO",
+   "row": 5,
+   "sku": "CGC-4402566012",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 5,
+   "sku": "CGC-4402566012",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 5,
+   "sku": "CGC-4402566012",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 6,
+   "sku": "CGC-4402566011",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 6,
+   "sku": "CGC-4402566011",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 6,
+   "sku": "CGC-4402566011",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 7,
+   "sku": "CGC-4395366015",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 7,
+   "sku": "CGC-4395366015",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 7,
+   "sku": "CGC-4395366015",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 8,
+   "sku": "CGC-4378570021",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 8,
+   "sku": "CGC-4378570021",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 8,
+   "sku": "CGC-4378570021",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 9,
+   "sku": "CGC-4390247010",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 9,
+   "sku": "CGC-4390247010",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 9,
+   "sku": "CGC-4390247010",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "WARNING",
+   "row": 9,
+   "sku": "CGC-4390247010",
+   "column": "C:Character",
+   "message": "'Puma' differs from eBay's value only by case.",
+   "fix": "Did you mean 'PUMA'?"
+  },
+  {
+   "severity": "INFO",
+   "row": 10,
+   "sku": "CGC-4395366001",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 10,
+   "sku": "CGC-4395366001",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 10,
+   "sku": "CGC-4395366001",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 11,
+   "sku": "CGC-4402565019",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 11,
+   "sku": "CGC-4402565019",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 11,
+   "sku": "CGC-4402565019",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 12,
+   "sku": "CGC-0292591030",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 12,
+   "sku": "CGC-0292591030",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 12,
+   "sku": "CGC-0292591030",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 13,
+   "sku": "CGC-4110979006",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 13,
+   "sku": "CGC-4110979006",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 13,
+   "sku": "CGC-4110979006",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 14,
+   "sku": "CGC-4395366006",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 14,
+   "sku": "CGC-4395366006",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 14,
+   "sku": "CGC-4395366006",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 15,
+   "sku": "CGC-0285192020",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 15,
+   "sku": "CGC-0285192020",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 15,
+   "sku": "CGC-0285192020",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 16,
+   "sku": "CGC-4289836007",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 16,
+   "sku": "CGC-4289836007",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 16,
+   "sku": "CGC-4289836007",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 17,
+   "sku": "CGC-4390953005",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 17,
+   "sku": "CGC-4390953005",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 17,
+   "sku": "CGC-4390953005",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 18,
+   "sku": "CGC-4395366007",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 18,
+   "sku": "CGC-4395366007",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 18,
+   "sku": "CGC-4395366007",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 19,
+   "sku": "CGC-4402325024",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 19,
+   "sku": "CGC-4402325024",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 19,
+   "sku": "CGC-4402325024",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 20,
+   "sku": "CGC-4402325025",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 20,
+   "sku": "CGC-4402325025",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 20,
+   "sku": "CGC-4402325025",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 21,
+   "sku": "CGC-4402325022",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 21,
+   "sku": "CGC-4402325022",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 21,
+   "sku": "CGC-4402325022",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 22,
+   "sku": "CGC-4402325023",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 22,
+   "sku": "CGC-4402325023",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 22,
+   "sku": "CGC-4402325023",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 23,
+   "sku": "CGC-4402566020",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 23,
+   "sku": "CGC-4402566020",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 23,
+   "sku": "CGC-4402566020",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 24,
+   "sku": "CGC-4402565010",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 24,
+   "sku": "CGC-4402565010",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 24,
+   "sku": "CGC-4402565010",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 25,
+   "sku": "CGC-4402565011",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 25,
+   "sku": "CGC-4402565011",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 25,
+   "sku": "CGC-4402565011",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 26,
+   "sku": "CGC-4402565025",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 26,
+   "sku": "CGC-4402565025",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 26,
+   "sku": "CGC-4402565025",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "WARNING",
+   "row": 26,
+   "sku": "CGC-4402565025",
+   "column": "C:Artist/Writer",
+   "message": "'Marc McLaurin' differs from eBay's value only by case.",
+   "fix": "Did you mean 'Marc Mclaurin'?"
+  },
+  {
+   "severity": "INFO",
+   "row": 27,
+   "sku": "CGC-3898541001",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 27,
+   "sku": "CGC-3898541001",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 27,
+   "sku": "CGC-3898541001",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 28,
+   "sku": "CGC-4395366013",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 28,
+   "sku": "CGC-4395366013",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 28,
+   "sku": "CGC-4395366013",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 29,
+   "sku": "CGC-4395366011",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 29,
+   "sku": "CGC-4395366011",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 29,
+   "sku": "CGC-4395366011",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 30,
+   "sku": "CGC-4395366010",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 30,
+   "sku": "CGC-4395366010",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 30,
+   "sku": "CGC-4395366010",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 31,
+   "sku": "CGC-4395366009",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 31,
+   "sku": "CGC-4395366009",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 31,
+   "sku": "CGC-4395366009",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 32,
+   "sku": "CGC-4402565003",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 32,
+   "sku": "CGC-4402565003",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 32,
+   "sku": "CGC-4402565003",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 33,
+   "sku": "CGC-4351192001",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 33,
+   "sku": "CGC-4351192001",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 33,
+   "sku": "CGC-4351192001",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 34,
+   "sku": "CGC-4402326005",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 34,
+   "sku": "CGC-4402326005",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 34,
+   "sku": "CGC-4402326005",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 35,
+   "sku": "CGC-4402326008",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 35,
+   "sku": "CGC-4402326008",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 35,
+   "sku": "CGC-4402326008",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 36,
+   "sku": "CGC-4402326006",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 36,
+   "sku": "CGC-4402326006",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 36,
+   "sku": "CGC-4402326006",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 37,
+   "sku": "CGC-4402326007",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 37,
+   "sku": "CGC-4402326007",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 37,
+   "sku": "CGC-4402326007",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 38,
+   "sku": "CGC-4318030023",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 38,
+   "sku": "CGC-4318030023",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 38,
+   "sku": "CGC-4318030023",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "WARNING",
+   "row": 38,
+   "sku": "CGC-4318030023",
+   "column": "C:Artist/Writer",
+   "message": "'Frank McLaughlin' differs from eBay's value only by case.",
+   "fix": "Did you mean 'Frank Mclaughlin'?"
+  },
+  {
+   "severity": "INFO",
+   "row": 39,
+   "sku": "CGC-3955200002",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 39,
+   "sku": "CGC-3955200002",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 39,
+   "sku": "CGC-3955200002",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 40,
+   "sku": "CGC-4240909008",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 40,
+   "sku": "CGC-4240909008",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 40,
+   "sku": "CGC-4240909008",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 41,
+   "sku": "CGC-4402325018",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 41,
+   "sku": "CGC-4402325018",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 41,
+   "sku": "CGC-4402325018",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 42,
+   "sku": "CGC-4390247008",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 42,
+   "sku": "CGC-4390247008",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 42,
+   "sku": "CGC-4390247008",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 43,
+   "sku": "CGC-4390247007",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 43,
+   "sku": "CGC-4390247007",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 43,
+   "sku": "CGC-4390247007",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 44,
+   "sku": "CGC-4402325019",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 44,
+   "sku": "CGC-4402325019",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 44,
+   "sku": "CGC-4402325019",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 45,
+   "sku": "CGC-4402325020",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 45,
+   "sku": "CGC-4402325020",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 45,
+   "sku": "CGC-4402325020",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 46,
+   "sku": "CGC-4402325021",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 46,
+   "sku": "CGC-4402325021",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 46,
+   "sku": "CGC-4402325021",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 47,
+   "sku": "CGC-3826217003",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 47,
+   "sku": "CGC-3826217003",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 47,
+   "sku": "CGC-3826217003",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 48,
+   "sku": "CGC-3803292017",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 48,
+   "sku": "CGC-3803292017",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 48,
+   "sku": "CGC-3803292017",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "WARNING",
+   "row": 48,
+   "sku": "CGC-3803292017",
+   "column": "C:Artist/Writer",
+   "message": "'Don McGregor' differs from eBay's value only by case.",
+   "fix": "Did you mean 'Don Mcgregor'?"
+  },
+  {
+   "severity": "INFO",
+   "row": 49,
+   "sku": "CGC-4001139006",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 49,
+   "sku": "CGC-4001139006",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 49,
+   "sku": "CGC-4001139006",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 50,
+   "sku": "CGC-4381818023",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 50,
+   "sku": "CGC-4381818023",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 50,
+   "sku": "CGC-4381818023",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 51,
+   "sku": "CGC-2027208005",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 51,
+   "sku": "CGC-2027208005",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 51,
+   "sku": "CGC-2027208005",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 52,
+   "sku": "CGC-3918508010",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 52,
+   "sku": "CGC-3918508010",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 52,
+   "sku": "CGC-3918508010",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 52,
+   "sku": "CGC-3918508010",
+   "column": "C:Series Title",
+   "message": "'Nine Rings of Wu-Tang' is a custom value (not in eBay's list); matching eBay's name helps search.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 53,
+   "sku": "CGC-3982467025",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 53,
+   "sku": "CGC-3982467025",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 53,
+   "sku": "CGC-3982467025",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 54,
+   "sku": "CGC-4402566022",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 54,
+   "sku": "CGC-4402566022",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 54,
+   "sku": "CGC-4402566022",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 55,
+   "sku": "CGC-4402566019",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 55,
+   "sku": "CGC-4402566019",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 55,
+   "sku": "CGC-4402566019",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "WARNING",
+   "row": 55,
+   "sku": "CGC-4402566019",
+   "column": "C:Character",
+   "message": "'Pitt' differs from eBay's value only by case.",
+   "fix": "Did you mean 'PITT'?"
+  },
+  {
+   "severity": "INFO",
+   "row": 56,
+   "sku": "CGC-4402566017",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 56,
+   "sku": "CGC-4402566017",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 56,
+   "sku": "CGC-4402566017",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "WARNING",
+   "row": 56,
+   "sku": "CGC-4402566017",
+   "column": "C:Character",
+   "message": "'Pitt' differs from eBay's value only by case.",
+   "fix": "Did you mean 'PITT'?"
+  },
+  {
+   "severity": "INFO",
+   "row": 57,
+   "sku": "CGC-0781539014",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 57,
+   "sku": "CGC-0781539014",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 57,
+   "sku": "CGC-0781539014",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 58,
+   "sku": "CGC-4148914003",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 58,
+   "sku": "CGC-4148914003",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 58,
+   "sku": "CGC-4148914003",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 59,
+   "sku": "CGC-4240909007",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 59,
+   "sku": "CGC-4240909007",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 59,
+   "sku": "CGC-4240909007",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 60,
+   "sku": "CGC-4240909005",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 60,
+   "sku": "CGC-4240909005",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 60,
+   "sku": "CGC-4240909005",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 61,
+   "sku": "CGC-0308911006",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 61,
+   "sku": "CGC-0308911006",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 61,
+   "sku": "CGC-0308911006",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 62,
+   "sku": "CGC-4349130023",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 62,
+   "sku": "CGC-4349130023",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 62,
+   "sku": "CGC-4349130023",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 63,
+   "sku": "CGC-1448927011",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 63,
+   "sku": "CGC-1448927011",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 63,
+   "sku": "CGC-1448927011",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 64,
+   "sku": "CGC-4395354006",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 64,
+   "sku": "CGC-4395354006",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 64,
+   "sku": "CGC-4395354006",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 65,
+   "sku": "CGC-4395366014",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 65,
+   "sku": "CGC-4395366014",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 65,
+   "sku": "CGC-4395366014",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 66,
+   "sku": "CGC-4402565013",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 66,
+   "sku": "CGC-4402565013",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 66,
+   "sku": "CGC-4402565013",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 67,
+   "sku": "CGC-4402565014",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 67,
+   "sku": "CGC-4402565014",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 67,
+   "sku": "CGC-4402565014",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 68,
+   "sku": "CGC-4402565015",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 68,
+   "sku": "CGC-4402565015",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 68,
+   "sku": "CGC-4402565015",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 69,
+   "sku": "CGC-4402565012",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 69,
+   "sku": "CGC-4402565012",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 69,
+   "sku": "CGC-4402565012",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 70,
+   "sku": "CGC-4402565016",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 70,
+   "sku": "CGC-4402565016",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 70,
+   "sku": "CGC-4402565016",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 71,
+   "sku": "CGC-4402566003",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 71,
+   "sku": "CGC-4402566003",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 71,
+   "sku": "CGC-4402566003",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 72,
+   "sku": "CGC-4402566005",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 72,
+   "sku": "CGC-4402566005",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 72,
+   "sku": "CGC-4402566005",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 73,
+   "sku": "CGC-4402566006",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 73,
+   "sku": "CGC-4402566006",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 73,
+   "sku": "CGC-4402566006",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 74,
+   "sku": "CBCS-20-4052170-007",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 74,
+   "sku": "CBCS-20-4052170-007",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 74,
+   "sku": "CBCS-20-4052170-007",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 75,
+   "sku": "CGC-4402565017",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 75,
+   "sku": "CGC-4402565017",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 75,
+   "sku": "CGC-4402565017",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 76,
+   "sku": "CGC-4402325016",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 76,
+   "sku": "CGC-4402325016",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 76,
+   "sku": "CGC-4402325016",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 77,
+   "sku": "CGC-4402325015",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 77,
+   "sku": "CGC-4402325015",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 77,
+   "sku": "CGC-4402325015",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 78,
+   "sku": "CGC-4402326010",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 78,
+   "sku": "CGC-4402326010",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 78,
+   "sku": "CGC-4402326010",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 78,
+   "sku": "CGC-4402326010",
+   "column": "C:Series Title",
+   "message": "'Spider-Man: Carnage' is a custom value (not in eBay's list); matching eBay's name helps search.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 79,
+   "sku": "CGC-4402565008",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 79,
+   "sku": "CGC-4402565008",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 79,
+   "sku": "CGC-4402565008",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "WARNING",
+   "row": 79,
+   "sku": "CGC-4402565008",
+   "column": "C:Era",
+   "message": "Year 1991 is outside Modern Age (1992-Now).",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 80,
+   "sku": "CGC-4402565009",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 80,
+   "sku": "CGC-4402565009",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 80,
+   "sku": "CGC-4402565009",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 81,
+   "sku": "CGC-4402326001",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 81,
+   "sku": "CGC-4402326001",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 81,
+   "sku": "CGC-4402326001",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 82,
+   "sku": "CGC-4390247003",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 82,
+   "sku": "CGC-4390247003",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 82,
+   "sku": "CGC-4390247003",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 83,
+   "sku": "CGC-4402326004",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 83,
+   "sku": "CGC-4402326004",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 83,
+   "sku": "CGC-4402326004",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 84,
+   "sku": "CGC-4390247004",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 84,
+   "sku": "CGC-4390247004",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 84,
+   "sku": "CGC-4390247004",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 85,
+   "sku": "CGC-3854166017",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 85,
+   "sku": "CGC-3854166017",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 85,
+   "sku": "CGC-3854166017",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 86,
+   "sku": "CGC-4402324001",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 86,
+   "sku": "CGC-4402324001",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 86,
+   "sku": "CGC-4402324001",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 87,
+   "sku": "CGC-4080442001",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 87,
+   "sku": "CGC-4080442001",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 87,
+   "sku": "CGC-4080442001",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 88,
+   "sku": "CGC-4192838007",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 88,
+   "sku": "CGC-4192838007",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 88,
+   "sku": "CGC-4192838007",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 89,
+   "sku": "CGC-4392011016",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 89,
+   "sku": "CGC-4392011016",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 89,
+   "sku": "CGC-4392011016",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 90,
+   "sku": "CGC-4402565006",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 90,
+   "sku": "CGC-4402565006",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 90,
+   "sku": "CGC-4402565006",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 91,
+   "sku": "CGC-4402565022",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 91,
+   "sku": "CGC-4402565022",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 91,
+   "sku": "CGC-4402565022",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 92,
+   "sku": "CGC-4402326014",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 92,
+   "sku": "CGC-4402326014",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 92,
+   "sku": "CGC-4402326014",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 93,
+   "sku": "CGC-4402326012",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 93,
+   "sku": "CGC-4402326012",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 93,
+   "sku": "CGC-4402326012",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 94,
+   "sku": "CGC-4402326015",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 94,
+   "sku": "CGC-4402326015",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 94,
+   "sku": "CGC-4402326015",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 95,
+   "sku": "CGC-4402325007",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 95,
+   "sku": "CGC-4402325007",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 95,
+   "sku": "CGC-4402325007",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "WARNING",
+   "row": 95,
+   "sku": "CGC-4402325007",
+   "column": "C:Artist/Writer",
+   "message": "'Sam de la Rosa' differs from eBay's value only by case.",
+   "fix": "Did you mean 'Sam De La Rosa'?"
+  },
+  {
+   "severity": "INFO",
+   "row": 96,
+   "sku": "CGC-4402325010",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 96,
+   "sku": "CGC-4402325010",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 96,
+   "sku": "CGC-4402325010",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "WARNING",
+   "row": 96,
+   "sku": "CGC-4402325010",
+   "column": "C:Artist/Writer",
+   "message": "'Sam de la Rosa' differs from eBay's value only by case.",
+   "fix": "Did you mean 'Sam De La Rosa'?"
+  },
+  {
+   "severity": "INFO",
+   "row": 97,
+   "sku": "CGC-4402325001",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 97,
+   "sku": "CGC-4402325001",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 97,
+   "sku": "CGC-4402325001",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "WARNING",
+   "row": 97,
+   "sku": "CGC-4402325001",
+   "column": "C:Artist/Writer",
+   "message": "'Sam de la Rosa' differs from eBay's value only by case.",
+   "fix": "Did you mean 'Sam De La Rosa'?"
+  },
+  {
+   "severity": "INFO",
+   "row": 98,
+   "sku": "CGC-4402325005",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 98,
+   "sku": "CGC-4402325005",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 98,
+   "sku": "CGC-4402325005",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "WARNING",
+   "row": 98,
+   "sku": "CGC-4402325005",
+   "column": "C:Artist/Writer",
+   "message": "'Sam de la Rosa' differs from eBay's value only by case.",
+   "fix": "Did you mean 'Sam De La Rosa'?"
+  },
+  {
+   "severity": "INFO",
+   "row": 99,
+   "sku": "CGC-4402325002",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 99,
+   "sku": "CGC-4402325002",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 99,
+   "sku": "CGC-4402325002",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "WARNING",
+   "row": 99,
+   "sku": "CGC-4402325002",
+   "column": "C:Artist/Writer",
+   "message": "'Sam de la Rosa' differs from eBay's value only by case.",
+   "fix": "Did you mean 'Sam De La Rosa'?"
+  },
+  {
+   "severity": "INFO",
+   "row": 100,
+   "sku": "CGC-4402325004",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 100,
+   "sku": "CGC-4402325004",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 100,
+   "sku": "CGC-4402325004",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "WARNING",
+   "row": 100,
+   "sku": "CGC-4402325004",
+   "column": "C:Artist/Writer",
+   "message": "'Sam de la Rosa' differs from eBay's value only by case.",
+   "fix": "Did you mean 'Sam De La Rosa'?"
+  },
+  {
+   "severity": "INFO",
+   "row": 101,
+   "sku": "CGC-4402325008",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 101,
+   "sku": "CGC-4402325008",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 101,
+   "sku": "CGC-4402325008",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "WARNING",
+   "row": 101,
+   "sku": "CGC-4402325008",
+   "column": "C:Artist/Writer",
+   "message": "'Sam de la Rosa' differs from eBay's value only by case.",
+   "fix": "Did you mean 'Sam De La Rosa'?"
+  },
+  {
+   "severity": "INFO",
+   "row": 102,
+   "sku": "CGC-4402325014",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 102,
+   "sku": "CGC-4402325014",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 102,
+   "sku": "CGC-4402325014",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "WARNING",
+   "row": 102,
+   "sku": "CGC-4402325014",
+   "column": "C:Artist/Writer",
+   "message": "'Sam de la Rosa' differs from eBay's value only by case.",
+   "fix": "Did you mean 'Sam De La Rosa'?"
+  },
+  {
+   "severity": "INFO",
+   "row": 103,
+   "sku": "CGC-4402325003",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 103,
+   "sku": "CGC-4402325003",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 103,
+   "sku": "CGC-4402325003",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "WARNING",
+   "row": 103,
+   "sku": "CGC-4402325003",
+   "column": "C:Artist/Writer",
+   "message": "'Sam de la Rosa' differs from eBay's value only by case.",
+   "fix": "Did you mean 'Sam De La Rosa'?"
+  },
+  {
+   "severity": "INFO",
+   "row": 104,
+   "sku": "CGC-4395354009",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 104,
+   "sku": "CGC-4395354009",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 104,
+   "sku": "CGC-4395354009",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 104,
+   "sku": "CGC-4395354009",
+   "column": "C:Series Title",
+   "message": "'Wolverine' is a custom value (not in eBay's list); matching eBay's name helps search.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 105,
+   "sku": "CGC-4395354008",
+   "column": "Location",
+   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
+   "fix": ""
+  },
+  {
+   "severity": "INFO",
+   "row": 105,
+   "sku": "CGC-4395354008",
+   "column": "Action",
+   "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 105,
+   "sku": "CGC-4395354008",
+   "column": "Shipping service 1 option",
+   "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
+   "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
+  },
+  {
+   "severity": "INFO",
+   "row": 105,
+   "sku": "CGC-4395354008",
+   "column": "C:Series Title",
+   "message": "'Wolverine' is a custom value (not in eBay's list); matching eBay's name helps search.",
+   "fix": ""
+  },
+  {
+   "severity": "WARNING",
+   "row": 43,
+   "sku": "",
+   "column": "Title",
+   "message": "'Icon #1 CGC 9.2 Collector's Edition 1st Icon & Rocket Milest' appears on 4 rows (43, 44, 45, 46).",
+   "fix": "Identical titles are allowed but make listings harder to tell apart."
+  },
+  {
+   "severity": "WARNING",
+   "row": 67,
+   "sku": "",
+   "column": "Title",
+   "message": "'Punisher #77 CGC 8.5 White Pages Survival Part 1 Val Mayerik' appears on 2 rows (67, 68).",
+   "fix": "Identical titles are allowed but make listings harder to tell apart."
+  },
+  {
+   "severity": "WARNING",
+   "row": 90,
+   "sku": "",
+   "column": "Title",
+   "message": "'Uncanny X-Men #304 CGC 9.6 White Pages Magneto Hologram Fata' appears on 2 rows (90, 91).",
+   "fix": "Identical titles are allowed but make listings harder to tell apart."
+  },
+  {
+   "severity": "WARNING",
+   "row": 93,
+   "sku": "",
+   "column": "Title",
+   "message": "'Venom: Funeral Pyre #1 CGC 9.6 White Pages Holo-Grafx Cover ' appears on 2 rows (93, 94).",
+   "fix": "Identical titles are allowed but make listings harder to tell apart."
+  },
+  {
+   "severity": "WARNING",
+   "row": 95,
+   "sku": "",
+   "column": "Title",
+   "message": "'Venom: Lethal Protector #1 CGC 9.0 White Pages Red Holo-Graf' appears on 2 rows (95, 96).",
+   "fix": "Identical titles are allowed but make listings harder to tell apart."
+  },
+  {
+   "severity": "WARNING",
+   "row": 97,
+   "sku": "",
+   "column": "Title",
+   "message": "'Venom: Lethal Protector #1 CGC 9.4 White Pages Red Holo-Graf' appears on 2 rows (97, 98).",
+   "fix": "Identical titles are allowed but make listings harder to tell apart."
+  },
+  {
+   "severity": "WARNING",
+   "row": 99,
+   "sku": "",
+   "column": "Title",
+   "message": "'Venom: Lethal Protector #1 CGC 9.6 White Pages Red Holo-Graf' appears on 4 rows (99, 100, 101, 102).",
+   "fix": "Identical titles are allowed but make listings harder to tell apart."
+  }
+ ],
+ "rows": 101,
+ "header": [
+  "Action",
+  "Custom label (SKU)",
+  "Category ID",
+  "Category name",
+  "Title",
+  "Relationship",
+  "Relationship details",
+  "Schedule Time",
+  "P:EPID",
+  "Start price",
+  "Quantity",
+  "Item photo URL",
+  "VideoID",
+  "Condition ID",
+  "Description",
+  "Format",
+  "Duration",
+  "Buy It Now price",
+  "Best Offer Enabled",
+  "Best Offer Auto Accept Price",
+  "Minimum Best Offer Price",
+  "Immediate pay required",
+  "Location",
+  "Shipping service 1 option",
+  "Shipping service 1 cost",
+  "Shipping service 1 priority",
+  "Shipping service 2 option",
+  "Shipping service 2 cost",
+  "Shipping service 2 priority",
+  "Max dispatch time",
+  "Returns accepted option",
+  "Returns within option",
+  "Refund option",
+  "Return shipping cost paid by",
+  "Shipping profile name",
+  "Return profile name",
+  "Payment profile name",
+  "ProductCompliancePolicyID",
+  "Regional ProductCompliancePolicies",
+  "C:Series Title",
+  "C:Character",
+  "C:Genre",
+  "C:Artist/Writer",
+  "C:Publisher",
+  "C:Superhero Team",
+  "C:Publication Year",
+  "C:Format",
+  "C:Era",
+  "C:Type",
+  "C:Grade",
+  "C:Tradition",
+  "C:Professional Grader",
+  "C:Certification Number",
+  "Product Safety Pictograms",
+  "Product Safety Statements",
+  "Product Safety Component",
+  "Regulatory Document Ids",
+  "Manufacturer Name",
+  "Manufacturer AddressLine1",
+  "Manufacturer AddressLine2",
+  "Manufacturer City",
+  "Manufacturer Country",
+  "Manufacturer PostalCode",
+  "Manufacturer StateOrProvince",
+  "Manufacturer Phone",
+  "Manufacturer Email",
+  "Manufacturer ContactURL",
+  "Responsible Person 1",
+  "Responsible Person 1 Type",
+  "Responsible Person 1 AddressLine1",
+  "Responsible Person 1 AddressLine2",
+  "Responsible Person 1 City",
+  "Responsible Person 1 Country",
+  "Responsible Person 1 PostalCode",
+  "Responsible Person 1 StateOrProvince",
+  "Responsible Person 1 Phone",
+  "Responsible Person 1 Email",
+  "Responsible Person 1 ContactURL"
+ ],
+ "coverage": {
+  "Action": 101,
+  "Custom label (SKU)": 101,
+  "Category ID": 101,
+  "Category name": 101,
+  "Title": 101,
+  "Relationship": 0,
+  "Relationship details": 0,
+  "Schedule Time": 0,
+  "P:EPID": 0,
+  "Start price": 101,
+  "Quantity": 101,
+  "Item photo URL": 101,
+  "VideoID": 0,
+  "Condition ID": 101,
+  "Description": 101,
+  "Format": 101,
+  "Duration": 101,
+  "Buy It Now price": 0,
+  "Best Offer Enabled": 101,
+  "Best Offer Auto Accept Price": 0,
+  "Minimum Best Offer Price": 0,
+  "Immediate pay required": 0,
+  "Location": 0,
+  "Shipping service 1 option": 101,
+  "Shipping service 1 cost": 101,
+  "Shipping service 1 priority": 101,
+  "Shipping service 2 option": 0,
+  "Shipping service 2 cost": 0,
+  "Shipping service 2 priority": 0,
+  "Max dispatch time": 101,
+  "Returns accepted option": 0,
+  "Returns within option": 0,
+  "Refund option": 0,
+  "Return shipping cost paid by": 0,
+  "Shipping profile name": 0,
+  "Return profile name": 101,
+  "Payment profile name": 101,
+  "ProductCompliancePolicyID": 0,
+  "Regional ProductCompliancePolicies": 0,
+  "C:Series Title": 101,
+  "C:Character": 101,
+  "C:Genre": 101,
+  "C:Artist/Writer": 101,
+  "C:Publisher": 101,
+  "C:Superhero Team": 5,
+  "C:Publication Year": 101,
+  "C:Format": 101,
+  "C:Era": 101,
+  "C:Type": 101,
+  "C:Grade": 101,
+  "C:Tradition": 101,
+  "C:Professional Grader": 101,
+  "C:Certification Number": 101,
+  "Product Safety Pictograms": 0,
+  "Product Safety Statements": 0,
+  "Product Safety Component": 0,
+  "Regulatory Document Ids": 0,
+  "Manufacturer Name": 0,
+  "Manufacturer AddressLine1": 0,
+  "Manufacturer AddressLine2": 0,
+  "Manufacturer City": 0,
+  "Manufacturer Country": 0,
+  "Manufacturer PostalCode": 0,
+  "Manufacturer StateOrProvince": 0,
+  "Manufacturer Phone": 0,
+  "Manufacturer Email": 0,
+  "Manufacturer ContactURL": 0,
+  "Responsible Person 1": 0,
+  "Responsible Person 1 Type": 0,
+  "Responsible Person 1 AddressLine1": 0,
+  "Responsible Person 1 AddressLine2": 0,
+  "Responsible Person 1 City": 0,
+  "Responsible Person 1 Country": 0,
+  "Responsible Person 1 PostalCode": 0,
+  "Responsible Person 1 StateOrProvince": 0,
+  "Responsible Person 1 Phone": 0,
+  "Responsible Person 1 Email": 0,
+  "Responsible Person 1 ContactURL": 0
+ },
+ "promotion_candidates": [],
+ "tiers": {
+  "Action": "required",
+  "Custom label (SKU)": "standard",
+  "Category ID": "required",
+  "Category name": "required",
+  "Title": "required",
+  "Relationship": "not_used",
+  "Relationship details": "not_used",
+  "Schedule Time": "optional",
+  "P:EPID": "not_used",
+  "Start price": "required",
+  "Quantity": "required",
+  "Item photo URL": "required",
+  "VideoID": "not_used",
+  "Condition ID": "required",
+  "Description": "required",
+  "Format": "required",
+  "Duration": "required",
+  "Buy It Now price": "optional",
+  "Best Offer Enabled": "standard",
+  "Best Offer Auto Accept Price": "optional",
+  "Minimum Best Offer Price": "optional",
+  "Immediate pay required": "optional",
+  "Location": "required",
+  "Shipping service 1 option": "conditional",
+  "Shipping service 1 cost": "conditional",
+  "Shipping service 1 priority": "optional",
+  "Shipping service 2 option": "optional",
+  "Shipping service 2 cost": "optional",
+  "Shipping service 2 priority": "optional",
+  "Max dispatch time": "conditional",
+  "Returns accepted option": "conditional",
+  "Returns within option": "conditional",
+  "Refund option": "conditional",
+  "Return shipping cost paid by": "conditional",
+  "Shipping profile name": "conditional",
+  "Return profile name": "conditional",
+  "Payment profile name": "conditional",
+  "ProductCompliancePolicyID": "not_used",
+  "Regional ProductCompliancePolicies": "not_used",
+  "C:Series Title": "standard",
+  "C:Character": "standard",
+  "C:Genre": "standard",
+  "C:Artist/Writer": "standard",
+  "C:Publisher": "standard",
+  "C:Superhero Team": "recommended",
+  "C:Publication Year": "standard",
+  "C:Format": "standard",
+  "C:Era": "standard",
+  "C:Type": "standard",
+  "C:Grade": "standard",
+  "C:Tradition": "standard",
+  "C:Professional Grader": "standard",
+  "C:Certification Number": "standard",
+  "Product Safety Pictograms": "not_used",
+  "Product Safety Statements": "not_used",
+  "Product Safety Component": "not_used",
+  "Regulatory Document Ids": "not_used",
+  "Manufacturer Name": "not_used",
+  "Manufacturer AddressLine1": "not_used",
+  "Manufacturer AddressLine2": "not_used",
+  "Manufacturer City": "not_used",
+  "Manufacturer Country": "not_used",
+  "Manufacturer PostalCode": "not_used",
+  "Manufacturer StateOrProvince": "not_used",
+  "Manufacturer Phone": "not_used",
+  "Manufacturer Email": "not_used",
+  "Manufacturer ContactURL": "not_used",
+  "Responsible Person 1": "not_used",
+  "Responsible Person 1 Type": "not_used",
+  "Responsible Person 1 AddressLine1": "not_used",
+  "Responsible Person 1 AddressLine2": "not_used",
+  "Responsible Person 1 City": "not_used",
+  "Responsible Person 1 Country": "not_used",
+  "Responsible Person 1 PostalCode": "not_used",
+  "Responsible Person 1 StateOrProvince": "not_used",
+  "Responsible Person 1 Phone": "not_used",
+  "Responsible Person 1 Email": "not_used",
+  "Responsible Person 1 ContactURL": "not_used"
+ }
+}

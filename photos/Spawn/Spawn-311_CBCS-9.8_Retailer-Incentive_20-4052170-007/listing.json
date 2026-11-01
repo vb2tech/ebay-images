@@ -1,14 +1,37 @@
 {
  "sku": "CBCS-20-4052170-007",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Spawn",
   "issue": "311",
   "grader": "CBCS",
   "grade": "9.8",
-  "cert": "20-4052170-007"
+  "cert": "20-4052170-007",
+  "publisher": "Image",
+  "year": "2020",
+  "cover_date": "10/20",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Todd McFarlane",
+  "artist": "Carlo Barberi",
+  "cover_artist": "Todd McFarlane",
+  "credits": "Todd McFarlane story; Carlo Barberi art; Todd McFarlane cover",
+  "key_notes": [
+   "McFarlane Retailer Incentive black & white variant",
+   "Chadwick Boseman tribute cover",
+   "Gunslinger Spawn appearance"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Spawn",
+   "Gunslinger Spawn"
+  ],
+  "features": [
+   "Variant Cover",
+   "Exclusive"
+  ]
  },
  "listing": {
   "title": "Spawn #311 CBCS 9.8 B&W McFarlane Retailer Incentive Chadwick Boseman Tribute"
@@ -16,15 +39,22 @@
  "photos": [
   "CBCS-20-4052170-007-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 64.99,
+  "basis": "ESTIMATE: no graded sales found; check eBay solds"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

@@ -1,14 +1,33 @@
 {
  "sku": "CGC-3982467025",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Nubia & the Amazons",
   "issue": "1",
   "grader": "CGC",
   "grade": "9.8",
-  "cert": "3982467025"
+  "cert": "3982467025",
+  "publisher": "DC",
+  "year": "2021",
+  "cover_date": "12/21",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Vita Ayala & Stephanie Williams",
+  "artist": "Alitha Martinez & Mark Morales",
+  "cover_artist": "Alitha Martinez",
+  "credits": "Vita Ayala & Stephanie Williams story; Alitha Martinez & Mark Morales art; Alitha Martinez cover",
+  "key_notes": [
+   "Prelude to Trial of the Amazons"
+  ],
+  "format": "Limited Series",
+  "characters": [
+   "Nubia"
+  ],
+  "features": [
+   "1st Edition"
+  ]
  },
  "listing": {
   "title": "Nubia & the Amazons #1 CGC 9.8 White Pages Alitha Martinez Cover DC 2021"
@@ -16,15 +35,22 @@
  "photos": [
   "CGC-3982467025-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 39.99,
+  "basis": "ESTIMATE: no graded sales found; check eBay solds"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

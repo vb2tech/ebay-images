@@ -1,14 +1,37 @@
 {
  "sku": "CGC-3898541001",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Captain America",
   "issue": "117",
   "grader": "CGC",
   "grade": "5.5",
-  "cert": "3898541001"
+  "cert": "3898541001",
+  "publisher": "Marvel",
+  "year": "1969",
+  "cover_date": "9/69",
+  "pages": "Off-White",
+  "era": "Silver Age (1956-69)",
+  "writer": "Stan Lee",
+  "artist": "Gene Colan & Joe Sinnott",
+  "cover_artist": "Gene Colan, Joe Sinnott & John Romita",
+  "credits": "Stan Lee story; Gene Colan & Joe Sinnott art; Colan, Sinnott & Romita cover",
+  "key_notes": [
+   "Origin & 1st appearance of the Falcon (Sam Wilson) and Redwing",
+   "Red Skull appearance; M.O.D.O.K. cameo"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Falcon",
+   "Captain America",
+   "Red Skull"
+  ],
+  "features": [
+   "First Appearance",
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Captain America #117 CGC 5.5 Origin & 1st Appearance Falcon Sam Wilson 1969 Key"
@@ -16,15 +39,22 @@
  "photos": [
   "CGC-3898541001-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 249.99,
+  "basis": "5.0–6.0 sold $180–290 (mid-2026); recent sale $279 (8/2026)"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

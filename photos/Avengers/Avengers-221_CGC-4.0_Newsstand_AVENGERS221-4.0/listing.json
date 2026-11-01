@@ -1,14 +1,35 @@
 {
  "sku": "CGC-AVENGERS221-4.0",
  "template": "comics-259104",
- "status": "new",
+ "status": "hold",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Avengers",
   "issue": "221",
   "grader": "CGC",
   "grade": "4.0",
-  "cert": ""
+  "cert": "",
+  "publisher": "Marvel",
+  "year": "1982",
+  "cover_date": "7/82",
+  "pages": "White",
+  "era": "Bronze Age (1970-83)",
+  "writer": "Jim Shooter & David Michelinie",
+  "artist": "Bob Hall & Brett Breeding",
+  "cover_artist": "Ed Hannigan & Brett Breeding",
+  "credits": "Jim Shooter & David Michelinie story; Bob Hall & Brett Breeding art; Ed Hannigan & Brett Breeding cover",
+  "key_notes": [
+   "Newsstand Edition",
+   "She-Hulk joins the Avengers"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Avengers",
+   "She-Hulk"
+  ],
+  "features": [
+   "Newsstand"
+  ]
  },
  "listing": {
   "title": "Avengers #221 CGC 4.0 Newsstand She-Hulk Joins Avengers Wolverine Spider-Man 82"
@@ -16,16 +37,23 @@
  "photos": [
   "CGC-AVENGERS221-4.0-1.jpg"
  ],
- "pricing": {},
+ "pricing": {
+  "final": 14.99,
+  "basis": "4.0 about $9. CHECK CERT #: label too blurry to read; add it before publishing"
+ },
  "needs_review": [
-  "cert: unreadable on label",
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
+  "cert: unreadable on label"
  ],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "held: cert number unreadable on label; needs cert before export",
+   "status": "hold"
   }
  ]
 }

@@ -1,14 +1,32 @@
 {
  "sku": "CGC-4395366015",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Alpha Flight",
   "issue": "11",
   "grader": "CGC",
   "grade": "8.5",
-  "cert": "4395366015"
+  "cert": "4395366015",
+  "publisher": "Marvel",
+  "year": "1984",
+  "cover_date": "6/84",
+  "pages": "White",
+  "era": "Copper Age (1984-1991)",
+  "writer": "John Byrne",
+  "artist": "John Byrne",
+  "cover_artist": "John Byrne",
+  "credits": "John Byrne story; John Byrne art; John Byrne cover",
+  "key_notes": [
+   "Origin of Sasquatch",
+   "John Byrne story, cover & art"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Sasquatch",
+   "Alpha Flight"
+  ]
  },
  "listing": {
   "title": "Alpha Flight #11 CGC 8.5 White Pages Origin of Sasquatch John Byrne Marvel 1984"
@@ -16,15 +34,22 @@
  "photos": [
   "CGC-4395366015-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 27.99,
+  "basis": "8.0 about $25; 9.2 about $32"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

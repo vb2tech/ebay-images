@@ -1,14 +1,32 @@
 {
  "sku": "CGC-4402324001",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Tales of Suspense",
   "issue": "74",
   "grader": "CGC",
   "grade": "8.5",
-  "cert": "4402324001"
+  "cert": "4402324001",
+  "publisher": "Marvel",
+  "year": "1966",
+  "cover_date": "2/66",
+  "pages": "Off-White to White",
+  "era": "Silver Age (1956-69)",
+  "writer": "Stan Lee",
+  "artist": "Gene Colan, Jack Abel & George Tuska",
+  "cover_artist": "Jack Kirby",
+  "credits": "Stan Lee story; Gene Colan, Jack Abel & George Tuska art; Jack Kirby cover",
+  "key_notes": [
+   "Sleeper appearance",
+   "Happy Hogan becomes the Freak"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Captain America",
+   "Iron Man"
+  ]
  },
  "listing": {
   "title": "Tales of Suspense #74 CGC 8.5 OW-W Captain America Iron Man Kirby Cover 1966"
@@ -16,15 +34,22 @@
  "photos": [
   "CGC-4402324001-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 129.99,
+  "basis": "8.5 sold $100–160 (2025–26)"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

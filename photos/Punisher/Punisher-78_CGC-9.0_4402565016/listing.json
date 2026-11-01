@@ -1,14 +1,30 @@
 {
  "sku": "CGC-4402565016",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "The Punisher",
   "issue": "78",
   "grader": "CGC",
   "grade": "9.0",
-  "cert": "4402565016"
+  "cert": "4402565016",
+  "publisher": "Marvel",
+  "year": "1993",
+  "cover_date": "5/93",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Roger Salick & Val Mayerik",
+  "artist": "Val Mayerik",
+  "cover_artist": "Val Mayerik",
+  "credits": "Roger Salick & Val Mayerik story; Val Mayerik art; Val Mayerik cover",
+  "key_notes": [
+   "Survival Part 2"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Punisher"
+  ]
  },
  "listing": {
   "title": "Punisher #78 CGC 9.0 White Pages Survival Part 2 Val Mayerik Marvel 1993"
@@ -16,15 +32,22 @@
  "photos": [
   "CGC-4402565016-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 24.99,
+  "basis": "ESTIMATE: no graded sales found; check eBay solds"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

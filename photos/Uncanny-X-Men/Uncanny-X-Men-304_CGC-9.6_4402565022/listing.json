@@ -1,14 +1,38 @@
 {
  "sku": "CGC-4402565022",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "The Uncanny X-Men",
   "issue": "304",
   "grader": "CGC",
   "grade": "9.6",
-  "cert": "4402565022"
+  "cert": "4402565022",
+  "publisher": "Marvel",
+  "year": "1993",
+  "cover_date": "9/93",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Scott Lobdell",
+  "artist": "John Romita Jr., Jae Lee, Paul Smith, Brandon Peterson & Dan Green",
+  "cover_artist": "John Romita Jr.",
+  "credits": "Scott Lobdell story; John Romita Jr., Jae Lee, Paul Smith, Brandon Peterson & Dan Green art; John Romita Jr. cover",
+  "key_notes": [
+   "Wraparound cover with Magneto hologram",
+   "Magneto, Exodus & Acolytes appearance",
+   "Colossus leaves the X-Men",
+   "Fatal Attractions"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "X-Men",
+   "Magneto",
+   "Colossus"
+  ],
+  "features": [
+   "Hologram"
+  ]
  },
  "listing": {
   "title": "Uncanny X-Men #304 CGC 9.6 White Pages Magneto Hologram Fatal Attractions 1993"
@@ -16,15 +40,22 @@
  "photos": [
   "CGC-4402565022-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 49.99,
+  "basis": "9.6 sold $30–65"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

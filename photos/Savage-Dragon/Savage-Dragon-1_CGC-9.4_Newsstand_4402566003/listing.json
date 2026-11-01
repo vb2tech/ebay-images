@@ -1,14 +1,37 @@
 {
  "sku": "CGC-4402566003",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Savage Dragon",
   "issue": "1",
   "grader": "CGC",
   "grade": "9.4",
-  "cert": "4402566003"
+  "cert": "4402566003",
+  "publisher": "Image",
+  "year": "1992",
+  "cover_date": "7/92",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Erik Larsen",
+  "artist": "Erik Larsen",
+  "cover_artist": "Erik Larsen",
+  "credits": "Erik Larsen story; Erik Larsen art; Erik Larsen cover",
+  "key_notes": [
+   "Newsstand Edition",
+   "1st appearance of The Savage Dragon",
+   "Newsprint paper interior"
+  ],
+  "format": "Limited Series",
+  "characters": [
+   "Savage Dragon"
+  ],
+  "features": [
+   "Newsstand",
+   "First Appearance",
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Savage Dragon #1 CGC 9.4 Newsstand 1st Appearance Savage Dragon Larsen 1992"
@@ -16,15 +39,22 @@
  "photos": [
   "CGC-4402566003-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 34.99,
+  "basis": "9.2 about $30–40; newsstand typically a small premium"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

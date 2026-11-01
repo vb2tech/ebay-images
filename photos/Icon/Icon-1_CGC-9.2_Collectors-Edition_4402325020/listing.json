@@ -1,14 +1,38 @@
 {
  "sku": "CGC-4402325020",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Icon",
   "issue": "1",
   "grader": "CGC",
   "grade": "9.2",
-  "cert": "4402325020"
+  "cert": "4402325020",
+  "publisher": "DC / Milestone",
+  "year": "1993",
+  "cover_date": "5/93",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Dwayne McDuffie",
+  "artist": "M.D. Bright & Mike Gustovich",
+  "cover_artist": "Denys Cowan & Jimmy Palmiotti",
+  "credits": "Dwayne McDuffie story; M.D. Bright & Mike Gustovich art; Denys Cowan & Jimmy Palmiotti cover",
+  "key_notes": [
+   "Collector's Edition",
+   "1st appearance of Icon (Arnus) & Rocket (Raquel Ervin)",
+   "Poly-bag removed (per CGC label)"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Icon",
+   "Rocket"
+  ],
+  "features": [
+   "Collector's Edition",
+   "First Appearance",
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Icon #1 CGC 9.2 Collector's Edition 1st Icon & Rocket Milestone DC 1993"
@@ -16,15 +40,22 @@
  "photos": [
   "CGC-4402325020-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 29.99,
+  "basis": "Regular 9.2 about $26"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

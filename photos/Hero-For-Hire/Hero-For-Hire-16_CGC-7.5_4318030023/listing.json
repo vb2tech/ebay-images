@@ -1,14 +1,35 @@
 {
  "sku": "CGC-4318030023",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Hero For Hire",
   "issue": "16",
   "grader": "CGC",
   "grade": "7.5",
-  "cert": "4318030023"
+  "cert": "4318030023",
+  "publisher": "Marvel",
+  "year": "1973",
+  "cover_date": "12/73",
+  "pages": "Off-White to White",
+  "era": "Bronze Age (1970-83)",
+  "writer": "Tony Isabella",
+  "artist": "Billy Graham & Frank McLaughlin",
+  "cover_artist": "Billy Graham",
+  "credits": "Tony Isabella story; Billy Graham & Frank McLaughlin art; Billy Graham cover",
+  "key_notes": [
+   "1st appearance of Stiletto (Tom Stuart)",
+   "Title becomes Power Man with next issue"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Luke Cage",
+   "Stiletto"
+  ],
+  "features": [
+   "First Appearance"
+  ]
  },
  "listing": {
   "title": "Hero For Hire #16 CGC 7.5 OW-W 1st Stiletto Last Issue Before Power Man 1973"
@@ -16,15 +37,22 @@
  "photos": [
   "CGC-4318030023-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 39.99,
+  "basis": "6.0 about $29; 8.0–8.5 sold $30–86"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

@@ -1,14 +1,35 @@
 {
  "sku": "CGC-4001139006",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Jungle Action",
   "issue": "5",
   "grader": "CGC",
   "grade": "6.5",
-  "cert": "4001139006"
+  "cert": "4001139006",
+  "publisher": "Marvel",
+  "year": "1973",
+  "cover_date": "7/73",
+  "pages": "Off-White to White",
+  "era": "Bronze Age (1970-83)",
+  "writer": "Roy Thomas",
+  "artist": "John Buscema",
+  "cover_artist": "John Romita",
+  "credits": "Roy Thomas story; John Buscema art; John Romita cover",
+  "key_notes": [
+   "1st Black Panther in title",
+   "Man-Ape appearance"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Black Panther",
+   "Man-Ape"
+  ],
+  "features": [
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Jungle Action #5 CGC 6.5 OW-W 1st Black Panther in Title Man-Ape Romita 1973"
@@ -16,15 +37,22 @@
  "photos": [
   "CGC-4001139006-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 99.99,
+  "basis": "6.0–6.5 sold $68–125, mostly $80–100"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

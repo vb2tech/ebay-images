@@ -1,14 +1,31 @@
 {
  "sku": "CGC-3826217003",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Iron Man",
   "issue": "2",
   "grader": "CGC",
   "grade": "5.0",
-  "cert": "3826217003"
+  "cert": "3826217003",
+  "publisher": "Marvel",
+  "year": "1968",
+  "cover_date": "6/68",
+  "pages": "Off-White",
+  "era": "Silver Age (1956-69)",
+  "writer": "Archie Goodwin",
+  "artist": "Johnny Craig",
+  "cover_artist": "Johnny Craig",
+  "credits": "Archie Goodwin story; Johnny Craig art; Johnny Craig cover",
+  "key_notes": [
+   "\"Death\" of Drexel Cord",
+   "Letter from Bob Gale"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Iron Man"
+  ]
  },
  "listing": {
   "title": "Iron Man #2 CGC 5.0 OW Pages 1st Demolisher Johnny Craig Cover Marvel 1968"
@@ -16,15 +33,22 @@
  "photos": [
   "CGC-3826217003-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 89.99,
+  "basis": "4.5 sold $39–90; 6.0 sold $110–140 typical"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

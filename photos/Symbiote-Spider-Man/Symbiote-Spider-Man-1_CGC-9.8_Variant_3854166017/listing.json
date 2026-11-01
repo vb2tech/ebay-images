@@ -1,14 +1,34 @@
 {
  "sku": "CGC-3854166017",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Symbiote Spider-Man",
   "issue": "1",
   "grader": "CGC",
   "grade": "9.8",
-  "cert": "3854166017"
+  "cert": "3854166017",
+  "publisher": "Marvel",
+  "year": "2019",
+  "cover_date": "6/19",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Peter David",
+  "artist": "Greg Land & Jay Leisten",
+  "cover_artist": "Nick Bradshaw",
+  "credits": "Peter David story; Greg Land & Jay Leisten art; Nick Bradshaw cover",
+  "key_notes": [
+   "Bradshaw Variant Cover",
+   "Black costume Spider-Man"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Spider-Man"
+  ],
+  "features": [
+   "Variant Cover"
+  ]
  },
  "listing": {
   "title": "Symbiote Spider-Man #1 CGC 9.8 White Pages Nick Bradshaw Variant Cover 2019"
@@ -16,15 +36,22 @@
  "photos": [
   "CGC-3854166017-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 39.99,
+  "basis": "ESTIMATE: no CGC 9.8 sales found for this variant; check eBay solds"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

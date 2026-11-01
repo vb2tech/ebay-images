@@ -1,14 +1,31 @@
 {
  "sku": "CGC-4395366006",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Black Panther",
   "issue": "11",
   "grader": "CGC",
   "grade": "6.5",
-  "cert": "4395366006"
+  "cert": "4395366006",
+  "publisher": "Marvel",
+  "year": "1978",
+  "cover_date": "9/78",
+  "pages": "White",
+  "era": "Bronze Age (1970-83)",
+  "writer": "Jack Kirby",
+  "artist": "Jack Kirby & Mike Royer",
+  "cover_artist": "Jack Kirby & Joe Sinnott",
+  "credits": "Jack Kirby story; Jack Kirby & Mike Royer art; Jack Kirby & Joe Sinnott cover",
+  "key_notes": [
+   "Jack Kirby story, art & cover",
+   "Kiber the Cruel"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Black Panther"
+  ]
  },
  "listing": {
   "title": "Black Panther #11 CGC 6.5 White Pages Jack Kirby Story Art & Cover Marvel 1978"
@@ -16,15 +33,22 @@
  "photos": [
   "CGC-4395366006-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 26.99,
+  "basis": "6.0 about $24; 8.0 about $26"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

@@ -1,14 +1,36 @@
 {
  "sku": "CGC-4402566022",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Outsiders",
   "issue": "1",
   "grader": "CGC",
   "grade": "9.0",
-  "cert": "4402566022"
+  "cert": "4402566022",
+  "publisher": "DC",
+  "year": "2003",
+  "cover_date": "8/03",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Judd Winick",
+  "artist": "Tom Raney & Scott Hanna",
+  "cover_artist": "Tom Raney & Scott Hanna",
+  "credits": "Judd Winick story; Tom Raney & Scott Hanna art; Tom Raney & Scott Hanna cover",
+  "key_notes": [
+   "1st appearance of Thunder & Grace Choi"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Nightwing",
+   "Arsenal",
+   "Thunder",
+   "Grace"
+  ],
+  "features": [
+   "First Appearance"
+  ]
  },
  "listing": {
   "title": "Outsiders #1 CGC 9.0 White Pages 1st Appearance Thunder & Grace Choi DC 2003"
@@ -16,15 +38,22 @@
  "photos": [
   "CGC-4402566022-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 29.99,
+  "basis": "ESTIMATE: no graded sales found; check eBay solds"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

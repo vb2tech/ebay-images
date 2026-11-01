@@ -1,14 +1,35 @@
 {
  "sku": "CGC-4390953005",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Black Panther",
   "issue": "2",
   "grader": "CGC",
   "grade": "9.8",
-  "cert": "4390953005"
+  "cert": "4390953005",
+  "publisher": "Marvel",
+  "year": "2005",
+  "cover_date": "5/05",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Reginald Hudlin",
+  "artist": "John Romita Jr. & Klaus Janson",
+  "cover_artist": "Esad Ribic",
+  "credits": "Reginald Hudlin story; John Romita Jr. & Klaus Janson art; Esad Ribic cover",
+  "key_notes": [
+   "1st appearance of Shuri"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Shuri",
+   "Black Panther"
+  ],
+  "features": [
+   "First Appearance",
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Black Panther #2 CGC 9.8 White Pages 1st Appearance Shuri 2005 Marvel Key"
@@ -16,15 +37,22 @@
  "photos": [
   "CGC-4390953005-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 109.99,
+  "basis": "9.8 usually $80–115; sold $149.99 (9/2026)"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

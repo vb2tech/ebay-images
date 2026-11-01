@@ -1,14 +1,36 @@
 {
  "sku": "CGC-4402326014",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Venom: Funeral Pyre",
   "issue": "1",
   "grader": "CGC",
   "grade": "9.4",
-  "cert": "4402326014"
+  "cert": "4402326014",
+  "publisher": "Marvel",
+  "year": "1993",
+  "cover_date": "8/93",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Carl Potts",
+  "artist": "Tom Lyle",
+  "cover_artist": "Tom Lyle",
+  "credits": "Carl Potts story; Tom Lyle art; Tom Lyle cover",
+  "key_notes": [
+   "Punisher appearance",
+   "Holo-grafx cover"
+  ],
+  "format": "Limited Series",
+  "characters": [
+   "Venom",
+   "Punisher"
+  ],
+  "features": [
+   "Foil Cover",
+   "1st Edition"
+  ]
  },
  "listing": {
   "title": "Venom: Funeral Pyre #1 CGC 9.4 White Pages Holo-Grafx Cover Punisher 1993"
@@ -16,15 +38,22 @@
  "photos": [
   "CGC-4402326014-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 24.99,
+  "basis": "9.6 sold $20–50"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

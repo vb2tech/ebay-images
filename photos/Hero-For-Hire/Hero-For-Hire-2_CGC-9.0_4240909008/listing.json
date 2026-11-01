@@ -1,14 +1,37 @@
 {
  "sku": "CGC-4240909008",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Hero For Hire",
   "issue": "2",
   "grader": "CGC",
   "grade": "9.0",
-  "cert": "4240909008"
+  "cert": "4240909008",
+  "publisher": "Marvel",
+  "year": "1972",
+  "cover_date": "8/72",
+  "pages": "Off-White to White",
+  "era": "Bronze Age (1970-83)",
+  "writer": "Archie Goodwin",
+  "artist": "George Tuska & Billy Graham",
+  "cover_artist": "John Romita",
+  "credits": "Archie Goodwin story; George Tuska & Billy Graham art; John Romita cover",
+  "key_notes": [
+   "1st appearance of Claire Temple",
+   "Origin of Luke Cage retold",
+   "Diamondback appearance"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Luke Cage",
+   "Claire Temple"
+  ],
+  "features": [
+   "First Appearance",
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Hero For Hire #2 CGC 9.0 OW-W 1st Appearance Claire Temple Luke Cage 1972 Key"
@@ -16,15 +39,22 @@
  "photos": [
   "CGC-4240909008-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 109.99,
+  "basis": "8.0 about $78; 9.2 about $121"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

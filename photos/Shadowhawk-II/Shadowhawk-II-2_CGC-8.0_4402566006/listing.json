@@ -1,14 +1,35 @@
 {
  "sku": "CGC-4402566006",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Shadowhawk II",
   "issue": "2",
   "grader": "CGC",
   "grade": "8.0",
-  "cert": "4402566006"
+  "cert": "4402566006",
+  "publisher": "Image",
+  "year": "1993",
+  "cover_date": "7/93",
+  "pages": "White",
+  "era": "Modern Age (1992-Now)",
+  "writer": "Jim Valentino",
+  "artist": "Jim Valentino & Chance Wolf",
+  "cover_artist": "Jim Valentino & Chance Wolf",
+  "credits": "Jim Valentino story; Jim Valentino & Chance Wolf art; Jim Valentino & Chance Wolf cover",
+  "key_notes": [
+   "Identity of Shadowhawk revealed",
+   "Embossed silver foil logo",
+   "Gatefold centerfold"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Shadowhawk"
+  ],
+  "features": [
+   "Foil Cover"
+  ]
  },
  "listing": {
   "title": "Shadowhawk II #2 CGC 8.0 White Pages Identity Revealed Silver Foil Image 1993"
@@ -16,15 +37,22 @@
  "photos": [
   "CGC-4402566006-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 19.99,
+  "basis": "ESTIMATE: no graded sales found; check eBay solds"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

@@ -1,14 +1,35 @@
 {
  "sku": "CGC-4351192001",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Falcon",
   "issue": "1",
   "grader": "CGC",
   "grade": "9.8",
-  "cert": "4351192001"
+  "cert": "4351192001",
+  "publisher": "Marvel",
+  "year": "1983",
+  "cover_date": "11/83",
+  "pages": "White",
+  "era": "Bronze Age (1970-83)",
+  "writer": "Jim Owsley",
+  "artist": "Paul Smith & Vince Colletta",
+  "cover_artist": "Paul Smith",
+  "credits": "Jim Owsley story; Paul Smith & Vince Colletta art; Paul Smith cover",
+  "key_notes": [
+   "Falcon's first solo series",
+   "#1 of a four-issue limited series"
+  ],
+  "format": "Limited Series",
+  "characters": [
+   "Falcon"
+  ],
+  "features": [
+   "1st Edition",
+   "Key Issue"
+  ]
  },
  "listing": {
   "title": "Falcon Limited Series #1 CGC 9.8 White Pages Marvel 1983 Paul Smith Cover"
@@ -16,15 +37,22 @@
  "photos": [
   "CGC-4351192001-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 64.99,
+  "basis": "9.8 sold $43–79, usually about $60"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }

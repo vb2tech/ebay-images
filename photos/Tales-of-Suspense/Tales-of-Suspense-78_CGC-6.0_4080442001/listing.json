@@ -1,14 +1,33 @@
 {
  "sku": "CGC-4080442001",
  "template": "comics-259104",
- "status": "new",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Tales of Suspense",
   "issue": "78",
   "grader": "CGC",
   "grade": "6.0",
-  "cert": "4080442001"
+  "cert": "4080442001",
+  "publisher": "Marvel",
+  "year": "1966",
+  "cover_date": "6/66",
+  "pages": "Off-White",
+  "era": "Silver Age (1956-69)",
+  "writer": "Stan Lee",
+  "artist": "Gene Colan & Jack Abel",
+  "cover_artist": "Jack Kirby & Frank Giacoia",
+  "credits": "Stan Lee story; Gene Colan & Jack Abel art; Jack Kirby & Frank Giacoia cover",
+  "key_notes": [
+   "Nick Fury, Ultimo & Mandarin appearance",
+   "Captain America & Nick Fury together"
+  ],
+  "format": "Single Issue",
+  "characters": [
+   "Captain America",
+   "Iron Man",
+   "Nick Fury"
+  ]
  },
  "listing": {
   "title": "Tales of Suspense #78 CGC 6.0 Captain America Nick Fury Iron Man Kirby 1966"
@@ -16,15 +35,22 @@
  "photos": [
   "CGC-4080442001-1.jpg"
  ],
- "pricing": {},
- "needs_review": [
-  "details: migrate from project listings/books.json (characters, creators, era, price)"
- ],
+ "pricing": {
+  "final": 64.99,
+  "basis": "6.0 about $59; 8.0 about $66"
+ },
+ "needs_review": [],
  "history": [
   {
    "date": "2026-11-01",
    "event": "backfilled",
-   "status": "new"
+   "status": "priced"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101",
+   "action": "Draft"
   }
  ]
 }
