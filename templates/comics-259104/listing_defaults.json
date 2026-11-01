@@ -1,0 +1,35 @@
+{
+  "_about": "Seller choices applied to every graded-comic listing by create-bulk-upload. Edit here, not in the scripts.",
+  "action": "Draft",
+  "category_name": "/Collectibles/Comic Books & Memorabilia/Comics/Comics & Graphic Novels",
+  "category_id": "259104",
+  "format": "FixedPrice",
+  "duration": "GTC",
+  "quantity": 1,
+  "best_offer_enabled": 1,
+  "location": "",
+  "shipping": {
+    "profile_contains": "($17.99)",
+    "fallback_legacy": {"service": "USPSParcel", "cost": 17.99, "priority": 1, "max_dispatch": 3}
+  },
+  "return_profile_startswith": "No returns accepted - ",
+  "payment_profile_contains": "eBay Payments",
+  "genre": "Superheroes",
+  "tradition": "US Comics",
+  "publisher_names": {
+    "Marvel": "Marvel Comics", "DC": "DC Comics", "DC / Milestone": "Milestone Media",
+    "Milestone": "Milestone Media", "Image": "Image Comics", "Megaton": "Megaton Comics",
+    "Dark Horse": "Dark Horse Comics", "IDW": "IDW Publishing", "Boom": "BOOM! Studios"
+  },
+  "grader_names": {
+    "CGC": "Certified Guaranty Company (CGC)",
+    "CBCS": "Comic Book Certification Service (CBCS)",
+    "PGX": "Professional Grading Experts (PGX)",
+    "PSA": "Professional Sports Authenticator (PSA)"
+  },
+  "team_series": {"Avengers": "Avengers", "Alpha Flight": "Alpha Flight", "The Uncanny X-Men": "X-Men", "Uncanny X-Men": "X-Men", "X-Men": "X-Men", "Justice League": "Justice League", "Fantastic Four": "Fantastic Four"},
+  "series_aliases": {"Cable: Blood and Metal": "Cable - Blood and Metal"},
+  "condition_from_grade": [[9.0, "2750-Like New"], [6.0, "4000-Very Good"], [4.0, "5000-Good"], [0.0, "6000-Acceptable"]],
+  "include_extension_aspects": false,
+  "description_footer": "You will receive the exact slab pictured. Photos show the actual item. Ships double-boxed with slab protection."
+}

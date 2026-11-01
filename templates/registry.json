@@ -1,0 +1,17 @@
+{
+  "_about": "One entry per listing group (an eBay category template + our rules for it). Skills pick the group from an item's 'template' field, or from the Category ID in a filled file. See docs/templates/README.md for how to add a group.",
+  "default": "comics-259104",
+  "groups": {
+    "comics-259104": {
+      "label": "Graded comics (CGC / CBCS / PGX)",
+      "category_ids": ["259104"],
+      "category_name": "/Collectibles/Comic Books & Memorabilia/Comics/Comics & Graphic Novels",
+      "template": "templates/comics-259104/template.xlsx",
+      "rules": "templates/comics-259104/field_rules.json",
+      "defaults": "templates/comics-259104/listing_defaults.json",
+      "fields_doc": "docs/templates/comics-259104-fields.md",
+      "downloaded": "2026-10-28",
+      "notes": "Comics only. Business-policy dropdowns are baked in at download time; re-download after changing policies."
+    }
+  }
+}
