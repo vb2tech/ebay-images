@@ -107,7 +107,7 @@ footer{font-size:13px;color:var(--mute)}
   <div class="eyebrow">Ebay Listing creation · project map</div>
   <h1>eBay Listing Ecosystem</h1>
   <p class="lede">Photos of graded comics go in; a validated eBay bulk upload file comes out. This page lists every skill, what each new chat can reach, where item data lives, and what's still open. It's updated whenever the pipeline changes.</p>
-  <div class="meta"><span>Version <span class="mono">0.2</span></span><span>Updated <span class="mono">2026-11-01</span></span><span>Repo <span class="mono">vb2tech/ebay-images</span></span></div>
+  <div class="meta"><span>Version <span class="mono">0.3</span></span><span>Updated <span class="mono">2026-11-01</span></span><span>Repo <span class="mono">vb2tech/ebay-images</span></span></div>
 </header>
 
 <div class="stats" aria-label="Current numbers">
@@ -196,13 +196,13 @@ footer{font-size:13px;color:var(--mute)}
   <div class="band"><h2 id="status-h">Item status</h2><span class="tag">listing.json → status</span></div>
   <div class="body">
     <div class="track">
-      <div class="state cur"><b>new</b><span class="count">102</span><span>in repo, no approved price</span></div><span class="sep">→</span>
+      <div class="state"><b>new</b><span class="count">0</span><span>in repo, no approved price</span></div><span class="sep">→</span>
       <div class="state"><b>priced</b><span class="count">0</span><span>price approved</span></div><span class="sep">→</span>
-      <div class="state"><b>exported</b><span class="count">0</span><span>in an upload file</span></div><span class="sep">→</span>
+      <div class="state cur"><b>exported</b><span class="count">101</span><span>in an upload file</span></div><span class="sep">→</span>
       <div class="state"><b>uploaded</b><span class="count">0</span><span>confirmed on eBay</span></div>
-      <div class="state"><b>hold · sold</b><span class="count">0</span><span>set aside or gone</span></div>
+      <div class="state"><b>hold · sold</b><span class="count">1</span><span>set aside or gone</span></div>
     </div>
-    <p class="mute">The 102 existing books were moved to <code>new</code> on 2026-11-01. Their older details and prices are still in the project's <code>books.json</code> and need migrating before they can be priced and exported.</p>
+    <p class="mute">The 102 existing books got their details and prices from the project's <code>books.json</code> on 2026-11-01. 101 are in batch <code>2026-11-01_comics-259104_101</code> awaiting upload; Avengers #221 (CGC 4.0) is on hold until its cert number is read from the slab.</p>
   </div>
 </section>
 
@@ -225,7 +225,8 @@ footer{font-size:13px;color:var(--mute)}
       <li><span class="chip warn">You</span><div>Create a <b>$17.99 shipping policy</b> on eBay and download a fresh template. Without it the file mixes old-style shipping columns with your policies.</div></li>
       <li><span class="chip warn">You</span><div>Give an <b>item location</b> (City, ST). Drafts don't need it; live listings do.</div></li>
       <li><span class="chip warn">You</span><div>Save the <b>Create bulk upload</b> skill card.</div></li>
-      <li><span class="chip idle">Claude</span><div>Migrate details and prices for the 102 books from <code>books.json</code>.</div></li>
+      <li><span class="chip warn">You</span><div>Upload batch <code>2026-11-01_comics-259104_101</code> in Seller Hub, then say it went up or share eBay's results file.</div></li>
+      <li><span class="chip warn">You</span><div>Send the <b>cert number</b> for Avengers #221 (CGC 4.0) so it can join the next batch.</div></li>
       <li><span class="chip idle">Check</span><div>First upload: confirm eBay accepts <code>Draft</code> in this template (its dropdown only lists <code>Add</code>).</div></li>
     </ul>
   </div>
@@ -250,6 +251,7 @@ footer{font-size:13px;color:var(--mute)}
 <section class="slab" aria-labelledby="log-h">
   <div class="band"><h2 id="log-h">Changelog</h2><span class="tag">newest first</span></div>
   <div class="body log">
+    <div><time>2026-11-01</time><span>Migrated details and prices for all 102 books from <code>books.json</code> (status <code>priced</code>). Built batch <code>2026-11-01_comics-259104_101</code>: 101 listings, PASS WITH WARNINGS. Avengers #221 on hold (no cert).</span></div>
     <div><time>2026-11-01</time><span>Marked the 102 existing books as not uploaded (<code>new</code>). Published this page.</span></div>
     <div><time>2026-11-01</time><span>Built the four skills, the template registry (comics first), the field guide and rules, and per-item <code>listing.json</code> status tracking.</span></div>
     <div><time>2026-10-28</time><span>Downloaded the comics category template from Seller Hub.</span></div>
