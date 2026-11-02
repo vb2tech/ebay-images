@@ -107,7 +107,7 @@ footer{font-size:13px;color:var(--mute)}
   <div class="eyebrow">Ebay Listing creation · project map</div>
   <h1>eBay Listing Ecosystem</h1>
   <p class="lede">Photos of graded comics go in; a validated eBay bulk upload file comes out. This page lists every skill, what each new chat can reach, where item data lives, and what's still open. It's updated whenever the pipeline changes.</p>
-  <div class="meta"><span>Version <span class="mono">0.4</span></span><span>Updated <span class="mono">2026-11-01</span></span><span>Repo <span class="mono">vb2tech/ebay-images</span></span></div>
+  <div class="meta"><span>Version <span class="mono">0.5</span></span><span>Updated <span class="mono">2026-11-01</span></span><span>Repo <span class="mono">vb2tech/ebay-images</span></span></div>
 </header>
 
 <div class="stats" aria-label="Current numbers">
@@ -197,12 +197,12 @@ footer{font-size:13px;color:var(--mute)}
   <div class="body">
     <div class="track">
       <div class="state"><b>new</b><span class="count">0</span><span>in repo, no approved price</span></div><span class="sep">→</span>
-      <div class="state cur"><b>priced</b><span class="count">101</span><span>price approved</span></div><span class="sep">→</span>
-      <div class="state"><b>exported</b><span class="count">0</span><span>in an upload file</span></div><span class="sep">→</span>
+      <div class="state"><b>priced</b><span class="count">0</span><span>price approved</span></div><span class="sep">→</span>
+      <div class="state cur"><b>exported</b><span class="count">101</span><span>in an upload file</span></div><span class="sep">→</span>
       <div class="state"><b>uploaded</b><span class="count">0</span><span>confirmed on eBay</span></div>
       <div class="state"><b>hold · sold</b><span class="count">1</span><span>set aside or gone</span></div>
     </div>
-    <p class="mute">The 102 existing books got their details and prices from the project's <code>books.json</code> on 2026-11-01. Batch <code>2026-11-01_comics-259104_101</code> (101 books) was rejected by eBay because the category template doesn't accept the <code>Draft</code> action, so all 101 are back at <code>priced</code>; Avengers #221 (CGC 4.0) is on hold until its cert number is read from the slab.</p>
+    <p class="mute">The 102 existing books got their details and prices from the project's <code>books.json</code> on 2026-11-01. Batch <code>2026-11-01_comics-259104_101</code> (101 books) was rejected by eBay because the category template doesn't accept the <code>Draft</code> action, so the 101 were rebuilt as a drafts CSV in batch <code>2026-11-01_comics-259104_101b</code>, awaiting upload; Avengers #221 (CGC 4.0) is on hold until its cert number is read from the slab.</p>
   </div>
 </section>
 
@@ -225,7 +225,8 @@ footer{font-size:13px;color:var(--mute)}
       <li><span class="chip warn">You</span><div>Create a <b>$17.99 shipping policy</b> on eBay and download a fresh template. Without it the file mixes old-style shipping columns with your policies.</div></li>
       <li><span class="chip warn">You</span><div>Give an <b>item location</b> (City, ST). Drafts don't need it; live listings do.</div></li>
       <li><span class="chip warn">You</span><div>Save the <b>Create bulk upload</b> skill card.</div></li>
-      <li><span class="chip warn">You</span><div>Choose how to resend the 101 books: <code>Add</code> in this template (goes live, needs a location) or eBay's separate drafts CSV.</div></li>
+      <li><span class="chip warn">You</span><div>Upload <code>2026-11-01_comics-259104_101b_drafts.csv</code> in Seller Hub, then share eBay's results file.</div></li>
+      <li><span class="chip idle">Claude</span><div>Teach the validator eBay's drafts CSV layout (it currently applies live-listing rules to it).</div></li>
       <li><span class="chip warn">You</span><div>Send the <b>cert number</b> for Avengers #221 (CGC 4.0) so it can join the next batch.</div></li>
       <li><span class="chip ok">Answered</span><div>eBay does <b>not</b> accept <code>Draft</code> in this category template (BAF.Error.5).</div></li>
     </ul>
@@ -251,6 +252,7 @@ footer{font-size:13px;color:var(--mute)}
 <section class="slab" aria-labelledby="log-h">
   <div class="band"><h2 id="log-h">Changelog</h2><span class="tag">newest first</span></div>
   <div class="body log">
+    <div><time>2026-11-01</time><span>Create bulk upload now also writes a drafts CSV (eBay's drafts header, word conditions) when the action is <code>Draft</code>. Rebuilt the 101 books as batch <code>2026-11-01_comics-259104_101b</code>.</span></div>
     <div><time>2026-11-01</time><span>eBay rejected all 101 rows of batch <code>2026-11-01_comics-259104_101</code>: <code>Draft</code> isn't a valid action in the category template. Items back to <code>priced</code>; fixed the results reader for eBay's <code>CustomLabel</code> column.</span></div>
     <div><time>2026-11-01</time><span>Migrated details and prices for all 102 books from <code>books.json</code> (status <code>priced</code>). Built batch <code>2026-11-01_comics-259104_101</code>: 101 listings, PASS WITH WARNINGS. Avengers #221 on hold (no cert).</span></div>
     <div><time>2026-11-01</time><span>Marked the 102 existing books as not uploaded (<code>new</code>). Published this page.</span></div>
