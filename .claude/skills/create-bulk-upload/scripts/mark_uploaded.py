@@ -25,9 +25,11 @@ def main():
     if a.results:
         with open(a.results, newline="", encoding="utf-8-sig") as f:
             rows = [r for r in csv.reader(f)]
-        hi = next(i for i, r in enumerate(rows) if any("sku" in c.lower() or "custom label" in c.lower() for c in r))
+        # eBay's results file names the column "CustomLabel"; templates say "Custom label (SKU)".
+        norm = lambda c: c.lower().replace(" ", "").replace("_", "")
+        hi = next(i for i, r in enumerate(rows) if any("sku" in norm(c) or "customlabel" in norm(c) for c in r))
         h = [c.lower() for c in rows[hi]]
-        sk = next(i for i, c in enumerate(h) if "sku" in c or "custom label" in c)
+        sk = next(i for i, c in enumerate(h) if "sku" in norm(c) or "customlabel" in norm(c))
         st = [i for i, c in enumerate(h) if any(w in c for w in ("status", "result", "error", "message"))]
         for r in rows[hi + 1:]:
             if len(r) > sk and r[sk]:

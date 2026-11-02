@@ -14,7 +14,7 @@ Category template: **Comics & Graphic Novels, category 259104** (Seller Hub → 
 
 | Column | Rule |
 |---|---|
-| `*Action(...)` | `Add` publishes live (only value in this template's dropdown). `Draft` sends to the Drafts folder; it comes from eBay's drafts template and is what the earlier pipeline used. |
+| `*Action(...)` | `Add` publishes live (only value in this template's dropdown). `Draft` sends to the Drafts folder; it comes from eBay's drafts template and is what the earlier pipeline used. **Confirmed 2026-11-01: this category template rejects `Draft` (`BAF.Error.5 Unable to find Task Action Id for task Draft`, batch 2026-11-01_comics-259104_101). Use `Add` here; drafts need eBay's separate drafts CSV.** |
 | Category ID | `259104`. In the template it's a formula off Category name, so keep the cached value. |
 | Category name | `/Collectibles/Comic Books & Memorabilia/Comics/Comics & Graphic Novels` |
 | Title | ≤ 80 characters |

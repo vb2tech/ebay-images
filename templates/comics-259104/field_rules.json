@@ -21,7 +21,7 @@
     {"date": "2026-11-01", "change": "Initial bar: eBay minimum + all 14 PREFERRED item specifics we can read off a CGC/CBCS slab + SKU + Best Offer."}
   ],
   "fields": {
-    "Action":                       {"tier": "required", "allowed": ["Add", "Draft"], "notes": "Template dropdown lists only Add (publishes live). Draft is eBay's drafts-template action; the earlier pipeline used it. Draft is reported as INFO."},
+    "Action":                       {"tier": "required", "allowed": ["Add", "Draft"], "notes": "Template dropdown lists only Add (publishes live). Draft is eBay's drafts-template action; the earlier pipeline used it. Draft is reported as INFO. CONFIRMED 2026-11-01: eBay rejects Draft in this category template (BAF.Error.5); use Add here."},
     "Custom label (SKU)":           {"tier": "standard", "max_len": 50, "unique": true, "notes": "Our SKU = <Grader>-<cert>. Must match the photo filenames in the repo."},
     "Category ID":                  {"tier": "required", "type": "int", "max_len": 10, "notes": "Formula from Category name in the template; the cached value must be 259104."},
     "Category name":                {"tier": "required", "notes": "Drives the Category ID formula. Must be one of the template's Categories."},

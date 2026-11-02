@@ -1,7 +1,7 @@
 {
  "sku": "CGC-4402565017",
  "template": "comics-259104",
- "status": "exported",
+ "status": "priced",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Spider-Man 2099",
@@ -54,6 +54,12 @@
    "event": "exported",
    "batch": "2026-11-01_comics-259104_101",
    "action": "Draft"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "upload_failed",
+   "batch": "2026-11-01_comics-259104_101",
+   "reason": "Failure BAF.Error.5 Unable to find Task Action Id for task Draft"
   }
  ]
 }
