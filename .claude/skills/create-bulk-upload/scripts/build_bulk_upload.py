@@ -8,6 +8,9 @@ Usage (from the repo root):
 
 Picks items whose listing.json has status 'priced' (approved price, never exported) unless --sku is given.
 Writes uploads/<batch>/<batch>.xlsx + validation.md + validation.json + manifest.json.
+With action Draft it also writes uploads/<batch>/<batch>_drafts.csv in eBay's drafts layout (first line
+'#INFO,Version=0.0.2,Template= eBay-draft-listings-template_US'): eBay's category template rejects Draft
+(BAF.Error.5), so the CSV is the file to upload; the .xlsx stays as the validated source of the same rows.
 Only when the strict validation passes (no errors) are the items marked 'exported' (skip with --dry-run).
 Exit code: 0 ok, 1 validation failed, 3 nothing to build.
 """
@@ -25,6 +28,47 @@ def col_letter(i):
     while i:
         i, r = divmod(i - 1, 26); s = chr(65 + r) + s
     return s
+
+
+DRAFT_INFO = [
+    "#INFO,Version=0.0.2,Template= eBay-draft-listings-template_US",
+    "#INFO Action and Category ID are required fields. Set Action to Draft.",
+    "#INFO After the upload, finish the drafts at https://www.ebay.com/sh/lst/drafts",
+]
+DRAFT_ACTION = "Action(SiteID=US|Country=US|Currency=USD|Version=1193|CC=UTF-8)"
+# eBay's drafts file wants the condition as a word, not the numeric Condition ID.
+DRAFT_CONDITION = {"1000": "NEW", "1500": "NEW_OTHER", "2750": "LIKE_NEW", "3000": "USED_EXCELLENT",
+                   "4000": "USED_VERY_GOOD", "5000": "USED_GOOD", "6000": "USED_ACCEPTABLE"}
+
+
+def write_drafts_csv(path, rows, cols):
+    """rows: the same dicts that fill the .xlsx; cols: the C: item-specific columns in use."""
+    import csv
+    base = ["Custom label (SKU)", "Category ID", "Title", "Price", "Quantity", "Item photo URL", "Condition ID",
+            "Description", "Format", "Duration", "Best Offer Enabled", "Location",
+            "Shipping profile name", "Return profile name", "Payment profile name"]
+    used = [c for c in base + cols if any(_plain(r.get(_src(c))) not in ("", None) for r in rows)]
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        for line in DRAFT_INFO:
+            f.write(line + "\r\n")
+        w = csv.writer(f)
+        w.writerow([DRAFT_ACTION] + used)
+        for r in rows:
+            out = []
+            for c in used:
+                v = _plain(r.get(_src(c)))
+                if c == "Condition ID":
+                    v = DRAFT_CONDITION.get(str(v).split("-")[0], v)
+                out.append("" if v is None else v)
+            w.writerow(["Draft"] + out)
+
+
+def _src(c):
+    return "Start price" if c == "Price" else c
+
+
+def _plain(v):
+    return v[0] if isinstance(v, tuple) else v
 
 
 def main():
@@ -200,15 +244,25 @@ def main():
                 zo.write(os.path.join(work, name), name)
     shutil.rmtree(work, ignore_errors=True)
 
+    out_csv = None
+    if action == "Draft":
+        out_csv = os.path.join(outdir, f"{batch}_drafts.csv")
+        cspec = [h for h in header if h.startswith("C:") and (h in hdr or h in ext_cols)
+                 and (h not in ("C:Issue Number", "C:Features", "C:Cover Artist", "C:Language", "C:Signed",
+                                "C:Unit of Sale", "C:Vintage") or h in ext_cols)]
+        write_drafts_csv(out_csv, rows, cspec)
+
     # ---- validate (strict) against the repo
     md, js = os.path.join(outdir, "validation.md"), os.path.join(outdir, "validation.json")
     r = subprocess.run([sys.executable, "-I", VALIDATOR, out_xlsx, "--strict", "--group", G["name"],
                         "--repo", L.ROOT, "--md", md, "--json", js], capture_output=True, text=True)
     res = json.load(open(js))
-    json.dump({"batch": batch, "group": G["name"], "action": action, "file": os.path.relpath(out_xlsx, L.ROOT),
+    json.dump({"batch": batch, "group": G["name"], "action": action, "file": os.path.relpath(out_csv or out_xlsx, L.ROOT), "validated_xlsx": os.path.relpath(out_xlsx, L.ROOT),
                "verdict": res["verdict"], "items": manifest, "shipping_profile": ship or "(legacy columns)"},
               open(os.path.join(outdir, "manifest.json"), "w"), indent=1)
     print(f"{len(rows)} listings -> {os.path.relpath(out_xlsx, L.ROOT)}")
+    if out_csv:
+        print(f"Drafts upload file (upload this one) -> {os.path.relpath(out_csv, L.ROOT)}")
     print(f"Validation: {res['verdict']} ({res['errors']} errors, {res['warnings']} warnings) -> {os.path.relpath(md, L.ROOT)}")
     if res["verdict"] == "FAIL":
         print("Items NOT marked exported. Fix the listing.json files (or defaults) and rebuild.")

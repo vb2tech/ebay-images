@@ -1,7 +1,7 @@
 {
  "sku": "CGC-4395366006",
  "template": "comics-259104",
- "status": "priced",
+ "status": "exported",
  "lot": "pre-2026-11 backfill",
  "item": {
   "series": "Black Panther",
@@ -55,6 +55,12 @@
    "event": "upload_failed",
    "batch": "2026-11-01_comics-259104_101",
    "reason": "Failure BAF.Error.5 Unable to find Task Action Id for task Draft"
+  },
+  {
+   "date": "2026-11-01",
+   "event": "exported",
+   "batch": "2026-11-01_comics-259104_101b",
+   "action": "Draft"
   }
  ]
 }

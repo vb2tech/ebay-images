@@ -1,0 +1,617 @@
+{
+ "batch": "2026-11-01_comics-259104_101b",
+ "group": "comics-259104",
+ "action": "Draft",
+ "file": "uploads/2026-11-01_comics-259104_101b/2026-11-01_comics-259104_101b_drafts.csv",
+ "validated_xlsx": "uploads/2026-11-01_comics-259104_101b/2026-11-01_comics-259104_101b.xlsx",
+ "verdict": "PASS WITH WARNINGS",
+ "items": [
+  {
+   "sku": "CGC-4402566012",
+   "title": "Action Comics #684 CGC 8.5 White Pages Doomsday Death of Superman DC 1992",
+   "price": 16.99,
+   "folder": "photos/Action-Comics/Action-Comics-684_CGC-8.5_4402566012"
+  },
+  {
+   "sku": "CGC-4402566011",
+   "title": "Adventures of Superman #500 CGC 9.8 Collector's Edition 1st Steel Superboy 1993",
+   "price": 79.99,
+   "folder": "photos/Adventures-of-Superman/Adventures-of-Superman-500_CGC-9.8_Collectors-Edition_4402566011"
+  },
+  {
+   "sku": "CGC-4395366015",
+   "title": "Alpha Flight #11 CGC 8.5 White Pages Origin of Sasquatch John Byrne Marvel 1984",
+   "price": 27.99,
+   "folder": "photos/Alpha-Flight/Alpha-Flight-11_CGC-8.5_4395366015"
+  },
+  {
+   "sku": "CGC-4378570021",
+   "title": "Amazing Spider-Man #123 CGC 9.0 OW-W Luke Cage Gwen Stacy Funeral Romita 1973",
+   "price": 219.99,
+   "folder": "photos/Amazing-Spider-Man/Amazing-Spider-Man-123_CGC-9.0_4378570021"
+  },
+  {
+   "sku": "CGC-4390247010",
+   "title": "Amazing Spider-Man #257 CGC 8.5 White Pages 2nd Puma Black Suit Hobgoblin 1984",
+   "price": 36.99,
+   "folder": "photos/Amazing-Spider-Man/Amazing-Spider-Man-257_CGC-8.5_4390247010"
+  },
+  {
+   "sku": "CGC-4395366001",
+   "title": "Amazing Spider-Man #365 CGC 8.5 White Pages 1st Spider-Man 2099 Hologram 1992",
+   "price": 32.99,
+   "folder": "photos/Amazing-Spider-Man/Amazing-Spider-Man-365_CGC-8.5_4395366001"
+  },
+  {
+   "sku": "CGC-4402565019",
+   "title": "Amazing Spider-Man #375 CGC 9.2 1st Anne Weying She-Venom Gold Foil Cover 1993",
+   "price": 42.99,
+   "folder": "photos/Amazing-Spider-Man/Amazing-Spider-Man-375_CGC-9.2_4402565019"
+  },
+  {
+   "sku": "CGC-0292591030",
+   "title": "Avengers #32 CGC 9.0 OW-W Pages 1st Appearance Bill Foster Black Goliath 1966",
+   "price": 114.99,
+   "folder": "photos/Avengers/Avengers-32_CGC-9.0_0292591030"
+  },
+  {
+   "sku": "CGC-4110979006",
+   "title": "Avengers #62 CGC 5.5 1st Appearance Man-Ape M'Baku Black Panther 1969 Key",
+   "price": 64.99,
+   "folder": "photos/Avengers/Avengers-62_CGC-5.5_4110979006"
+  },
+  {
+   "sku": "CGC-4395366006",
+   "title": "Black Panther #11 CGC 6.5 White Pages Jack Kirby Story Art & Cover Marvel 1978",
+   "price": 26.99,
+   "folder": "photos/Black-Panther/Black-Panther-11_CGC-6.5_4395366006"
+  },
+  {
+   "sku": "CGC-0285192020",
+   "title": "Black Panther #1 CGC 9.8 White Pages Ta-Nehisi Coates 1st Comic Work 2016",
+   "price": 44.99,
+   "folder": "photos/Black-Panther/Black-Panther-1_CGC-9.8_0285192020"
+  },
+  {
+   "sku": "CGC-4289836007",
+   "title": "Black Panther #1 CGC 9.8 Mayhew Virgin Variant East Side Comics Exclusive 2022",
+   "price": 59.99,
+   "folder": "photos/Black-Panther/Black-Panther-1_CGC-9.8_Virgin-Variant_4289836007"
+  },
+  {
+   "sku": "CGC-4390953005",
+   "title": "Black Panther #2 CGC 9.8 White Pages 1st Appearance Shuri 2005 Marvel Key",
+   "price": 109.99,
+   "folder": "photos/Black-Panther/Black-Panther-2_CGC-9.8_4390953005"
+  },
+  {
+   "sku": "CGC-4395366007",
+   "title": "Black Panther #5 CGC 6.0 White Pages Jack Kirby Story Art & Cover Marvel 1977",
+   "price": 29.99,
+   "folder": "photos/Black-Panther/Black-Panther-5_CGC-6.0_4395366007"
+  },
+  {
+   "sku": "CGC-4402325024",
+   "title": "Blood Syndicate #1 CGC 9.0 Poly-Bagged Edition 1st Issue Milestone DC 1993",
+   "price": 19.99,
+   "folder": "photos/Blood-Syndicate/Blood-Syndicate-1_CGC-9.0_Poly-Bagged_4402325024"
+  },
+  {
+   "sku": "CGC-4402325025",
+   "title": "Blood Syndicate #1 CGC 9.2 Poly-Bagged Edition 1st Issue Milestone DC 1993",
+   "price": 24.99,
+   "folder": "photos/Blood-Syndicate/Blood-Syndicate-1_CGC-9.2_Poly-Bagged_4402325025"
+  },
+  {
+   "sku": "CGC-4402325022",
+   "title": "Blood Syndicate #1 CGC 9.4 White Pages 1st Issue Milestone DC 1993 McDuffie",
+   "price": 29.99,
+   "folder": "photos/Blood-Syndicate/Blood-Syndicate-1_CGC-9.4_4402325022"
+  },
+  {
+   "sku": "CGC-4402325023",
+   "title": "Blood Syndicate #1 CGC 9.6 White Pages 1st Issue Milestone DC 1993 McDuffie",
+   "price": 39.99,
+   "folder": "photos/Blood-Syndicate/Blood-Syndicate-1_CGC-9.6_4402325023"
+  },
+  {
+   "sku": "CGC-4402566020",
+   "title": "Cable: Blood and Metal #1 CGC 9.4 White Pages Cable vs Stryfe Romita Jr 1992",
+   "price": 29.99,
+   "folder": "photos/Cable-Blood-and-Metal/Cable-Blood-and-Metal-1_CGC-9.4_4402566020"
+  },
+  {
+   "sku": "CGC-4402565010",
+   "title": "Cable #1 CGC 8.5 White Pages Embossed Gold Foil Wraparound Cover Marvel 1993",
+   "price": 34.99,
+   "folder": "photos/Cable/Cable-1_CGC-8.5_4402565010"
+  },
+  {
+   "sku": "CGC-4402565011",
+   "title": "Cable #1 CGC 9.6 White Pages Embossed Gold Foil Wraparound Cover Marvel 1993",
+   "price": 54.99,
+   "folder": "photos/Cable/Cable-1_CGC-9.6_4402565011"
+  },
+  {
+   "sku": "CGC-4402565025",
+   "title": "Cage #1 CGC 9.0 White Pages Luke Cage Returns Marvel 1992 Dwayne Turner",
+   "price": 19.99,
+   "folder": "photos/Cage/Cage-1_CGC-9.0_4402565025"
+  },
+  {
+   "sku": "CGC-3898541001",
+   "title": "Captain America #117 CGC 5.5 Origin & 1st Appearance Falcon Sam Wilson 1969 Key",
+   "price": 249.99,
+   "folder": "photos/Captain-America/Captain-America-117_CGC-5.5_3898541001"
+  },
+  {
+   "sku": "CGC-4395366013",
+   "title": "Captain America #333 CGC 9.6 WP John Walker Becomes Captain America 1987 Key",
+   "price": 94.99,
+   "folder": "photos/Captain-America/Captain-America-333_CGC-9.6_4395366013"
+  },
+  {
+   "sku": "CGC-4395366011",
+   "title": "Captain America #337 CGC 9.2 Newsstand 1st Steve Rogers as The Captain 1988",
+   "price": 39.99,
+   "folder": "photos/Captain-America/Captain-America-337_CGC-9.2_Newsstand_4395366011"
+  },
+  {
+   "sku": "CGC-4395366010",
+   "title": "Captain America #341 CGC 9.2 Cap vs Iron Man 1st Left-Winger Right-Winger 1988",
+   "price": 29.99,
+   "folder": "photos/Captain-America/Captain-America-341_CGC-9.2_4395366010"
+  },
+  {
+   "sku": "CGC-4395366009",
+   "title": "Captain America #354 CGC 9.4 White Pages 1st John Walker as U.S. Agent 1989",
+   "price": 64.99,
+   "folder": "photos/Captain-America/Captain-America-354_CGC-9.4_4395366009"
+  },
+  {
+   "sku": "CGC-4402565003",
+   "title": "Excalibur #71 CGC 9.6 White Pages Nightcrawler Hologram Cover Fatal Attractions",
+   "price": 59.99,
+   "folder": "photos/Excalibur/Excalibur-71_CGC-9.6_4402565003"
+  },
+  {
+   "sku": "CGC-4351192001",
+   "title": "Falcon Limited Series #1 CGC 9.8 White Pages Marvel 1983 Paul Smith Cover",
+   "price": 64.99,
+   "folder": "photos/Falcon/Falcon-1_CGC-9.8_4351192001"
+  },
+  {
+   "sku": "CGC-4402326005",
+   "title": "Hardware #1 CGC 9.4 White Pages 1st App Curtis Metcalf Milestone DC 1993",
+   "price": 29.99,
+   "folder": "photos/Hardware/Hardware-1_CGC-9.4_4402326005"
+  },
+  {
+   "sku": "CGC-4402326008",
+   "title": "Hardware #1 CGC 9.4 Collector's Edition 1st App Curtis Metcalf Milestone 1993",
+   "price": 29.99,
+   "folder": "photos/Hardware/Hardware-1_CGC-9.4_Collectors-Edition_4402326008"
+  },
+  {
+   "sku": "CGC-4402326006",
+   "title": "Hardware #1 CGC 9.8 White Pages 1st App Curtis Metcalf Milestone DC 1993",
+   "price": 69.99,
+   "folder": "photos/Hardware/Hardware-1_CGC-9.8_4402326006"
+  },
+  {
+   "sku": "CGC-4402326007",
+   "title": "Hardware #1 CGC 9.8 Collector's Edition 1st App Curtis Metcalf Milestone 1993",
+   "price": 69.99,
+   "folder": "photos/Hardware/Hardware-1_CGC-9.8_Collectors-Edition_4402326007"
+  },
+  {
+   "sku": "CGC-4318030023",
+   "title": "Hero For Hire #16 CGC 7.5 OW-W 1st Stiletto Last Issue Before Power Man 1973",
+   "price": 39.99,
+   "folder": "photos/Hero-For-Hire/Hero-For-Hire-16_CGC-7.5_4318030023"
+  },
+  {
+   "sku": "CGC-3955200002",
+   "title": "Hero For Hire #1 CGC 5.5 Origin & 1st Appearance Luke Cage Diamondback 1972 Key",
+   "price": 229.99,
+   "folder": "photos/Hero-For-Hire/Hero-For-Hire-1_CGC-5.5_3955200002"
+  },
+  {
+   "sku": "CGC-4240909008",
+   "title": "Hero For Hire #2 CGC 9.0 OW-W 1st Appearance Claire Temple Luke Cage 1972 Key",
+   "price": 109.99,
+   "folder": "photos/Hero-For-Hire/Hero-For-Hire-2_CGC-9.0_4240909008"
+  },
+  {
+   "sku": "CGC-4402325018",
+   "title": "Icon #1 CGC 6.5 White Pages 1st Appearance Icon & Rocket Milestone DC 1993",
+   "price": 14.99,
+   "folder": "photos/Icon/Icon-1_CGC-6.5_4402325018"
+  },
+  {
+   "sku": "CGC-4390247008",
+   "title": "Icon #1 CGC 8.5 Collector's Edition 1st Icon & Rocket Milestone DC 1993",
+   "price": 22.99,
+   "folder": "photos/Icon/Icon-1_CGC-8.5_Collectors-Edition_4390247008"
+  },
+  {
+   "sku": "CGC-4390247007",
+   "title": "Icon #1 CGC 9.2 Collector's Edition 1st Icon & Rocket Milestone DC 1993",
+   "price": 29.99,
+   "folder": "photos/Icon/Icon-1_CGC-9.2_Collectors-Edition_4390247007"
+  },
+  {
+   "sku": "CGC-4402325019",
+   "title": "Icon #1 CGC 9.2 Collector's Edition 1st Icon & Rocket Milestone DC 1993",
+   "price": 29.99,
+   "folder": "photos/Icon/Icon-1_CGC-9.2_Collectors-Edition_4402325019"
+  },
+  {
+   "sku": "CGC-4402325020",
+   "title": "Icon #1 CGC 9.2 Collector's Edition 1st Icon & Rocket Milestone DC 1993",
+   "price": 29.99,
+   "folder": "photos/Icon/Icon-1_CGC-9.2_Collectors-Edition_4402325020"
+  },
+  {
+   "sku": "CGC-4402325021",
+   "title": "Icon #1 CGC 9.2 Collector's Edition 1st Icon & Rocket Milestone DC 1993",
+   "price": 29.99,
+   "folder": "photos/Icon/Icon-1_CGC-9.2_Collectors-Edition_4402325021"
+  },
+  {
+   "sku": "CGC-3826217003",
+   "title": "Iron Man #2 CGC 5.0 OW Pages 1st Demolisher Johnny Craig Cover Marvel 1968",
+   "price": 89.99,
+   "folder": "photos/Iron-Man/Iron-Man-2_CGC-5.0_3826217003"
+  },
+  {
+   "sku": "CGC-3803292017",
+   "title": "Jungle Action & Black Panther #16 CGC 9.2 White Pages Venomm Gil Kane Cover 1975",
+   "price": 59.99,
+   "folder": "photos/Jungle-Action/Jungle-Action-16_CGC-9.2_3803292017"
+  },
+  {
+   "sku": "CGC-4001139006",
+   "title": "Jungle Action #5 CGC 6.5 OW-W 1st Black Panther in Title Man-Ape Romita 1973",
+   "price": 99.99,
+   "folder": "photos/Jungle-Action/Jungle-Action-5_CGC-6.5_4001139006"
+  },
+  {
+   "sku": "CGC-4381818023",
+   "title": "Megaton #1 CGC 8.5 White Pages Erik Larsen 1st Pro Work 1st Vanguard 1983",
+   "price": 124.99,
+   "folder": "photos/Megaton/Megaton-1_CGC-8.5_4381818023"
+  },
+  {
+   "sku": "CGC-2027208005",
+   "title": "Naomi #1 CGC 9.8 White Pages 1st Appearance Naomi Bendis Jamal Campbell DC 2019",
+   "price": 39.99,
+   "folder": "photos/Naomi/Naomi-1_CGC-9.8_2027208005"
+  },
+  {
+   "sku": "CGC-3918508010",
+   "title": "Nine Rings of Wu-Tang #1 CGC 9.8 White Pages Jay Anacleto Cover Image 1999",
+   "price": 59.99,
+   "folder": "photos/Nine-Rings-of-Wu-Tang/Nine-Rings-of-Wu-Tang-1_CGC-9.8_3918508010"
+  },
+  {
+   "sku": "CGC-3982467025",
+   "title": "Nubia & the Amazons #1 CGC 9.8 White Pages Alitha Martinez Cover DC 2021",
+   "price": 39.99,
+   "folder": "photos/Nubia-and-the-Amazons/Nubia-and-the-Amazons-1_CGC-9.8_3982467025"
+  },
+  {
+   "sku": "CGC-4402566022",
+   "title": "Outsiders #1 CGC 9.0 White Pages 1st Appearance Thunder & Grace Choi DC 2003",
+   "price": 29.99,
+   "folder": "photos/Outsiders/Outsiders-1_CGC-9.0_4402566022"
+  },
+  {
+   "sku": "CGC-4402566019",
+   "title": "Pitt #1 CGC 9.6 White Pages 1st Appearance of Pitt Dale Keown Image 1993",
+   "price": 39.99,
+   "folder": "photos/Pitt/Pitt-1_CGC-9.6_4402566019"
+  },
+  {
+   "sku": "CGC-4402566017",
+   "title": "Pitt #1 CGC 9.8 White Pages 1st Appearance of Pitt Dale Keown Image 1993",
+   "price": 64.99,
+   "folder": "photos/Pitt/Pitt-1_CGC-9.8_4402566017"
+  },
+  {
+   "sku": "CGC-0781539014",
+   "title": "Power Man and Iron Fist #66 CGC 8.5 White Pages 2nd Sabretooth Frank Miller 1980",
+   "price": 119.99,
+   "folder": "photos/Power-Man-and-Iron-Fist/Power-Man-and-Iron-Fist-66_CGC-8.5_0781539014"
+  },
+  {
+   "sku": "CGC-4148914003",
+   "title": "Power Man and Iron Fist #66 CGC 9.4 Newsstand 2nd Sabretooth Frank Miller 1980",
+   "price": 169.99,
+   "folder": "photos/Power-Man-and-Iron-Fist/Power-Man-and-Iron-Fist-66_CGC-9.4_Newsstand_4148914003"
+  },
+  {
+   "sku": "CGC-4240909007",
+   "title": "Power Man #18 CGC 9.0 OW-W 1st Appearance Steeplejack Luke Cage Marvel 1974",
+   "price": 54.99,
+   "folder": "photos/Power-Man/Power-Man-18_CGC-9.0_4240909007"
+  },
+  {
+   "sku": "CGC-4240909005",
+   "title": "Power Man #19 CGC 9.0 OW-W 1st Appearance Cottonmouth Luke Cage Marvel 1974",
+   "price": 44.99,
+   "folder": "photos/Power-Man/Power-Man-19_CGC-9.0_4240909005"
+  },
+  {
+   "sku": "CGC-0308911006",
+   "title": "Power Man #19 CGC 9.2 OW-W 1st Appearance Cottonmouth Luke Cage Marvel 1974",
+   "price": 54.99,
+   "folder": "photos/Power-Man/Power-Man-19_CGC-9.2_0308911006"
+  },
+  {
+   "sku": "CGC-4349130023",
+   "title": "Power Man #24 CGC 7.5 White Pages 1st Black Goliath Bill Foster Marvel 1975",
+   "price": 109.99,
+   "folder": "photos/Power-Man/Power-Man-24_CGC-7.5_4349130023"
+  },
+  {
+   "sku": "CGC-1448927011",
+   "title": "Power Man #24 CGC 9.4 White Pages 1st Black Goliath Bill Foster Marvel 1975",
+   "price": 174.99,
+   "folder": "photos/Power-Man/Power-Man-24_CGC-9.4_1448927011"
+  },
+  {
+   "sku": "CGC-4395354006",
+   "title": "Punisher 2099 #1 CGC 9.8 White Pages Blue Foil Cover Marvel 1993 Pat Mills",
+   "price": 59.99,
+   "folder": "photos/Punisher-2099/Punisher-2099-1_CGC-9.8_4395354006"
+  },
+  {
+   "sku": "CGC-4395366014",
+   "title": "Punisher #1 CGC 9.6 Newsstand White Pages 1st Ongoing Series Marvel 1987",
+   "price": 89.99,
+   "folder": "photos/Punisher/Punisher-1_CGC-9.6_Newsstand_4395366014"
+  },
+  {
+   "sku": "CGC-4402565013",
+   "title": "Punisher #77 CGC 8.0 White Pages Survival Part 1 Val Mayerik Marvel 1993",
+   "price": 19.99,
+   "folder": "photos/Punisher/Punisher-77_CGC-8.0_4402565013"
+  },
+  {
+   "sku": "CGC-4402565014",
+   "title": "Punisher #77 CGC 8.5 White Pages Survival Part 1 Val Mayerik Marvel 1993",
+   "price": 24.99,
+   "folder": "photos/Punisher/Punisher-77_CGC-8.5_4402565014"
+  },
+  {
+   "sku": "CGC-4402565015",
+   "title": "Punisher #77 CGC 8.5 White Pages Survival Part 1 Val Mayerik Marvel 1993",
+   "price": 24.99,
+   "folder": "photos/Punisher/Punisher-77_CGC-8.5_4402565015"
+  },
+  {
+   "sku": "CGC-4402565012",
+   "title": "Punisher #77 CGC 9.2 White Pages Survival Part 1 Val Mayerik Marvel 1993",
+   "price": 29.99,
+   "folder": "photos/Punisher/Punisher-77_CGC-9.2_4402565012"
+  },
+  {
+   "sku": "CGC-4402565016",
+   "title": "Punisher #78 CGC 9.0 White Pages Survival Part 2 Val Mayerik Marvel 1993",
+   "price": 24.99,
+   "folder": "photos/Punisher/Punisher-78_CGC-9.0_4402565016"
+  },
+  {
+   "sku": "CGC-4402566003",
+   "title": "Savage Dragon #1 CGC 9.4 Newsstand 1st Appearance Savage Dragon Larsen 1992",
+   "price": 34.99,
+   "folder": "photos/Savage-Dragon/Savage-Dragon-1_CGC-9.4_Newsstand_4402566003"
+  },
+  {
+   "sku": "CGC-4402566005",
+   "title": "Savage Dragon #1 CGC 9.6 Newsstand 1st Appearance Savage Dragon Larsen 1992",
+   "price": 44.99,
+   "folder": "photos/Savage-Dragon/Savage-Dragon-1_CGC-9.6_Newsstand_4402566005"
+  },
+  {
+   "sku": "CGC-4402566006",
+   "title": "Shadowhawk II #2 CGC 8.0 White Pages Identity Revealed Silver Foil Image 1993",
+   "price": 19.99,
+   "folder": "photos/Shadowhawk-II/Shadowhawk-II-2_CGC-8.0_4402566006"
+  },
+  {
+   "sku": "CBCS-20-4052170-007",
+   "title": "Spawn #311 CBCS 9.8 B&W McFarlane Retailer Incentive Chadwick Boseman Tribute",
+   "price": 64.99,
+   "folder": "photos/Spawn/Spawn-311_CBCS-9.8_Retailer-Incentive_20-4052170-007"
+  },
+  {
+   "sku": "CGC-4402565017",
+   "title": "Spider-Man 2099 #1 CGC 9.2 White Pages Origin Miguel O'Hara Red Foil 1992",
+   "price": 39.99,
+   "folder": "photos/Spider-Man-2099/Spider-Man-2099-1_CGC-9.2_4402565017"
+  },
+  {
+   "sku": "CGC-4402325016",
+   "title": "Spider-Man 2099 #1 CGC 9.4 White Pages Origin Miguel O'Hara Red Foil 1992",
+   "price": 49.99,
+   "folder": "photos/Spider-Man-2099/Spider-Man-2099-1_CGC-9.4_4402325016"
+  },
+  {
+   "sku": "CGC-4402325015",
+   "title": "Spider-Man 2099 #1 CGC 9.8 White Pages Origin Miguel O'Hara Red Foil 1992",
+   "price": 124.99,
+   "folder": "photos/Spider-Man-2099/Spider-Man-2099-1_CGC-9.8_4402325015"
+  },
+  {
+   "sku": "CGC-4402326010",
+   "title": "Spider-Man: Carnage Trade Paperback CGC 9.2 Collects ASM 361-363 1st Carnage 93",
+   "price": 49.99,
+   "folder": "photos/Spider-Man-Carnage/Spider-Man-Carnage-nn_CGC-9.2_TPB_4402326010"
+  },
+  {
+   "sku": "CGC-4402565008",
+   "title": "Spider-Man #13 CGC 8.5 White Pages Black Costume McFarlane Cover Homage 1991",
+   "price": 44.99,
+   "folder": "photos/Spider-Man/Spider-Man-13_CGC-8.5_4402565008"
+  },
+  {
+   "sku": "CGC-4402565009",
+   "title": "Spider-Man #1 CGC 8.0 Newsstand Poly-Bagged Edition McFarlane Lizard 1990",
+   "price": 54.99,
+   "folder": "photos/Spider-Man/Spider-Man-1_CGC-8.0_Poly-Bagged_4402565009"
+  },
+  {
+   "sku": "CGC-4402326001",
+   "title": "Static #1 CGC 8.0 White Pages 1st Appearance Static Virgil Hawkins Milestone 93",
+   "price": 42.99,
+   "folder": "photos/Static/Static-1_CGC-8.0_4402326001"
+  },
+  {
+   "sku": "CGC-4390247003",
+   "title": "Static #1 CGC 9.2 Collector's Edition 1st Appearance Static Milestone DC 1993",
+   "price": 52.99,
+   "folder": "photos/Static/Static-1_CGC-9.2_Collectors-Edition_4390247003"
+  },
+  {
+   "sku": "CGC-4402326004",
+   "title": "Static #1 CGC 9.4 Collector's Edition 1st Appearance Static Milestone DC 1993",
+   "price": 64.99,
+   "folder": "photos/Static/Static-1_CGC-9.4_Collectors-Edition_4402326004"
+  },
+  {
+   "sku": "CGC-4390247004",
+   "title": "Static #1 CGC 9.6 White Pages 1st Appearance Static Virgil Hawkins Milestone 93",
+   "price": 84.99,
+   "folder": "photos/Static/Static-1_CGC-9.6_4390247004"
+  },
+  {
+   "sku": "CGC-3854166017",
+   "title": "Symbiote Spider-Man #1 CGC 9.8 White Pages Nick Bradshaw Variant Cover 2019",
+   "price": 39.99,
+   "folder": "photos/Symbiote-Spider-Man/Symbiote-Spider-Man-1_CGC-9.8_Variant_3854166017"
+  },
+  {
+   "sku": "CGC-4402324001",
+   "title": "Tales of Suspense #74 CGC 8.5 OW-W Captain America Iron Man Kirby Cover 1966",
+   "price": 129.99,
+   "folder": "photos/Tales-of-Suspense/Tales-of-Suspense-74_CGC-8.5_4402324001"
+  },
+  {
+   "sku": "CGC-4080442001",
+   "title": "Tales of Suspense #78 CGC 6.0 Captain America Nick Fury Iron Man Kirby 1966",
+   "price": 64.99,
+   "folder": "photos/Tales-of-Suspense/Tales-of-Suspense-78_CGC-6.0_4080442001"
+  },
+  {
+   "sku": "CGC-4192838007",
+   "title": "Tales of Suspense #96 CGC 5.5 OW-W Captain America Nick Fury Kirby Cover 1967",
+   "price": 34.99,
+   "folder": "photos/Tales-of-Suspense/Tales-of-Suspense-96_CGC-5.5_4192838007"
+  },
+  {
+   "sku": "CGC-4392011016",
+   "title": "Ultimate Black Panther #1 CGC 9.8 Caselli 1:10 Design Variant Marvel 2024",
+   "price": 59.99,
+   "folder": "photos/Ultimate-Black-Panther/Ultimate-Black-Panther-1_CGC-9.8_Variant_4392011016"
+  },
+  {
+   "sku": "CGC-4402565006",
+   "title": "Uncanny X-Men #304 CGC 9.6 White Pages Magneto Hologram Fatal Attractions 1993",
+   "price": 49.99,
+   "folder": "photos/Uncanny-X-Men/Uncanny-X-Men-304_CGC-9.6_4402565006"
+  },
+  {
+   "sku": "CGC-4402565022",
+   "title": "Uncanny X-Men #304 CGC 9.6 White Pages Magneto Hologram Fatal Attractions 1993",
+   "price": 49.99,
+   "folder": "photos/Uncanny-X-Men/Uncanny-X-Men-304_CGC-9.6_4402565022"
+  },
+  {
+   "sku": "CGC-4402326014",
+   "title": "Venom: Funeral Pyre #1 CGC 9.4 White Pages Holo-Grafx Cover Punisher 1993",
+   "price": 24.99,
+   "folder": "photos/Venom-Funeral-Pyre/Venom-Funeral-Pyre-1_CGC-9.4_4402326014"
+  },
+  {
+   "sku": "CGC-4402326012",
+   "title": "Venom: Funeral Pyre #1 CGC 9.6 White Pages Holo-Grafx Cover Punisher 1993",
+   "price": 39.99,
+   "folder": "photos/Venom-Funeral-Pyre/Venom-Funeral-Pyre-1_CGC-9.6_4402326012"
+  },
+  {
+   "sku": "CGC-4402326015",
+   "title": "Venom: Funeral Pyre #1 CGC 9.6 White Pages Holo-Grafx Cover Punisher 1993",
+   "price": 39.99,
+   "folder": "photos/Venom-Funeral-Pyre/Venom-Funeral-Pyre-1_CGC-9.6_4402326015"
+  },
+  {
+   "sku": "CGC-4402325007",
+   "title": "Venom: Lethal Protector #1 CGC 9.0 White Pages Red Holo-Grafx Foil 1st Solo 1993",
+   "price": 44.99,
+   "folder": "photos/Venom-Lethal-Protector/Venom-Lethal-Protector-1_CGC-9.0_4402325007"
+  },
+  {
+   "sku": "CGC-4402325010",
+   "title": "Venom: Lethal Protector #1 CGC 9.0 White Pages Red Holo-Grafx Foil 1st Solo 1993",
+   "price": 44.99,
+   "folder": "photos/Venom-Lethal-Protector/Venom-Lethal-Protector-1_CGC-9.0_4402325010"
+  },
+  {
+   "sku": "CGC-4402325001",
+   "title": "Venom: Lethal Protector #1 CGC 9.4 White Pages Red Holo-Grafx Foil 1st Solo 1993",
+   "price": 54.99,
+   "folder": "photos/Venom-Lethal-Protector/Venom-Lethal-Protector-1_CGC-9.4_4402325001"
+  },
+  {
+   "sku": "CGC-4402325005",
+   "title": "Venom: Lethal Protector #1 CGC 9.4 White Pages Red Holo-Grafx Foil 1st Solo 1993",
+   "price": 54.99,
+   "folder": "photos/Venom-Lethal-Protector/Venom-Lethal-Protector-1_CGC-9.4_4402325005"
+  },
+  {
+   "sku": "CGC-4402325002",
+   "title": "Venom: Lethal Protector #1 CGC 9.6 White Pages Red Holo-Grafx Foil 1st Solo 1993",
+   "price": 69.99,
+   "folder": "photos/Venom-Lethal-Protector/Venom-Lethal-Protector-1_CGC-9.6_4402325002"
+  },
+  {
+   "sku": "CGC-4402325004",
+   "title": "Venom: Lethal Protector #1 CGC 9.6 White Pages Red Holo-Grafx Foil 1st Solo 1993",
+   "price": 69.99,
+   "folder": "photos/Venom-Lethal-Protector/Venom-Lethal-Protector-1_CGC-9.6_4402325004"
+  },
+  {
+   "sku": "CGC-4402325008",
+   "title": "Venom: Lethal Protector #1 CGC 9.6 White Pages Red Holo-Grafx Foil 1st Solo 1993",
+   "price": 69.99,
+   "folder": "photos/Venom-Lethal-Protector/Venom-Lethal-Protector-1_CGC-9.6_4402325008"
+  },
+  {
+   "sku": "CGC-4402325014",
+   "title": "Venom: Lethal Protector #1 CGC 9.6 White Pages Red Holo-Grafx Foil 1st Solo 1993",
+   "price": 69.99,
+   "folder": "photos/Venom-Lethal-Protector/Venom-Lethal-Protector-1_CGC-9.6_4402325014"
+  },
+  {
+   "sku": "CGC-4402325003",
+   "title": "Venom: Lethal Protector #1 CGC 9.8 White Pages Red Holo-Grafx Foil 1st Solo 1993",
+   "price": 139.99,
+   "folder": "photos/Venom-Lethal-Protector/Venom-Lethal-Protector-1_CGC-9.8_4402325003"
+  },
+  {
+   "sku": "CGC-4395354009",
+   "title": "Wolverine #1 CGC 7.0 White Pages 1st Wolverine as Patch 1988 Marvel Claremont",
+   "price": 59.99,
+   "folder": "photos/Wolverine/Wolverine-1_CGC-7.0_4395354009"
+  },
+  {
+   "sku": "CGC-4395354008",
+   "title": "Wolverine #1 CGC 7.5 White Pages 1st Wolverine as Patch 1988 Marvel Claremont",
+   "price": 64.99,
+   "folder": "photos/Wolverine/Wolverine-1_CGC-7.5_4395354008"
+  }
+ ],
+ "shipping_profile": "(legacy columns)"
+}
