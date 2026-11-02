@@ -107,7 +107,7 @@ footer{font-size:13px;color:var(--mute)}
   <div class="eyebrow">Ebay Listing creation · project map</div>
   <h1>eBay Listing Ecosystem</h1>
   <p class="lede">Photos of graded comics go in; a validated eBay bulk upload file comes out. This page lists every skill, what each new chat can reach, where item data lives, and what's still open. It's updated whenever the pipeline changes.</p>
-  <div class="meta"><span>Version <span class="mono">0.5</span></span><span>Updated <span class="mono">2026-11-01</span></span><span>Repo <span class="mono">vb2tech/ebay-images</span></span></div>
+  <div class="meta"><span>Version <span class="mono">0.6</span></span><span>Updated <span class="mono">2026-11-01</span></span><span>Repo <span class="mono">vb2tech/ebay-images</span></span></div>
 </header>
 
 <div class="stats" aria-label="Current numbers">
@@ -252,6 +252,7 @@ footer{font-size:13px;color:var(--mute)}
 <section class="slab" aria-labelledby="log-h">
   <div class="band"><h2 id="log-h">Changelog</h2><span class="tag">newest first</span></div>
   <div class="body log">
+    <div><time>2026-11-01</time><span>Brightened all 110 photos in place (same URLs; mean brightness 63 → 101) and added <code>tools/brighten_photos.py</code> for future lots.</span></div>
     <div><time>2026-11-01</time><span>Create bulk upload now also writes a drafts CSV (eBay's drafts header, word conditions) when the action is <code>Draft</code>. Rebuilt the 101 books as batch <code>2026-11-01_comics-259104_101b</code>.</span></div>
     <div><time>2026-11-01</time><span>eBay rejected all 101 rows of batch <code>2026-11-01_comics-259104_101</code>: <code>Draft</code> isn't a valid action in the category template. Items back to <code>priced</code>; fixed the results reader for eBay's <code>CustomLabel</code> column.</span></div>
     <div><time>2026-11-01</time><span>Migrated details and prices for all 102 books from <code>books.json</code> (status <code>priced</code>). Built batch <code>2026-11-01_comics-259104_101</code>: 101 listings, PASS WITH WARNINGS. Avengers #221 on hold (no cert).</span></div>
