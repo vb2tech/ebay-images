@@ -22,6 +22,8 @@ except ImportError:  # pragma: no cover
     sys.exit("python-calamine is required: pip install python-calamine --break-system-packages")
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+import photo_check  # noqa: E402  (photo shows the right slab)
 IMG_EXT = (".jpg", ".jpeg", ".png", ".gif", ".webp", ".bmp", ".tif", ".tiff", ".heic", ".avif")
 
 
@@ -317,6 +319,15 @@ def validate(path, rules, template=None, strict=False, repo=None, check_urls=Fal
                     fn = os.path.basename(urllib.parse.urlparse(u).path)
                     if not fn.startswith(sku + "-"):
                         A("WARNING", "Item photo URL", f"Photo file {fn} doesn't match SKU {sku}.")
+            # photo shows the slab the listing names (label reads recorded by photo_check.py)
+            if repo and prefix:
+                locals_ = [os.path.join(repo, urllib.parse.unquote(u[len(prefix):])) for u in parts if u.startswith(prefix)]
+                try:
+                    for sev, msg, fix in photo_check.row_issues(repo, sku, locals_, strict):
+                        A(sev, "Item photo URL", msg, fix)
+                except Exception as e:  # noqa: BLE001
+                    A("ERROR" if strict else "WARNING", "Item photo URL", f"Photo-label check couldn't run ({e}).",
+                      "Install Pillow, then re-run.")
 
         # --- condition
         cond = g(vals, "Condition ID")

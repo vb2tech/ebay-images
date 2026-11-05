@@ -66,6 +66,40 @@
    "event": "exported",
    "batch": "2026-11-04_comics-259104_18",
    "action": "Draft"
+  },
+  {
+   "date": "2026-11-04",
+   "event": "exported",
+   "batch": "2026-11-04_comics-259104_18",
+   "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402565014-1.jpg": {
+   "fp": "b382c6ecc078e0f0ede4c86cc878cbd8ce98edb8ee78ed18efd8eaf0eed06fd8",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Punisher",
+    "issue": "77",
+    "grade": "8.5",
+    "cert": "4402565014"
+   }
+  },
+  "CGC-4402565014-2.jpg": {
+   "fp": "b382c6ecc078e0f0ede4c86cc878cbd8ce98edb8ee78ed18efd8eaf0eed06fd8",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Punisher",
+    "issue": "77",
+    "grade": "8.5",
+    "cert": "4402565014"
+   }
+  }
+ }
 }

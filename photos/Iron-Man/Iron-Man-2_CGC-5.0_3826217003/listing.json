@@ -62,5 +62,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-3826217003-1.jpg": {
+   "fp": "c250df98e07ce4ccf68cee6ccb0ccb1cec6cef6ce73862f873dc76d46ffc3ff9",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Iron Man",
+    "issue": "2",
+    "grade": "5.0",
+    "cert": "3826217003"
+   }
+  }
+ }
 }

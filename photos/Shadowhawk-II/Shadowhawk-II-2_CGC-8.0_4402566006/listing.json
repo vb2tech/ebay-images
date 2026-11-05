@@ -71,6 +71,27 @@
    "event": "exported",
    "batch": "2026-11-04_comics-259104_18",
    "action": "Draft"
+  },
+  {
+   "date": "2026-11-04",
+   "event": "exported",
+   "batch": "2026-11-04_comics-259104_18",
+   "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402566006-1.jpg": {
+   "fp": "d180e250e1c0e180e748ed18ec70ed30ef50e950ead0641064d16bc06fe83ffb",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Shadowhawk II",
+    "issue": "2",
+    "grade": "8.0",
+    "cert": "4402566006"
+   }
+  }
+ }
 }

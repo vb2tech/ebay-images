@@ -67,5 +67,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402566022-1.jpg": {
+   "fp": "de00cf4cc8a4a0b4b634fa74d0d4d4f4cdf0edf0eb70ebd07fd17fe96ff93bf3",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Outsiders",
+    "issue": "1",
+    "grade": "9.0",
+    "cert": "4402566022"
+   }
+  }
+ }
 }

@@ -66,5 +66,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4351192001-1.jpg": {
+   "fp": "ee0083c0d1e0de60c984c4c89c509ed092909db09770d1b0cfb0fd80e9a0ff01",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Falcon Limited Series",
+    "issue": "1",
+    "grade": "9.8",
+    "cert": "4351192001"
+   }
+  }
+ }
 }

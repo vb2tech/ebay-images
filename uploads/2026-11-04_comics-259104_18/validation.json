@@ -2,16 +2,8 @@
  "verdict": "PASS WITH WARNINGS",
  "errors": 0,
  "warnings": 25,
- "notes": 36,
+ "notes": 18,
  "findings": [
-  {
-   "severity": "INFO",
-   "row": 5,
-   "sku": "CGC-4402566017",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
-  },
   {
    "severity": "INFO",
    "row": 5,
@@ -40,14 +32,6 @@
    "severity": "INFO",
    "row": 6,
    "sku": "CGC-4395354006",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
-  },
-  {
-   "severity": "INFO",
-   "row": 6,
-   "sku": "CGC-4395354006",
    "column": "Action",
    "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
    "fix": ""
@@ -64,14 +48,6 @@
    "severity": "INFO",
    "row": 7,
    "sku": "CGC-4402565013",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
-  },
-  {
-   "severity": "INFO",
-   "row": 7,
-   "sku": "CGC-4402565013",
    "column": "Action",
    "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
    "fix": ""
@@ -88,14 +64,6 @@
    "severity": "INFO",
    "row": 8,
    "sku": "CGC-4402565014",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
-  },
-  {
-   "severity": "INFO",
-   "row": 8,
-   "sku": "CGC-4402565014",
    "column": "Action",
    "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
    "fix": ""
@@ -112,14 +80,6 @@
    "severity": "INFO",
    "row": 9,
    "sku": "CGC-4402565015",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
-  },
-  {
-   "severity": "INFO",
-   "row": 9,
-   "sku": "CGC-4402565015",
    "column": "Action",
    "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
    "fix": ""
@@ -136,14 +96,6 @@
    "severity": "INFO",
    "row": 10,
    "sku": "CGC-4402565012",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
-  },
-  {
-   "severity": "INFO",
-   "row": 10,
-   "sku": "CGC-4402565012",
    "column": "Action",
    "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
    "fix": ""
@@ -160,14 +112,6 @@
    "severity": "INFO",
    "row": 11,
    "sku": "CGC-4402565016",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
-  },
-  {
-   "severity": "INFO",
-   "row": 11,
-   "sku": "CGC-4402565016",
    "column": "Action",
    "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
    "fix": ""
@@ -184,14 +128,6 @@
    "severity": "INFO",
    "row": 12,
    "sku": "CGC-4402566003",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
-  },
-  {
-   "severity": "INFO",
-   "row": 12,
-   "sku": "CGC-4402566003",
    "column": "Action",
    "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
    "fix": ""
@@ -208,14 +144,6 @@
    "severity": "INFO",
    "row": 13,
    "sku": "CGC-4402566005",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
-  },
-  {
-   "severity": "INFO",
-   "row": 13,
-   "sku": "CGC-4402566005",
    "column": "Action",
    "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
    "fix": ""
@@ -232,14 +160,6 @@
    "severity": "INFO",
    "row": 14,
    "sku": "CGC-4402566006",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
-  },
-  {
-   "severity": "INFO",
-   "row": 14,
-   "sku": "CGC-4402566006",
    "column": "Action",
    "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
    "fix": ""
@@ -256,14 +176,6 @@
    "severity": "INFO",
    "row": 15,
    "sku": "CGC-4402565017",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
-  },
-  {
-   "severity": "INFO",
-   "row": 15,
-   "sku": "CGC-4402565017",
    "column": "Action",
    "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
    "fix": ""
@@ -280,14 +192,6 @@
    "severity": "INFO",
    "row": 16,
    "sku": "CGC-4402325016",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
-  },
-  {
-   "severity": "INFO",
-   "row": 16,
-   "sku": "CGC-4402325016",
    "column": "Action",
    "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
    "fix": ""
@@ -304,14 +208,6 @@
    "severity": "INFO",
    "row": 17,
    "sku": "CGC-4402325015",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
-  },
-  {
-   "severity": "INFO",
-   "row": 17,
-   "sku": "CGC-4402325015",
    "column": "Action",
    "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
    "fix": ""
@@ -323,14 +219,6 @@
    "column": "Shipping service 1 option",
    "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
    "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
-  },
-  {
-   "severity": "INFO",
-   "row": 18,
-   "sku": "CGC-4402565008",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
   },
   {
    "severity": "INFO",
@@ -360,14 +248,6 @@
    "severity": "INFO",
    "row": 19,
    "sku": "CGC-4402565009",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
-  },
-  {
-   "severity": "INFO",
-   "row": 19,
-   "sku": "CGC-4402565009",
    "column": "Action",
    "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
    "fix": ""
@@ -379,14 +259,6 @@
    "column": "Shipping service 1 option",
    "message": "Legacy shipping columns are mixed with return/payment policies. eBay's template says not to use these columns once you're on business policies; the row may fail or get an auto-made policy.",
    "fix": "Create a shipping policy with this rate on eBay, download a fresh template, and use Shipping profile name."
-  },
-  {
-   "severity": "INFO",
-   "row": 20,
-   "sku": "CGC-4402325007",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
   },
   {
    "severity": "INFO",
@@ -416,14 +288,6 @@
    "severity": "INFO",
    "row": 21,
    "sku": "CGC-4402325010",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
-  },
-  {
-   "severity": "INFO",
-   "row": 21,
-   "sku": "CGC-4402325010",
    "column": "Action",
    "message": "Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts.",
    "fix": ""
@@ -443,14 +307,6 @@
    "column": "C:Artist/Writer",
    "message": "'Sam de la Rosa' differs from eBay's value only by case.",
    "fix": "Did you mean 'Sam De La Rosa'?"
-  },
-  {
-   "severity": "INFO",
-   "row": 22,
-   "sku": "CGC-4402325001",
-   "column": "Location",
-   "message": "Location is empty. Fine for a Draft, required before the draft can go live.",
-   "fix": ""
   },
   {
    "severity": "INFO",
@@ -597,7 +453,7 @@
   "Best Offer Auto Accept Price": 0,
   "Minimum Best Offer Price": 0,
   "Immediate pay required": 0,
-  "Location": 0,
+  "Location": 18,
   "Shipping service 1 option": 18,
   "Shipping service 1 cost": 18,
   "Shipping service 1 priority": 18,

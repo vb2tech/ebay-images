@@ -55,5 +55,20 @@
    "event": "held: cert number unreadable on label; needs cert before export",
    "status": "hold"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-AVENGERS221-4.0-1.jpg": {
+   "fp": "dc60e158f0e9d0e2d064d91ccf48c648e6a8e6e8ed68716873f87ef06fd03ffc",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match-no-cert",
+   "reason": "cert unreadable; series, issue and grade match",
+   "label": {
+    "title": "Avengers",
+    "issue": "221",
+    "grade": "4.0",
+    "cert": "UNREADABLE"
+   }
+  }
+ }
 }

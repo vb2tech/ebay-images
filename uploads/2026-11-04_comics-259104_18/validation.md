@@ -3,7 +3,7 @@
 **File:** `2026-11-04_comics-259104_18.xlsx`  
 **Listings:** 18  
 **Mode:** strict (project standard enforced)  
-**Errors:** 0 · **Warnings:** 25 · **Notes:** 36
+**Errors:** 0 · **Warnings:** 25 · **Notes:** 18
 
 Safe to upload. Review the warnings; they won't block eBay but may hurt the listing.
 
@@ -23,7 +23,6 @@ Safe to upload. Review the warnings; they won't block eBay but may hurt the list
 | Rows | SKU | Column | Problem | Fix |
 |---|---|---|---|---|
 | 5, 6, 7, 8, 9, 10, 11, 12 +10 more | CGC-4395354006 +17 | Action | Draft: rows go to your Drafts folder (not this template's own dropdown value). Confirm the upload results show them as drafts. |  |
-| 5, 6, 7, 8, 9, 10, 11, 12 +10 more | CGC-4395354006 +17 | Location | Location is empty. Fine for a Draft, required before the draft can go live. |  |
 
 ## Field coverage
 
@@ -37,7 +36,7 @@ Safe to upload. Review the warnings; they won't block eBay but may hurt the list
 | Duration | required | 18/18 |
 | Format | required | 18/18 |
 | Item photo URL | required | 18/18 |
-| Location | required | 0/18 |
+| Location | required | 18/18 |
 | Quantity | required | 18/18 |
 | Start price | required | 18/18 |
 | Title | required | 18/18 |

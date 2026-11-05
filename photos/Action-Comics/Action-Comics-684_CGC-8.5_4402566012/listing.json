@@ -63,5 +63,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402566012-1.jpg": {
+   "fp": "c007c881bf00e9d8b870a4709a70cfb0ec91ed11eb51ebb1e8b1edf0dde0cfa3",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Action Comics",
+    "issue": "684",
+    "grade": "8.5",
+    "cert": "4402566012"
+   }
+  }
+ }
 }

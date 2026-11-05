@@ -62,5 +62,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-3803292017-1.jpg": {
+   "fp": "d200cfc4e15ae8bae5bae528dcdcdae4fc6cedd4ef18eab0f3f877f06fe97ff9",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Jungle Action & Black Panther",
+    "issue": "16",
+    "grade": "9.2",
+    "cert": "3803292017"
+   }
+  }
+ }
 }

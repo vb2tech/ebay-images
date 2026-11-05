@@ -66,5 +66,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402565010-1.jpg": {
+   "fp": "49b0dd80d268d0d0dc70d868da58cc68eb28eb38ec9867e877f87ec06fd03fc0",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Cable",
+    "issue": "1",
+    "grade": "8.5",
+    "cert": "4402565010"
+   }
+  }
+ }
 }

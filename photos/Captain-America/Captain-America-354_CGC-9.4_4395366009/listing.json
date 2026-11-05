@@ -65,5 +65,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4395366009-1.jpg": {
+   "fp": "9b80e460a0c8b9d8b064a66cc698cdd0ccd0dfb0ca90cb30f7d0f5c0df807f81",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Captain America",
+    "issue": "354",
+    "grade": "9.4",
+    "cert": "4395366009"
+   }
+  }
+ }
 }

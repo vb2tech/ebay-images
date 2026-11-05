@@ -71,6 +71,27 @@
    "event": "exported",
    "batch": "2026-11-04_comics-259104_18",
    "action": "Draft"
+  },
+  {
+   "date": "2026-11-04",
+   "event": "exported",
+   "batch": "2026-11-04_comics-259104_18",
+   "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402566017-1.jpg": {
+   "fp": "c900c6f8e8c2f060e458cc58ccd0cdf0cdf0cdf0c9f0cfb0e7f0f580cfa07ff9",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Pitt",
+    "issue": "1",
+    "grade": "9.8",
+    "cert": "4402566017"
+   }
+  }
+ }
 }

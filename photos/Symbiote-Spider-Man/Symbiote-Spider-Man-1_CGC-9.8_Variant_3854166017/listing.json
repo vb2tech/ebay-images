@@ -65,5 +65,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-3854166017-1.jpg": {
+   "fp": "da20e69ce9e8e8e2e10ceac8c8dafc58ee38e578ecf8ebb8e3f86ed06ff07f34",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Symbiote Spider-Man",
+    "issue": "1",
+    "grade": "9.8",
+    "cert": "3854166017"
+   }
+  }
+ }
 }

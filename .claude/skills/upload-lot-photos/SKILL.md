@@ -25,7 +25,9 @@ Turns a pile of photos into one repo folder per item, each with a `listing.json`
    python3 -I .claude/skills/upload-lot-photos/scripts/ingest_lot.py <scratch>/lot.json --lot "lot-<date>"
    ```
    It converts photos to .jpg (HEIC ok), names them `<SKU>-<n>.jpg`, writes `photos/<Series>/<Series>-<issue>_<Grader>-<grade>[_<Variant>]_<cert>/listing.json` with `status: "new"`, appends photos to an item that already exists, and rebuilds `index.csv` + the README table. Fix anything under `problems` and re-run.
-8. **Commit and push** (ask first only if the user said to review before pushing):
+8. **Record the label reads.** You already read every label in step 3; record them so the photos pass the upload gate:
+   `python3 -I .claude/skills/bulk-upload-validator/scripts/photo_check.py pending --sku <new SKUs> --out <scratch>/worklist.json`, then write one line per photo in the worklist with what **that photo's** label says (`{"path","title","issue","grade","cert"}`) and run `photo_check.py record <scratch>/reads.jsonl`. Any MISMATCH means a photo went into the wrong item: fix it before pushing.
+9. **Commit and push** (ask first only if the user said to review before pushing):
    ```bash
    git add -A photos index.csv README.md && git commit -m "Add lot <name>: <n> items" && git fetch origin main && git rebase origin/main && git push origin HEAD:main
    ```

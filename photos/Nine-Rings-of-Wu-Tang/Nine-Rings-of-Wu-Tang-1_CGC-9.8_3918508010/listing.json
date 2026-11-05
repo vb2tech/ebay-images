@@ -64,5 +64,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-3918508010-1.jpg": {
+   "fp": "df40df8ce566e4e4e64cc63cc7dccedcecdce9986a9867c877d87ee93ff999fb",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Nine Rings of Wu-Tang",
+    "issue": "1",
+    "grade": "9.8",
+    "cert": "3918508010"
+   }
+  }
+ }
 }

@@ -72,6 +72,27 @@
    "event": "exported",
    "batch": "2026-11-04_comics-259104_18",
    "action": "Draft"
+  },
+  {
+   "date": "2026-11-04",
+   "event": "exported",
+   "batch": "2026-11-04_comics-259104_18",
+   "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402565017-1.jpg": {
+   "fp": "8f80c1e8e0f0fab0ed28ee28ceb8c9a8cfe8cfd8cf10cdd0e7d0f590cfb07ff9",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Spider-Man 2099",
+    "issue": "1",
+    "grade": "9.2",
+    "cert": "4402565017"
+   }
+  }
+ }
 }

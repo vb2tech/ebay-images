@@ -62,5 +62,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402326010-1.jpg": {
+   "fp": "20010a09618062b0787079f079e07ce078c079e07ee17ae16ee17fe06fe03ff1",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Spider-Man: Carnage Trade Paperback",
+    "issue": "nn",
+    "grade": "9.2",
+    "cert": "4402326010"
+   }
+  }
+ }
 }

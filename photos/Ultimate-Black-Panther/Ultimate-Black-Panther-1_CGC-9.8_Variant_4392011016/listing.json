@@ -65,5 +65,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4392011016-1.jpg": {
+   "fp": "bc40c4f8f972b332f532f7b2f2b0f330fb30f530f5b0fd30e970eef0cff07fe8",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Ultimate Black Panther",
+    "issue": "1",
+    "grade": "9.8",
+    "cert": "4392011016"
+   }
+  }
+ }
 }

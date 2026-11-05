@@ -66,5 +66,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4390247004-1.jpg": {
+   "fp": "7ff8cf74f4b9d0f9f479f439e73d677c66d867e47b6c736873483fd837dabfb4",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Static",
+    "issue": "1",
+    "grade": "9.6",
+    "cert": "4390247004"
+   }
+  }
+ }
 }

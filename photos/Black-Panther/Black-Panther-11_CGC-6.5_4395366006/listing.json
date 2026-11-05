@@ -62,5 +62,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4395366006-1.jpg": {
+   "fp": "d9c0e578f8d2f0f2f8b6ea1cca3cc6a8ee88ed98ecc8ef5872f87ec87ed26ff4",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Black Panther",
+    "issue": "11",
+    "grade": "6.5",
+    "cert": "4395366006"
+   }
+  }
+ }
 }

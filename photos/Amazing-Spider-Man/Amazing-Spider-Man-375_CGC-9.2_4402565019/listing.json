@@ -67,5 +67,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402565019-1.jpg": {
+   "fp": "6424d9c0e5c0fa70dcf0f8f8ca78c730c730e6f0e4f0eff063f076f07ef06fe4",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Amazing Spider-Man",
+    "issue": "375",
+    "grade": "9.2",
+    "cert": "4402565019"
+   }
+  }
+ }
 }

@@ -69,5 +69,46 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-0781539014-1.jpg": {
+   "fp": "5ac0c7ecc1f6d872d27cd65ccf18cf18ee78ecd86d986bd870f867e96ff93ffb",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Power Man and Iron Fist",
+    "issue": "66",
+    "grade": "8.5",
+    "cert": "0781539014"
+   }
+  },
+  "CGC-0781539014-2.jpg": {
+   "fp": "5ac0cfecc0f6d872d27cd65ccf18ef18ee78ecd86d986bd870f867e97ff9bffb",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Power Man and Iron Fist",
+    "issue": "66",
+    "grade": "8.5",
+    "cert": "0781539014"
+   }
+  },
+  "CGC-0781539014-3.jpg": {
+   "fp": "8e77d1fbd17bd47bd667b24c931cdf2cce7cddeccdccdbccd3dcf8fcd5fcdfec",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Power Man and Iron Fist",
+    "issue": "66",
+    "grade": "8.5",
+    "cert": "0781539014"
+   }
+  }
+ }
 }

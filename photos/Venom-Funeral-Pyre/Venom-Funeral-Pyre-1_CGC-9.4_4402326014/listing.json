@@ -67,5 +67,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402326014-1.jpg": {
+   "fp": "ff6cc8f9f138a439e4f8f678c639ce58c6d0e6f86dc86e6865d86ee826f83ee0",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Venom: Funeral Pyre",
+    "issue": "1",
+    "grade": "9.4",
+    "cert": "4402326014"
+   }
+  }
+ }
 }

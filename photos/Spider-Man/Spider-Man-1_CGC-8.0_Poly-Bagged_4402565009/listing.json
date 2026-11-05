@@ -75,6 +75,27 @@
    "event": "exported",
    "batch": "2026-11-04_comics-259104_18",
    "action": "Draft"
+  },
+  {
+   "date": "2026-11-04",
+   "event": "exported",
+   "batch": "2026-11-04_comics-259104_18",
+   "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402565009-1.jpg": {
+   "fp": "df80e4c8f3d2f1a0f880f198e078e5f8eed8eb786d286d5067f076c067703ffc",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Spider-Man",
+    "issue": "1",
+    "grade": "8.0",
+    "cert": "4402565009"
+   }
+  }
+ }
 }

@@ -67,5 +67,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402326007-1.jpg": {
+   "fp": "bd01c2c166e160e170a060b16c61eda1e9a1f3e1d9c1f2e1fda1eda0de0273a3",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Hardware",
+    "issue": "1",
+    "grade": "9.8",
+    "cert": "4402326007"
+   }
+  }
+ }
 }

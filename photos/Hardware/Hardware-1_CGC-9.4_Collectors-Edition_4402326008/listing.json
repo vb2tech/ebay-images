@@ -69,5 +69,46 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402326008-1.jpg": {
+   "fp": "b480c9e8b360b070b042b0d8b430b6f0f4d0f0f0d9f0f8e0f9f0f4c0dcf07f81",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Hardware",
+    "issue": "1",
+    "grade": "9.4",
+    "cert": "4402326008"
+   }
+  },
+  "CGC-4402326008-2.jpg": {
+   "fp": "4f0083a8e36861706260f0d860586cb8ece8ecd8f2f8d1e0f0e872f87dc07d90",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Hardware",
+    "issue": "1",
+    "grade": "9.4",
+    "cert": "4402326008"
+   }
+  },
+  "CGC-4402326008-3.jpg": {
+   "fp": "9c80e36862706170725070d864386cb86cc8f0f853f059e07268adf0bc909f90",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Hardware",
+    "issue": "1",
+    "grade": "9.4",
+    "cert": "4402326008"
+   }
+  }
+ }
 }

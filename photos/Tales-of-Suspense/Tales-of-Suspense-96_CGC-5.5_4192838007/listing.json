@@ -63,5 +63,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4192838007-1.jpg": {
+   "fp": "ee18e1fac966eb66e66cfc58d858de68fa78e778efd8edd8e7d86ff07ff933fb",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Tales of Suspense",
+    "issue": "96",
+    "grade": "5.5",
+    "cert": "4192838007"
+   }
+  }
+ }
 }

@@ -66,5 +66,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402566020-1.jpg": {
+   "fp": "6dc0df80e258f130d9e0f878fa58675866d062d065f074f076f03ee0378199c1",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Cable: Blood and Metal",
+    "issue": "1",
+    "grade": "9.4",
+    "cert": "4402566020"
+   }
+  }
+ }
 }

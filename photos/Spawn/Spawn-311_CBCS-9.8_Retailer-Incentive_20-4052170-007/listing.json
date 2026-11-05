@@ -68,5 +68,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CBCS-20-4052170-007-1.jpg": {
+   "fp": "b000cac0f140f110f630fce8dfa0cae8d9e8d928d8e8d8e8ebe864c87ec46ffc",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Spawn",
+    "issue": "311",
+    "grade": "9.8",
+    "cert": "20-4052170-007"
+   }
+  }
+ }
 }

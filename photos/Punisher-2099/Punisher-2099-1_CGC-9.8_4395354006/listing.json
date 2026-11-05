@@ -70,6 +70,27 @@
    "event": "exported",
    "batch": "2026-11-04_comics-259104_18",
    "action": "Draft"
+  },
+  {
+   "date": "2026-11-04",
+   "event": "exported",
+   "batch": "2026-11-04_comics-259104_18",
+   "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4395354006-1.jpg": {
+   "fp": "df00e1c8e1f0ec70ec58ea38e930e970e170ed68ee18ef6867506ed06be07ff8",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Punisher 2099",
+    "issue": "1",
+    "grade": "9.8",
+    "cert": "4395354006"
+   }
+  }
+ }
 }

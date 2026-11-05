@@ -63,5 +63,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4395366015-1.jpg": {
+   "fp": "fde0ddc0e0f0e832e526f648ced8ed28e508e738ed386c9066b87ec06ed03ff8",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Alpha Flight",
+    "issue": "11",
+    "grade": "8.5",
+    "cert": "4395366015"
+   }
+  }
+ }
 }

@@ -64,5 +64,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402325022-1.jpg": {
+   "fp": "f3c0cf0460d0a9f0acd0a6588e388f88ce48ced8fe90f930e170fec0ddc07f01",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Blood Syndicate",
+    "issue": "1",
+    "grade": "9.4",
+    "cert": "4402325022"
+   }
+  }
+ }
 }

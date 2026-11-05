@@ -71,5 +71,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402566011-1.jpg": {
+   "fp": "e5e0fdc0c0e0d82cc82cec4cce48cf88cf48cd48cfd8ef906f3066e06ff46ffc",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Adventures of Superman",
+    "issue": "500",
+    "grade": "9.8",
+    "cert": "4402566011"
+   }
+  }
+ }
 }

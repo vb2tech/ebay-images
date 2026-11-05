@@ -64,5 +64,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402565025-1.jpg": {
+   "fp": "dfc0c340f0f8d0f2d460d628c738ccc8eeb8e6f8ec88646876787ec06fd03fc0",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Cage",
+    "issue": "1",
+    "grade": "9.0",
+    "cert": "4402565025"
+   }
+  }
+ }
 }

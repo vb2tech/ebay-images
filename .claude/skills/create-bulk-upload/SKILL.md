@@ -12,7 +12,14 @@ Each item's `listing.json` has a `status`: `new` → `priced` → `exported` →
 
 ## Setup
 Repo at `/home/claude/ebay-images` (attach/clone, then `git pull --ff-only`). Needs `python-calamine`.
-Check `templates/<group>/listing_defaults.json`: if `location` is empty and the action is `Add`, ask the user for the item location (City, ST) or pass `--location`.
+Item location is always **Hartford, CT** (`location` in `templates/<group>/listing_defaults.json`). Don't ask; only pass `--location` if the user names a different place for a batch.
+
+## Photo gate (always, before building)
+Every photo in the file must be confirmed to show the slab its listing names:
+```bash
+python3 -I .claude/skills/bulk-upload-validator/scripts/photo_check.py audit --sku <the SKUs you'll build>   # or --status priced
+```
+If it reports anything other than `0 problem(s)`, run the read-and-record workflow in the bulk-upload-validator SKILL.md (`pending` → read each label → `record`), fix mismatches, and audit again. The strict validation in the build repeats this check and FAILS the file on any unverified, changed, mismatched or duplicated photo, so a wrong picture can't reach eBay.
 
 ## Build
 ```bash
@@ -28,7 +35,7 @@ python3 -I .claude/skills/create-bulk-upload/scripts/build_bulk_upload.py [--gro
 ## Deliver
 1. Push the batch folder and status changes:
    `git add -A uploads photos index.csv README.md && git commit -m "Batch <id>" && git fetch origin main && git rebase origin/main && git push origin HEAD:main`
-2. Send the .xlsx with SendUserFile (`display: attach`) plus the verdict line and any warnings in a sentence or two. Remind them: Seller Hub → Reports → Uploads → Upload template, then download the results file.
+2. Send the upload file (the `_drafts.csv` for Draft batches, else the .xlsx) with SendUserFile (`display: attach`) plus the verdict line and any warnings in a sentence or two. Remind them: Seller Hub → Reports → Uploads → Upload template, then download the results file.
 
 ## After the user uploads
 - "It went up" → `python3 -I .claude/skills/create-bulk-upload/scripts/mark_uploaded.py --batch <id>` (add `--failed SKU ...` for rows that failed).

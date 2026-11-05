@@ -67,5 +67,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-3955200002-1.jpg": {
+   "fp": "dff1e5fee86bdce3f526f50ecc1de6dce6dc66ec676c657c71fd737d3f793ffe",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Hero For Hire",
+    "issue": "1",
+    "grade": "5.5",
+    "cert": "3955200002"
+   }
+  }
+ }
 }

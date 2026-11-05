@@ -65,5 +65,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-2027208005-1.jpg": {
+   "fp": "2359df80e674f878fa78e67cc74ce718e798e3c8ee187a3877f876f96ff93ff3",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Naomi",
+    "issue": "1",
+    "grade": "9.8",
+    "cert": "2027208005"
+   }
+  }
+ }
 }

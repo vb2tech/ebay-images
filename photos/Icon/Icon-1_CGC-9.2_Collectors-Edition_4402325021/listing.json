@@ -70,5 +70,33 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402325021-1.jpg": {
+   "fp": "0105ff44df94e4ecd4ccd41cc67ce7ece76c67406c6874d876d87ee16ff9bbfb",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Icon",
+    "issue": "1",
+    "grade": "9.2",
+    "cert": "4402325021"
+   }
+  },
+  "CGC-4402325021-2.jpg": {
+   "fp": "be9fc075a863ace3a8a7a62d8777ceb7ef25efb5ed74ec74fe64d35c5f786ffe",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Icon",
+    "issue": "1",
+    "grade": "9.2",
+    "cert": "4402325021"
+   }
+  }
+ }
 }

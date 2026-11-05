@@ -66,5 +66,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4395354008-1.jpg": {
+   "fp": "94137fa4e8d0e0f0ece064f86c586ef0667066306630675065d07ec066d03fe1",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Wolverine",
+    "issue": "1",
+    "grade": "7.5",
+    "cert": "4395354008"
+   }
+  }
+ }
 }

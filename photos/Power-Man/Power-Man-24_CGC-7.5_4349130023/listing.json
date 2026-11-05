@@ -66,5 +66,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4349130023-1.jpg": {
+   "fp": "08013bb467d678267a2e72d867b06478737876b0775831f8bff8b7f0b7f95dfb",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Power Man",
+    "issue": "24",
+    "grade": "7.5",
+    "cert": "4349130023"
+   }
+  }
+ }
 }

@@ -7,7 +7,7 @@
   "duration": "GTC",
   "quantity": 1,
   "best_offer_enabled": 1,
-  "location": "",
+  "location": "Hartford, CT",
   "shipping": {
     "profile_contains": "($17.99)",
     "fallback_legacy": {"service": "USPSParcel", "cost": 17.99, "priority": 1, "max_dispatch": 3}

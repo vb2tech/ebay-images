@@ -67,5 +67,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4381818023-1.jpg": {
+   "fp": "1302fe00cffcb1e4b4b4b274f2b4f7b4f334f8e0fec0f7b1f1f1ffd97fe97ff9",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Megaton",
+    "issue": "1",
+    "grade": "8.5",
+    "cert": "4381818023"
+   }
+  }
+ }
 }

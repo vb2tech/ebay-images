@@ -69,5 +69,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4402325014-1.jpg": {
+   "fp": "f9d2c4ecc072e092c3a8cd4ccc58cf38e538edb8eed874d864f066f06bb03ee1",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Venom: Lethal Protector",
+    "issue": "1",
+    "grade": "9.6",
+    "cert": "4402325014"
+   }
+  }
+ }
 }

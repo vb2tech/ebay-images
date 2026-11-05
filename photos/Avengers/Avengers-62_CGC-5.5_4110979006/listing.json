@@ -67,5 +67,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-4110979006-1.jpg": {
+   "fp": "7360cca0f9f0f0d2f5acf138d038f8d86d486cd86cf865d867f87ed06ff43fe9",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Avengers",
+    "issue": "62",
+    "grade": "5.5",
+    "cert": "4110979006"
+   }
+  }
+ }
 }

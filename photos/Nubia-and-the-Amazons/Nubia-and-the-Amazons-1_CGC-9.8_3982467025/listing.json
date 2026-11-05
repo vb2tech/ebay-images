@@ -64,5 +64,20 @@
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
   }
- ]
+ ],
+ "photo_checks": {
+  "CGC-3982467025-1.jpg": {
+   "fp": "01806703de80e9c8e9c8ec78e8f9d8d9db99cd59e5d9ea39ec39f5d9ffe97ff1",
+   "date": "2026-11-04",
+   "method": "label-read (full audit 2026-11-02)",
+   "result": "match",
+   "reason": "",
+   "label": {
+    "title": "Nubia & the Amazons",
+    "issue": "1",
+    "grade": "9.8",
+    "cert": "3982467025"
+   }
+  }
+ }
 }
