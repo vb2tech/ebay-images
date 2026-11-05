@@ -1,0 +1,119 @@
+{
+ "batch": "2026-11-04_comics-259104_18",
+ "group": "comics-259104",
+ "action": "Draft",
+ "file": "uploads/2026-11-04_comics-259104_18/2026-11-04_comics-259104_18_drafts.csv",
+ "validated_xlsx": "uploads/2026-11-04_comics-259104_18/2026-11-04_comics-259104_18.xlsx",
+ "verdict": "PASS WITH WARNINGS",
+ "items": [
+  {
+   "sku": "CGC-4402566017",
+   "title": "Pitt #1 CGC 9.8 White Pages 1st Appearance of Pitt Dale Keown Image 1993",
+   "price": 64.99,
+   "folder": "photos/Pitt/Pitt-1_CGC-9.8_4402566017"
+  },
+  {
+   "sku": "CGC-4395354006",
+   "title": "Punisher 2099 #1 CGC 9.8 White Pages Blue Foil Cover Marvel 1993 Pat Mills",
+   "price": 59.99,
+   "folder": "photos/Punisher-2099/Punisher-2099-1_CGC-9.8_4395354006"
+  },
+  {
+   "sku": "CGC-4402565013",
+   "title": "Punisher #77 CGC 8.0 White Pages Survival Part 1 Val Mayerik Marvel 1993",
+   "price": 19.99,
+   "folder": "photos/Punisher/Punisher-77_CGC-8.0_4402565013"
+  },
+  {
+   "sku": "CGC-4402565014",
+   "title": "Punisher #77 CGC 8.5 White Pages Survival Part 1 Val Mayerik Marvel 1993",
+   "price": 24.99,
+   "folder": "photos/Punisher/Punisher-77_CGC-8.5_4402565014"
+  },
+  {
+   "sku": "CGC-4402565015",
+   "title": "Punisher #77 CGC 8.5 White Pages Survival Part 1 Val Mayerik Marvel 1993",
+   "price": 24.99,
+   "folder": "photos/Punisher/Punisher-77_CGC-8.5_4402565015"
+  },
+  {
+   "sku": "CGC-4402565012",
+   "title": "Punisher #77 CGC 9.2 White Pages Survival Part 1 Val Mayerik Marvel 1993",
+   "price": 29.99,
+   "folder": "photos/Punisher/Punisher-77_CGC-9.2_4402565012"
+  },
+  {
+   "sku": "CGC-4402565016",
+   "title": "Punisher #78 CGC 9.0 White Pages Survival Part 2 Val Mayerik Marvel 1993",
+   "price": 24.99,
+   "folder": "photos/Punisher/Punisher-78_CGC-9.0_4402565016"
+  },
+  {
+   "sku": "CGC-4402566003",
+   "title": "Savage Dragon #1 CGC 9.4 Newsstand 1st Appearance Savage Dragon Larsen 1992",
+   "price": 34.99,
+   "folder": "photos/Savage-Dragon/Savage-Dragon-1_CGC-9.4_Newsstand_4402566003"
+  },
+  {
+   "sku": "CGC-4402566005",
+   "title": "Savage Dragon #1 CGC 9.6 Newsstand 1st Appearance Savage Dragon Larsen 1992",
+   "price": 44.99,
+   "folder": "photos/Savage-Dragon/Savage-Dragon-1_CGC-9.6_Newsstand_4402566005"
+  },
+  {
+   "sku": "CGC-4402566006",
+   "title": "Shadowhawk II #2 CGC 8.0 White Pages Identity Revealed Silver Foil Image 1993",
+   "price": 19.99,
+   "folder": "photos/Shadowhawk-II/Shadowhawk-II-2_CGC-8.0_4402566006"
+  },
+  {
+   "sku": "CGC-4402565017",
+   "title": "Spider-Man 2099 #1 CGC 9.2 White Pages Origin Miguel O'Hara Red Foil 1992",
+   "price": 39.99,
+   "folder": "photos/Spider-Man-2099/Spider-Man-2099-1_CGC-9.2_4402565017"
+  },
+  {
+   "sku": "CGC-4402325016",
+   "title": "Spider-Man 2099 #1 CGC 9.4 White Pages Origin Miguel O'Hara Red Foil 1992",
+   "price": 49.99,
+   "folder": "photos/Spider-Man-2099/Spider-Man-2099-1_CGC-9.4_4402325016"
+  },
+  {
+   "sku": "CGC-4402325015",
+   "title": "Spider-Man 2099 #1 CGC 9.8 White Pages Origin Miguel O'Hara Red Foil 1992",
+   "price": 124.99,
+   "folder": "photos/Spider-Man-2099/Spider-Man-2099-1_CGC-9.8_4402325015"
+  },
+  {
+   "sku": "CGC-4402565008",
+   "title": "Spider-Man #13 CGC 8.5 White Pages Black Costume McFarlane Cover Homage 1991",
+   "price": 44.99,
+   "folder": "photos/Spider-Man/Spider-Man-13_CGC-8.5_4402565008"
+  },
+  {
+   "sku": "CGC-4402565009",
+   "title": "Spider-Man #1 CGC 8.0 Newsstand Poly-Bagged Edition McFarlane Lizard 1990",
+   "price": 54.99,
+   "folder": "photos/Spider-Man/Spider-Man-1_CGC-8.0_Poly-Bagged_4402565009"
+  },
+  {
+   "sku": "CGC-4402325007",
+   "title": "Venom: Lethal Protector #1 CGC 9.0 White Pages Red Holo-Grafx Foil 1st Solo 1993",
+   "price": 44.99,
+   "folder": "photos/Venom-Lethal-Protector/Venom-Lethal-Protector-1_CGC-9.0_4402325007"
+  },
+  {
+   "sku": "CGC-4402325010",
+   "title": "Venom: Lethal Protector #1 CGC 9.0 White Pages Red Holo-Grafx Foil 1st Solo 1993",
+   "price": 44.99,
+   "folder": "photos/Venom-Lethal-Protector/Venom-Lethal-Protector-1_CGC-9.0_4402325010"
+  },
+  {
+   "sku": "CGC-4402325001",
+   "title": "Venom: Lethal Protector #1 CGC 9.4 White Pages Red Holo-Grafx Foil 1st Solo 1993",
+   "price": 54.99,
+   "folder": "photos/Venom-Lethal-Protector/Venom-Lethal-Protector-1_CGC-9.4_4402325001"
+  }
+ ],
+ "shipping_profile": "(legacy columns)"
+}

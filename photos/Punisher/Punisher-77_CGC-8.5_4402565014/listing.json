@@ -30,8 +30,7 @@
   "title": "Punisher #77 CGC 8.5 White Pages Survival Part 1 Val Mayerik Marvel 1993"
  },
  "photos": [
-  "CGC-4402565014-1.jpg",
-  "CGC-4402565014-2.jpg"
+  "CGC-4402565014-1.jpg"
  ],
  "pricing": {
   "final": 24.99,
@@ -60,6 +59,12 @@
    "date": "2026-11-01",
    "event": "exported",
    "batch": "2026-11-01_comics-259104_101b",
+   "action": "Draft"
+  },
+  {
+   "date": "2026-11-04",
+   "event": "exported",
+   "batch": "2026-11-04_comics-259104_18",
    "action": "Draft"
   }
  ]

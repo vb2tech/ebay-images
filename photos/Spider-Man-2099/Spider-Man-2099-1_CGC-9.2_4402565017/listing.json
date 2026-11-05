@@ -66,6 +66,12 @@
    "event": "exported",
    "batch": "2026-11-01_comics-259104_101b",
    "action": "Draft"
+  },
+  {
+   "date": "2026-11-04",
+   "event": "exported",
+   "batch": "2026-11-04_comics-259104_18",
+   "action": "Draft"
   }
  ]
 }
